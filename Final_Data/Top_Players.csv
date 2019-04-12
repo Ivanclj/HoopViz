@@ -1,0 +1,469 @@
+Player,Pos,Age,made_3P,attempt_3P,percent_3P,year,Height,birth_country,size,choice
+Raef LaFrentz,C,24,51,139,0.367,2001,611,United States,six_feet_ten_and_eleven,Position_Volume
+Antoine Walker,PF,24,221,603,0.367,2001,64,United States,six_feet_four_to_six,Position_Volume
+Tim Hardaway,PG,34,189,517,0.366,2001,60,United States,six_feet_and_under,Position_Volume
+Vince Carter,SF,24,162,397,0.408,2001,66,United States,six_feet_four_to_six,Position_Volume
+Ray Allen ,SG,25,202,467,0.433,2001,65,United States,six_feet_four_to_six,Position_Volume
+Dirk Nowitzki,C,23,139,350,0.397,2002,70,International,seven_feet_and_above,Position_Volume
+Antoine Walker,PF,25,222,645,0.344,2002,64,United States,six_feet_four_to_six,Position_Volume
+Baron Davis,PG,22,170,478,0.356,2002,63,United States,six_feet_one_to_three,Position_Volume
+Latrell Sprewell,SF,31,145,403,0.36,2002,65,United States,six_feet_four_to_six,Position_Volume
+Ray Allen ,SG,26,229,528,0.434,2002,65,United States,six_feet_four_to_six,Position_Volume
+Raef LaFrentz,C,26,47,116,0.405,2003,611,United States,six_feet_ten_and_eleven,Position_Volume
+Antoine Walker,PF,26,188,582,0.323,2003,64,United States,six_feet_four_to_six,Position_Volume
+Jason Terry,PG,25,160,431,0.371,2003,62,United States,six_feet_one_to_three,Position_Volume
+Peja Stojakovic,SF,25,155,406,0.382,2003,69,International,six_feet_seven_to_nine,Position_Volume
+Ray Allen ,SG,27,201,533,0.377,2003,65,United States,six_feet_four_to_six,Position_Volume
+Dirk Nowitzki,C,25,99,290,0.341,2004,70,International,seven_feet_and_above,Position_Volume
+Vladimir Radmanovic,PF,23,140,377,0.371,2004,610,International,six_feet_ten_and_eleven,Position_Volume
+Baron Davis,PG,24,187,582,0.321,2004,63,United States,six_feet_one_to_three,Position_Volume
+Peja Stojakovic,SF,26,240,554,0.433,2004,69,International,six_feet_seven_to_nine,Position_Volume
+Eddie Jones,SG,32,177,479,0.37,2004,66,United States,six_feet_four_to_six,Position_Volume
+Brian Cook,C,24,78,199,0.392,2005,69,United States,six_feet_seven_to_nine,Position_Volume
+Donyell Marshall,PF,31,151,363,0.416,2005,69,United States,six_feet_seven_to_nine,Position_Volume
+Damon Jones,PG,28,225,521,0.432,2005,63,United States,six_feet_one_to_three,Position_Volume
+Kyle Korver,SF,23,226,558,0.405,2005,67,United States,six_feet_seven_to_nine,Position_Volume
+Quentin Richardson,SG,24,226,631,0.358,2005,66,United States,six_feet_four_to_six,Position_Volume
+Brad Miller,C,29,34,88,0.386,2006,611,United States,six_feet_ten_and_eleven,Position_Volume
+Rasheed Wallace,PF,31,155,434,0.357,2006,610,United States,six_feet_ten_and_eleven,Position_Volume
+Gilbert Arenas,PG,24,199,540,0.369,2006,63,United States,six_feet_one_to_three,Position_Volume
+Kyle Korver,SF,24,184,438,0.42,2006,67,United States,six_feet_seven_to_nine,Position_Volume
+Ray Allen ,SG,30,269,653,0.412,2006,65,United States,six_feet_four_to_six,Position_Volume
+Mehmet Okur,C,27,129,336,0.384,2007,611,International,six_feet_ten_and_eleven,Position_Volume
+Antawn Jamison,PF,30,138,379,0.364,2007,68,United States,six_feet_seven_to_nine,Position_Volume
+Gilbert Arenas,PG,25,205,584,0.351,2007,63,United States,six_feet_one_to_three,Position_Volume
+Shane Battier,SF,28,157,373,0.421,2007,68,United States,six_feet_seven_to_nine,Position_Volume
+Raja Bell,SG,30,205,496,0.413,2007,65,International,six_feet_four_to_six,Position_Volume
+Al Harrington,C,27,153,408,0.375,2008,69,United States,six_feet_seven_to_nine,Position_Volume
+Rashard Lewis,PF,28,226,553,0.409,2008,69,United States,six_feet_seven_to_nine,Position_Volume
+Steve Nash,PG,33,179,381,0.47,2008,63,International,six_feet_one_to_three,Position_Volume
+Jason Richardson,SF,27,243,599,0.406,2008,66,United States,six_feet_four_to_six,Position_Volume
+Ray Allen ,SG,32,180,452,0.398,2008,65,United States,six_feet_four_to_six,Position_Volume
+Rasheed Wallace,C,34,113,319,0.354,2009,610,United States,six_feet_ten_and_eleven,Position_Volume
+Rashard Lewis,PF,29,220,554,0.397,2009,69,United States,six_feet_seven_to_nine,Position_Volume
+Mo Williams,PG,26,183,420,0.436,2009,61,United States,six_feet_one_to_three,Position_Volume
+Danny Granger,SF,25,182,450,0.404,2009,69,United States,six_feet_seven_to_nine,Position_Volume
+Ray Allen ,SG,33,199,486,0.409,2009,65,United States,six_feet_four_to_six,Position_Volume
+Channing Frye,C,26,172,392,0.439,2010,611,United States,six_feet_ten_and_eleven,Position_Volume
+Rashard Lewis,PF,30,168,423,0.397,2010,69,United States,six_feet_seven_to_nine,Position_Volume
+Aaron Brooks,PG,25,209,525,0.398,2010,60,United States,six_feet_and_under,Position_Volume
+Danilo Gallinari,SF,21,186,488,0.381,2010,610,International,six_feet_ten_and_eleven,Position_Volume
+Jamal Crawford,SG,29,163,427,0.382,2010,65,United States,six_feet_four_to_six,Position_Volume
+Andrea Bargnani,C,25,77,223,0.345,2011,70,International,seven_feet_and_above,Position_Volume
+Channing Frye,PF,27,171,439,0.39,2011,611,United States,six_feet_ten_and_eleven,Position_Volume
+Mike Bibby,PG,32,153,348,0.44,2011,61,United States,six_feet_one_to_three,Position_Volume
+Dorell Wright,SF,25,194,516,0.376,2011,69,United States,six_feet_seven_to_nine,Position_Volume
+Jason Richardson,SG,30,189,479,0.395,2011,66,United States,six_feet_four_to_six,Position_Volume
+Andrea Bargnani,C,26,34,115,0.296,2012,70,International,seven_feet_and_above,Position_Volume
+Ryan Anderson,PF,23,166,422,0.393,2012,610,United States,six_feet_ten_and_eleven,Position_Volume
+Brandon Jennings,PG,22,129,388,0.332,2012,61,United States,six_feet_one_to_three,Position_Volume
+Kevin Durant,SF,23,133,344,0.387,2012,69,United States,six_feet_seven_to_nine,Position_Volume
+Jason Terry,SG,34,138,365,0.378,2012,62,United States,six_feet_one_to_three,Position_Volume
+Spencer Hawes,C,24,31,87,0.356,2013,71,United States,seven_feet_and_above,Position_Volume
+Ryan Anderson,PF,24,213,557,0.382,2013,610,United States,six_feet_ten_and_eleven,Position_Volume
+Stephen Curry,PG,24,272,600,0.453,2013,63,United States,six_feet_one_to_three,Position_Volume
+Kyle Korver,SF,31,189,414,0.457,2013,67,United States,six_feet_seven_to_nine,Position_Volume
+Klay Thompson,SG,22,211,526,0.401,2013,67,United States,six_feet_seven_to_nine,Position_Volume
+Spencer Hawes,C,25,128,308,0.416,2014,71,United States,seven_feet_and_above,Position_Volume
+Kevin Love,PF,25,190,505,0.376,2014,610,United States,six_feet_ten_and_eleven,Position_Volume
+Stephen Curry,PG,25,261,615,0.424,2014,63,United States,six_feet_one_to_three,Position_Volume
+Kevin Durant,SF,25,192,491,0.391,2014,69,United States,six_feet_seven_to_nine,Position_Volume
+Klay Thompson,SG,23,223,535,0.417,2014,67,United States,six_feet_seven_to_nine,Position_Volume
+Chris Bosh,C,30,63,168,0.375,2015,611,United States,six_feet_ten_and_eleven,Position_Volume
+Kevin Love,PF,26,144,392,0.367,2015,610,United States,six_feet_ten_and_eleven,Position_Volume
+Stephen Curry,PG,26,286,646,0.443,2015,63,United States,six_feet_one_to_three,Position_Volume
+Trevor Ariza,SF,29,194,555,0.35,2015,68,United States,six_feet_seven_to_nine,Position_Volume
+Klay Thompson,SG,24,239,545,0.439,2015,67,United States,six_feet_seven_to_nine,Position_Volume
+Al Horford,C,29,88,256,0.344,2016,610,International,six_feet_ten_and_eleven,Position_Volume
+Mirza Teletovic,PF,30,181,460,0.393,2016,69,International,six_feet_seven_to_nine,Position_Volume
+Stephen Curry,PG,27,402,886,0.454,2016,63,United States,six_feet_one_to_three,Position_Volume
+Paul George,SF,25,210,566,0.371,2016,69,United States,six_feet_seven_to_nine,Position_Volume
+Klay Thompson,SG,25,276,650,0.425,2016,67,United States,six_feet_seven_to_nine,Position_Volume
+Channing Frye,C,33,137,335,0.409,2017,611,United States,six_feet_ten_and_eleven,Position_Volume
+Ryan Anderson,PF,28,204,506,0.403,2017,610,United States,six_feet_ten_and_eleven,Position_Volume
+Stephen Curry,PG,28,324,789,0.411,2017,63,United States,six_feet_one_to_three,Position_Volume
+Paul George,SF,26,195,496,0.393,2017,69,United States,six_feet_seven_to_nine,Position_Volume
+Klay Thompson,SG,26,268,647,0.414,2017,67,United States,six_feet_seven_to_nine,Position_Volume
+Dirk Nowitzki,C,39,138,337,0.409,2018,70,International,seven_feet_and_above,Position_Volume
+Tobias Harris,PF,25,183,445,0.411,2018,69,United States,six_feet_seven_to_nine,Position_Volume
+Kyle Lowry,PG,31,238,596,0.399,2018,60,United States,six_feet_and_under,Position_Volume
+Paul George,SF,27,244,609,0.401,2018,69,United States,six_feet_seven_to_nine,Position_Volume
+James Harden,SG,28,265,722,0.367,2018,65,United States,six_feet_four_to_six,Position_Volume
+Raef LaFrentz,C,24,51,139,0.367,2001,611,United States,six_feet_ten_and_eleven,Position_Percentage
+Rashard Lewis,PF,21,123,285,0.432,2001,69,United States,six_feet_seven_to_nine,Position_Percentage
+John Stockton,PG,38,61,132,0.462,2001,61,United States,six_feet_one_to_three,Position_Percentage
+Danny Ferry,SF,34,70,156,0.449,2001,610,United States,six_feet_ten_and_eleven,Position_Percentage
+Brent Barry,SG,29,109,229,0.476,2001,66,United States,six_feet_four_to_six,Position_Percentage
+Wang Zhizhi,C,24,48,116,0.414,2002,70,International,seven_feet_and_above,Position_Percentage
+Scott Padgett,PF,25,49,113,0.434,2002,69,United States,six_feet_seven_to_nine,Position_Percentage
+Steve Nash,PG,27,156,343,0.455,2002,63,International,six_feet_one_to_three,Position_Percentage
+Jim Jackson,SF,31,38,81,0.469,2002,66,United States,six_feet_four_to_six,Position_Percentage
+Steve Smith,SG,32,116,246,0.472,2002,67,United States,six_feet_seven_to_nine,Position_Percentage
+Raef LaFrentz,C,26,47,116,0.405,2003,611,United States,six_feet_ten_and_eleven,Position_Percentage
+Pat Garrity,PF,26,161,407,0.396,2003,69,United States,six_feet_seven_to_nine,Position_Percentage
+Steve Nash,PG,28,111,269,0.413,2003,63,International,six_feet_one_to_three,Position_Percentage
+Jim Jackson,SF,32,32,71,0.451,2003,66,United States,six_feet_four_to_six,Position_Percentage
+Michael Redd,SG,23,182,416,0.438,2003,66,United States,six_feet_four_to_six,Position_Percentage
+Dirk Nowitzki,C,25,99,290,0.341,2004,70,International,seven_feet_and_above,Position_Percentage
+Brian Cardinal,PF,26,55,124,0.444,2004,68,United States,six_feet_seven_to_nine,Position_Percentage
+Erick Strickland,PG,30,29,66,0.439,2004,63,United States,six_feet_one_to_three,Position_Percentage
+Rasual Butler,SF,24,50,108,0.463,2004,67,United States,six_feet_seven_to_nine,Position_Percentage
+Anthony Peeler,SG,34,68,141,0.482,2004,64,United States,six_feet_four_to_six,Position_Percentage
+Matt Bonner,C,24,39,92,0.424,2005,610,United States,six_feet_ten_and_eleven,Position_Percentage
+Donyell Marshall,PF,31,151,363,0.416,2005,69,United States,six_feet_seven_to_nine,Position_Percentage
+Eddie House,PG,26,44,97,0.454,2005,61,United States,six_feet_one_to_three,Position_Percentage
+Joe Johnson,SF,23,177,370,0.478,2005,67,United States,six_feet_seven_to_nine,Position_Percentage
+Fred Hoiberg,SG,32,70,145,0.483,2005,64,United States,six_feet_four_to_six,Position_Percentage
+Brad Miller,C,29,34,88,0.386,2006,611,United States,six_feet_ten_and_eleven,Position_Percentage
+Brian Cook,PF,25,36,84,0.429,2006,69,United States,six_feet_seven_to_nine,Position_Percentage
+Tyronn Lue,PG,28,58,127,0.457,2006,60,United States,six_feet_and_under,Position_Percentage
+Josh Childress,SF,22,32,65,0.492,2006,68,United States,six_feet_seven_to_nine,Position_Percentage
+Richard Hamilton,SG,27,55,120,0.458,2006,66,United States,six_feet_four_to_six,Position_Percentage
+Mehmet Okur,C,27,129,336,0.384,2007,611,International,six_feet_ten_and_eleven,Position_Percentage
+Walter Herrmann,PF,27,53,115,0.461,2007,69,International,six_feet_seven_to_nine,Position_Percentage
+Steve Nash,PG,32,156,343,0.455,2007,63,International,six_feet_one_to_three,Position_Percentage
+Jason Kapono,SF,25,108,210,0.514,2007,68,United States,six_feet_seven_to_nine,Position_Percentage
+Brent Barry,SG,35,128,287,0.446,2007,66,United States,six_feet_four_to_six,Position_Percentage
+Mehmet Okur,C,28,114,294,0.388,2008,611,International,six_feet_ten_and_eleven,Position_Percentage
+Rashard Lewis,PF,28,226,553,0.409,2008,69,United States,six_feet_seven_to_nine,Position_Percentage
+Steve Nash,PG,33,179,381,0.47,2008,63,International,six_feet_one_to_three,Position_Percentage
+Jason Kapono,SF,26,57,118,0.483,2008,68,United States,six_feet_seven_to_nine,Position_Percentage
+Richard Hamilton,SG,29,62,141,0.44,2008,66,United States,six_feet_four_to_six,Position_Percentage
+Mehmet Okur,C,29,90,202,0.446,2009,611,International,six_feet_ten_and_eleven,Position_Percentage
+Donyell Marshall,PF,35,25,55,0.455,2009,69,United States,six_feet_seven_to_nine,Position_Percentage
+Jameer Nelson,PG,26,82,181,0.453,2009,60,United States,six_feet_and_under,Position_Percentage
+Kelenna Azubuike,SF,25,94,210,0.448,2009,65,International,six_feet_four_to_six,Position_Percentage
+Anthony Morrow,SG,23,86,184,0.467,2009,65,United States,six_feet_four_to_six,Position_Percentage
+Channing Frye,C,26,172,392,0.439,2010,611,United States,six_feet_ten_and_eleven,Position_Percentage
+Dirk Nowitzki,PF,31,51,121,0.421,2010,70,International,seven_feet_and_above,Position_Percentage
+Daniel Gibson,PG,23,71,149,0.477,2010,62,United States,six_feet_one_to_three,Position_Percentage
+Jared Dudley,SF,24,120,262,0.458,2010,67,United States,six_feet_seven_to_nine,Position_Percentage
+Kyle Korver,SG,28,59,110,0.536,2010,67,United States,six_feet_seven_to_nine,Position_Percentage
+Brad Miller,C,34,40,107,0.374,2011,611,United States,six_feet_ten_and_eleven,Position_Percentage
+Matt Bonner,PF,30,105,230,0.457,2011,610,United States,six_feet_ten_and_eleven,Position_Percentage
+Carlos Arroyo,PG,31,31,69,0.449,2011,62,International,six_feet_one_to_three,Position_Percentage
+Brian Cardinal,SF,33,42,87,0.483,2011,68,United States,six_feet_seven_to_nine,Position_Percentage
+Ray Allen ,SG,35,168,378,0.444,2011,65,United States,six_feet_four_to_six,Position_Percentage
+Mehmet Okur,C,32,23,72,0.319,2012,611,International,six_feet_ten_and_eleven,Position_Percentage
+Steve Novak,PF,28,133,282,0.472,2012,610,United States,six_feet_ten_and_eleven,Position_Percentage
+Stephen Curry,PG,23,55,121,0.455,2012,63,United States,six_feet_one_to_three,Position_Percentage
+Brandon Rush,SF,26,99,219,0.452,2012,66,United States,six_feet_four_to_six,Position_Percentage
+Mike Miller,SG,31,53,117,0.453,2012,68,United States,six_feet_seven_to_nine,Position_Percentage
+Spencer Hawes,C,24,31,87,0.356,2013,71,United States,seven_feet_and_above,Position_Percentage
+Ersan Ilyasova,PF,25,95,214,0.444,2013,610,International,six_feet_ten_and_eleven,Position_Percentage
+Jose Calderon,PG,31,130,282,0.461,2013,63,International,six_feet_one_to_three,Position_Percentage
+Kyle Korver,SF,31,189,414,0.457,2013,67,United States,six_feet_seven_to_nine,Position_Percentage
+Danny Green,SG,25,177,413,0.429,2013,66,United States,six_feet_four_to_six,Position_Percentage
+Spencer Hawes,C,25,128,308,0.416,2014,71,United States,seven_feet_and_above,Position_Percentage
+Matt Bonner,PF,33,42,98,0.429,2014,610,United States,six_feet_ten_and_eleven,Position_Percentage
+Pablo Prigioni,PG,36,65,140,0.464,2014,63,International,six_feet_one_to_three,Position_Percentage
+James Jones,SF,33,28,54,0.519,2014,68,United States,six_feet_seven_to_nine,Position_Percentage
+Jimmer Fredette,SG,24,40,84,0.476,2014,62,United States,six_feet_one_to_three,Position_Percentage
+Meyers Leonard,C,22,47,112,0.42,2015,71,United States,seven_feet_and_above,Position_Percentage
+Channing Frye,PF,31,136,346,0.393,2015,611,United States,six_feet_ten_and_eleven,Position_Percentage
+Stephen Curry,PG,26,286,646,0.443,2015,63,United States,six_feet_one_to_three,Position_Percentage
+Luke Babbitt,SF,25,59,115,0.513,2015,69,United States,six_feet_seven_to_nine,Position_Percentage
+Kyle Korver,SG,33,221,449,0.492,2015,67,United States,six_feet_seven_to_nine,Position_Percentage
+Kelly Olynyk,C,24,85,210,0.405,2016,70,International,seven_feet_and_above,Position_Percentage
+Jared Dudley,PF,30,100,238,0.42,2016,67,United States,six_feet_seven_to_nine,Position_Percentage
+Stephen Curry,PG,27,402,886,0.454,2016,63,United States,six_feet_one_to_three,Position_Percentage
+James Ennis,SF,25,26,58,0.448,2016,67,United States,six_feet_seven_to_nine,Position_Percentage
+Troy Daniels,SG,24,59,122,0.484,2016,64,United States,six_feet_four_to_six,Position_Percentage
+Pau Gasol,C,36,56,104,0.538,2017,70,International,seven_feet_and_above,Position_Percentage
+Darrell Arthur,PF,28,53,117,0.453,2017,69,United States,six_feet_seven_to_nine,Position_Percentage
+Trey Burke,PG,24,31,70,0.443,2017,61,United States,six_feet_one_to_three,Position_Percentage
+James Jones,SF,36,31,66,0.47,2017,68,United States,six_feet_seven_to_nine,Position_Percentage
+Kyle Korver,SG,35,162,359,0.451,2017,67,United States,six_feet_seven_to_nine,Position_Percentage
+Al Horford,C,31,97,226,0.429,2018,610,International,six_feet_ten_and_eleven,Position_Percentage
+Anthony Tolliver,PF,32,159,365,0.436,2018,68,United States,six_feet_seven_to_nine,Position_Percentage
+Darren Collison,PG,30,96,205,0.468,2018,60,United States,six_feet_and_under,Position_Percentage
+Reggie Bullock,SF,26,125,281,0.445,2018,67,United States,six_feet_seven_to_nine,Position_Percentage
+Tomas Satoransky,SG,26,47,101,0.465,2018,67,International,six_feet_seven_to_nine,Position_Percentage
+Dirk Nowitzki,PF,22,151,390,0.387,2001,70,International,seven_feet_and_above,Height_Volume
+Tim Hardaway,PG,34,189,517,0.366,2001,60,United States,six_feet_and_under,Height_Volume
+Antoine Walker,PF,24,221,603,0.367,2001,64,United States,six_feet_four_to_six,Height_Volume
+Lindsey Hunter,PG,30,152,407,0.373,2001,62,United States,six_feet_one_to_three,Height_Volume
+Reggie Miller,SG,35,170,464,0.366,2001,67,United States,six_feet_seven_to_nine,Height_Volume
+Tim Thomas,PF,23,107,260,0.412,2001,610,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,C,23,139,350,0.397,2002,70,International,seven_feet_and_above,Height_Volume
+Darrell Armstrong,PG,33,139,398,0.349,2002,60,United States,six_feet_and_under,Height_Volume
+Ray Allen ,SG,26,229,528,0.434,2002,65,United States,six_feet_four_to_six,Height_Volume
+Jason Terry,SG,24,172,444,0.387,2002,62,United States,six_feet_one_to_three,Height_Volume
+Paul Pierce,SG,24,210,520,0.404,2002,67,United States,six_feet_seven_to_nine,Height_Volume
+Rasheed Wallace,PF,27,114,317,0.36,2002,610,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,24,148,390,0.379,2003,70,International,seven_feet_and_above,Height_Volume
+David Wesley,SG,32,134,316,0.424,2003,60,United States,six_feet_and_under,Height_Volume
+Ray Allen ,SG,27,201,533,0.377,2003,65,United States,six_feet_four_to_six,Height_Volume
+Jason Terry,PG,25,160,431,0.371,2003,62,United States,six_feet_one_to_three,Height_Volume
+Tracy McGrady,SG,23,173,448,0.386,2003,68,United States,six_feet_seven_to_nine,Height_Volume
+Rasheed Wallace,PF,28,110,307,0.358,2003,610,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,C,25,99,290,0.341,2004,70,International,seven_feet_and_above,Height_Volume
+Damon Stoudamire,PG,30,156,427,0.365,2004,510,United States,six_feet_and_under,Height_Volume
+Eddie Jones,SG,32,177,479,0.37,2004,66,United States,six_feet_four_to_six,Height_Volume
+Baron Davis,PG,24,187,582,0.321,2004,63,United States,six_feet_one_to_three,Height_Volume
+Peja Stojakovic,SF,26,240,554,0.433,2004,69,International,six_feet_seven_to_nine,Height_Volume
+Vladimir Radmanovic,PF,23,140,377,0.371,2004,610,International,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,26,91,228,0.399,2005,70,International,seven_feet_and_above,Height_Volume
+Damon Stoudamire,PG,31,181,490,0.369,2005,510,United States,six_feet_and_under,Height_Volume
+Quentin Richardson,SG,24,226,631,0.358,2005,66,United States,six_feet_four_to_six,Height_Volume
+Damon Jones,PG,28,225,521,0.432,2005,63,United States,six_feet_one_to_three,Height_Volume
+Kyle Korver,SF,23,226,558,0.405,2005,67,United States,six_feet_seven_to_nine,Height_Volume
+Vladimir Radmanovic,PF,24,128,329,0.389,2005,610,International,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,27,110,271,0.406,2006,70,International,seven_feet_and_above,Height_Volume
+David Wesley,SG,35,99,271,0.365,2006,60,United States,six_feet_and_under,Height_Volume
+Ray Allen ,SG,30,269,653,0.412,2006,65,United States,six_feet_four_to_six,Height_Volume
+Gilbert Arenas,PG,24,199,540,0.369,2006,63,United States,six_feet_one_to_three,Height_Volume
+Kyle Korver,SF,24,184,438,0.42,2006,67,United States,six_feet_seven_to_nine,Height_Volume
+Rasheed Wallace,PF,31,155,434,0.357,2006,610,United States,six_feet_ten_and_eleven,Height_Volume
+Andrea Bargnani,PF,21,100,268,0.373,2007,70,International,seven_feet_and_above,Height_Volume
+Chucky Atkins,PG,32,116,306,0.379,2007,511,United States,six_feet_and_under,Height_Volume
+Raja Bell,SG,30,205,496,0.413,2007,65,International,six_feet_four_to_six,Height_Volume
+Gilbert Arenas,PG,25,205,584,0.351,2007,63,United States,six_feet_one_to_three,Height_Volume
+Mike Miller,SG,26,202,498,0.406,2007,68,United States,six_feet_seven_to_nine,Height_Volume
+Tim Thomas,PF,29,136,356,0.382,2007,610,United States,six_feet_ten_and_eleven,Height_Volume
+Andrea Bargnani,PF,22,90,261,0.345,2008,70,International,seven_feet_and_above,Height_Volume
+Nate Robinson,PG,23,97,292,0.332,2008,59,United States,six_feet_and_under,Height_Volume
+Jason Richardson,SF,27,243,599,0.406,2008,66,United States,six_feet_four_to_six,Height_Volume
+Stephen Jackson,SF,29,182,501,0.363,2008,63,United States,six_feet_one_to_three,Height_Volume
+Peja Stojakovic,SF,30,231,524,0.441,2008,69,International,six_feet_seven_to_nine,Height_Volume
+Hedo Turkoglu,SF,28,166,415,0.4,2008,610,International,six_feet_ten_and_eleven,Height_Volume
+Andrea Bargnani,PF,23,119,291,0.409,2009,70,International,seven_feet_and_above,Height_Volume
+Nate Robinson,PG,24,125,385,0.325,2009,59,United States,six_feet_and_under,Height_Volume
+Ray Allen ,SG,33,199,486,0.409,2009,65,United States,six_feet_four_to_six,Height_Volume
+Mo Williams,PG,26,183,420,0.436,2009,61,United States,six_feet_one_to_three,Height_Volume
+Rashard Lewis,PF,29,220,554,0.397,2009,69,United States,six_feet_seven_to_nine,Height_Volume
+Troy Murphy,PF,28,161,358,0.45,2009,611,United States,six_feet_ten_and_eleven,Height_Volume
+Andrea Bargnani,PF,24,121,325,0.372,2010,70,International,seven_feet_and_above,Height_Volume
+Aaron Brooks,PG,25,209,525,0.398,2010,60,United States,six_feet_and_under,Height_Volume
+Jason Kidd,PG,36,176,414,0.425,2010,64,United States,six_feet_four_to_six,Height_Volume
+Stephen Curry,PG,21,166,380,0.437,2010,63,United States,six_feet_one_to_three,Height_Volume
+Rashard Lewis,PF,30,168,423,0.397,2010,69,United States,six_feet_seven_to_nine,Height_Volume
+Danilo Gallinari,SF,21,186,488,0.381,2010,610,International,six_feet_ten_and_eleven,Height_Volume
+Andrea Bargnani,C,25,77,223,0.345,2011,70,International,seven_feet_and_above,Height_Volume
+Kyle Lowry,PG,24,129,343,0.376,2011,60,United States,six_feet_and_under,Height_Volume
+Jason Richardson,SG,30,189,479,0.395,2011,66,United States,six_feet_four_to_six,Height_Volume
+Mike Bibby,PG,32,153,348,0.44,2011,61,United States,six_feet_one_to_three,Height_Volume
+Dorell Wright,SF,25,194,516,0.376,2011,69,United States,six_feet_seven_to_nine,Height_Volume
+Channing Frye,PF,27,171,439,0.39,2011,611,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,33,78,212,0.368,2012,70,International,seven_feet_and_above,Height_Volume
+Brandon Knight,PG,20,105,276,0.38,2012,510,United States,six_feet_and_under,Height_Volume
+Wesley Matthews,SG,25,129,337,0.383,2012,65,United States,six_feet_four_to_six,Height_Volume
+Jason Terry,SG,34,138,365,0.378,2012,62,United States,six_feet_one_to_three,Height_Volume
+Kevin Durant,SF,23,133,344,0.387,2012,69,United States,six_feet_seven_to_nine,Height_Volume
+Ryan Anderson,PF,23,166,422,0.393,2012,610,United States,six_feet_ten_and_eleven,Height_Volume
+Byron Mullens,PF,23,66,208,0.317,2013,70,United States,seven_feet_and_above,Height_Volume
+Nate Robinson,PG,28,141,348,0.405,2013,59,United States,six_feet_and_under,Height_Volume
+James Harden,SG,23,179,486,0.368,2013,65,United States,six_feet_four_to_six,Height_Volume
+Stephen Curry,PG,24,272,600,0.453,2013,63,United States,six_feet_one_to_three,Height_Volume
+Klay Thompson,SG,22,211,526,0.401,2013,67,United States,six_feet_seven_to_nine,Height_Volume
+Ryan Anderson,PF,24,213,557,0.382,2013,610,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,35,131,329,0.398,2014,70,International,seven_feet_and_above,Height_Volume
+Kyle Lowry,PG,27,190,500,0.38,2014,60,United States,six_feet_and_under,Height_Volume
+Wesley Matthews,SG,27,201,511,0.393,2014,65,United States,six_feet_four_to_six,Height_Volume
+Stephen Curry,PG,25,261,615,0.424,2014,63,United States,six_feet_one_to_three,Height_Volume
+Klay Thompson,SG,23,223,535,0.417,2014,67,United States,six_feet_seven_to_nine,Height_Volume
+Kevin Love,PF,25,190,505,0.376,2014,610,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,36,104,274,0.38,2015,70,International,seven_feet_and_above,Height_Volume
+Chris Paul,PG,29,139,349,0.398,2015,60,United States,six_feet_and_under,Height_Volume
+James Harden,SG,25,208,555,0.375,2015,65,United States,six_feet_four_to_six,Height_Volume
+Stephen Curry,PG,26,286,646,0.443,2015,63,United States,six_feet_one_to_three,Height_Volume
+Klay Thompson,SG,24,239,545,0.439,2015,67,United States,six_feet_seven_to_nine,Height_Volume
+Kevin Love,PF,26,144,392,0.367,2015,610,United States,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,37,126,342,0.368,2016,70,International,seven_feet_and_above,Height_Volume
+Kyle Lowry,PG,29,212,547,0.388,2016,60,United States,six_feet_and_under,Height_Volume
+James Harden,SG,26,236,657,0.359,2016,65,United States,six_feet_four_to_six,Height_Volume
+Stephen Curry,PG,27,402,886,0.454,2016,63,United States,six_feet_one_to_three,Height_Volume
+Klay Thompson,SG,25,276,650,0.425,2016,67,United States,six_feet_seven_to_nine,Height_Volume
+Kevin Love,PF,27,158,439,0.36,2016,610,United States,six_feet_ten_and_eleven,Height_Volume
+Brook Lopez,C,28,134,387,0.346,2017,70,United States,seven_feet_and_above,Height_Volume
+Kyle Lowry,PG,30,193,468,0.412,2017,60,United States,six_feet_and_under,Height_Volume
+James Harden,PG,27,262,756,0.347,2017,65,United States,six_feet_four_to_six,Height_Volume
+Stephen Curry,PG,28,324,789,0.411,2017,63,United States,six_feet_one_to_three,Height_Volume
+Klay Thompson,SG,26,268,647,0.414,2017,67,United States,six_feet_seven_to_nine,Height_Volume
+Ryan Anderson,PF,28,204,506,0.403,2017,610,United States,six_feet_ten_and_eleven,Height_Volume
+Lauri Markkanen,PF,20,145,401,0.362,2018,70,International,seven_feet_and_above,Height_Volume
+Kyle Lowry,PG,31,238,596,0.399,2018,60,United States,six_feet_and_under,Height_Volume
+James Harden,SG,28,265,722,0.367,2018,65,United States,six_feet_four_to_six,Height_Volume
+Kemba Walker,PG,27,231,601,0.384,2018,61,United States,six_feet_one_to_three,Height_Volume
+Paul George,SF,27,244,609,0.401,2018,69,United States,six_feet_seven_to_nine,Height_Volume
+Dario Saric,PF,23,157,399,0.393,2018,610,International,six_feet_ten_and_eleven,Height_Volume
+Dirk Nowitzki,PF,22,151,390,0.387,2001,70,International,seven_feet_and_above,Height_Percentage
+Dana Barros,PG,33,44,105,0.419,2001,511,United States,six_feet_and_under,Height_Percentage
+Brent Barry,SG,29,109,229,0.476,2001,66,United States,six_feet_four_to_six,Height_Percentage
+John Stockton,PG,38,61,132,0.462,2001,61,United States,six_feet_one_to_three,Height_Percentage
+Pat Garrity,SF,24,97,224,0.433,2001,69,United States,six_feet_seven_to_nine,Height_Percentage
+Danny Ferry,SF,34,70,156,0.449,2001,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Wang Zhizhi,C,24,48,116,0.414,2002,70,International,seven_feet_and_above,Height_Percentage
+Tyronn Lue,PG,24,63,141,0.447,2002,60,United States,six_feet_and_under,Height_Percentage
+Jim Jackson,SF,31,38,81,0.469,2002,66,United States,six_feet_four_to_six,Height_Percentage
+Steve Nash,PG,27,156,343,0.455,2002,63,International,six_feet_one_to_three,Height_Percentage
+Steve Smith,SG,32,116,246,0.472,2002,67,United States,six_feet_seven_to_nine,Height_Percentage
+Danny Ferry,SF,35,43,99,0.434,2002,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,24,148,390,0.379,2003,70,International,seven_feet_and_above,Height_Percentage
+David Wesley,SG,32,134,316,0.424,2003,60,United States,six_feet_and_under,Height_Percentage
+Jim Jackson,SF,32,32,71,0.451,2003,66,United States,six_feet_four_to_six,Height_Percentage
+Steve Nash,PG,28,111,269,0.413,2003,63,International,six_feet_one_to_three,Height_Percentage
+Bruce Bowen,SF,31,101,229,0.441,2003,67,United States,six_feet_seven_to_nine,Height_Percentage
+Raef LaFrentz,C,26,47,116,0.405,2003,611,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,C,25,99,290,0.341,2004,70,International,seven_feet_and_above,Height_Percentage
+Tyronn Lue,PG,26,80,209,0.383,2004,60,United States,six_feet_and_under,Height_Percentage
+Anthony Peeler,SG,34,68,141,0.482,2004,64,United States,six_feet_four_to_six,Height_Percentage
+Erick Strickland,PG,30,29,66,0.439,2004,63,United States,six_feet_one_to_three,Height_Percentage
+Rasual Butler,SF,24,50,108,0.463,2004,67,United States,six_feet_seven_to_nine,Height_Percentage
+Hedo Turkoglu,SF,24,101,241,0.419,2004,610,International,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,26,91,228,0.399,2005,70,International,seven_feet_and_above,Height_Percentage
+Chucky Atkins,PG,30,176,455,0.387,2005,511,United States,six_feet_and_under,Height_Percentage
+Fred Hoiberg,SG,32,70,145,0.483,2005,64,United States,six_feet_four_to_six,Height_Percentage
+Eddie House,PG,26,44,97,0.454,2005,61,United States,six_feet_one_to_three,Height_Percentage
+Joe Johnson,SF,23,177,370,0.478,2005,67,United States,six_feet_seven_to_nine,Height_Percentage
+Matt Bonner,C,24,39,92,0.424,2005,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,27,110,271,0.406,2006,70,International,seven_feet_and_above,Height_Percentage
+Tyronn Lue,PG,28,58,127,0.457,2006,60,United States,six_feet_and_under,Height_Percentage
+Richard Hamilton,SG,27,55,120,0.458,2006,66,United States,six_feet_four_to_six,Height_Percentage
+Leandro Barbosa,SG,23,87,196,0.444,2006,63,International,six_feet_one_to_three,Height_Percentage
+Josh Childress,SF,22,32,65,0.492,2006,68,United States,six_feet_seven_to_nine,Height_Percentage
+Matt Bonner,PF,25,102,243,0.42,2006,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,28,72,173,0.416,2007,70,International,seven_feet_and_above,Height_Percentage
+Earl Boykins,PG,30,95,239,0.397,2007,55,United States,six_feet_and_under,Height_Percentage
+Brent Barry,SG,35,128,287,0.446,2007,66,United States,six_feet_four_to_six,Height_Percentage
+Steve Nash,PG,32,156,343,0.455,2007,63,International,six_feet_one_to_three,Height_Percentage
+Jason Kapono,SF,25,108,210,0.514,2007,68,United States,six_feet_seven_to_nine,Height_Percentage
+Sasha Pavlovic,SG,23,60,148,0.405,2007,611,International,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,29,79,220,0.359,2008,70,International,seven_feet_and_above,Height_Percentage
+Tyronn Lue,PG,30,39,86,0.453,2008,60,United States,six_feet_and_under,Height_Percentage
+Anthony Johnson,PG,33,42,93,0.452,2008,65,United States,six_feet_four_to_six,Height_Percentage
+Steve Nash,PG,33,179,381,0.47,2008,63,International,six_feet_one_to_three,Height_Percentage
+Jason Kapono,SF,26,57,118,0.483,2008,68,United States,six_feet_seven_to_nine,Height_Percentage
+Steve Novak,SF,24,34,71,0.479,2008,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Andrea Bargnani,PF,23,119,291,0.409,2009,70,International,seven_feet_and_above,Height_Percentage
+Jameer Nelson,PG,26,82,181,0.453,2009,60,United States,six_feet_and_under,Height_Percentage
+Anthony Morrow,SG,23,86,184,0.467,2009,65,United States,six_feet_four_to_six,Height_Percentage
+Eddie House,PG,30,151,340,0.444,2009,61,United States,six_feet_one_to_three,Height_Percentage
+Donyell Marshall,PF,35,25,55,0.455,2009,69,United States,six_feet_seven_to_nine,Height_Percentage
+Troy Murphy,PF,28,161,358,0.45,2009,611,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,31,51,121,0.421,2010,70,International,seven_feet_and_above,Height_Percentage
+Ty Lawson,PG,22,34,83,0.41,2010,511,United States,six_feet_and_under,Height_Percentage
+Anthony Morrow,SG,24,140,307,0.456,2010,65,United States,six_feet_four_to_six,Height_Percentage
+Daniel Gibson,PG,23,71,149,0.477,2010,62,United States,six_feet_one_to_three,Height_Percentage
+Kyle Korver,SG,28,59,110,0.536,2010,67,United States,six_feet_seven_to_nine,Height_Percentage
+Channing Frye,C,26,172,392,0.439,2010,611,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,32,66,168,0.393,2011,70,International,seven_feet_and_above,Height_Percentage
+Ty Lawson,PG,23,69,171,0.404,2011,511,United States,six_feet_and_under,Height_Percentage
+Ray Allen ,SG,35,168,378,0.444,2011,65,United States,six_feet_four_to_six,Height_Percentage
+Carlos Arroyo,PG,31,31,69,0.449,2011,62,International,six_feet_one_to_three,Height_Percentage
+Brian Cardinal,SF,33,42,87,0.483,2011,68,United States,six_feet_seven_to_nine,Height_Percentage
+Matt Bonner,PF,30,105,230,0.457,2011,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,33,78,212,0.368,2012,70,International,seven_feet_and_above,Height_Percentage
+Patty Mills,PG,23,24,56,0.429,2012,60,United States,six_feet_and_under,Height_Percentage
+Ray Allen ,SG,36,106,234,0.453,2012,65,United States,six_feet_four_to_six,Height_Percentage
+Stephen Curry,PG,23,55,121,0.455,2012,63,United States,six_feet_one_to_three,Height_Percentage
+Mike Miller,SG,31,53,117,0.453,2012,68,United States,six_feet_seven_to_nine,Height_Percentage
+Steve Novak,PF,28,133,282,0.472,2012,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,34,65,157,0.414,2013,70,International,seven_feet_and_above,Height_Percentage
+Nate Robinson,PG,28,141,348,0.405,2013,59,United States,six_feet_and_under,Height_Percentage
+Danny Green,SG,25,177,413,0.429,2013,66,United States,six_feet_four_to_six,Height_Percentage
+Jose Calderon,PG,31,130,282,0.461,2013,63,International,six_feet_one_to_three,Height_Percentage
+Kyle Korver,SF,31,189,414,0.457,2013,67,United States,six_feet_seven_to_nine,Height_Percentage
+Ersan Ilyasova,PF,25,95,214,0.444,2013,610,International,six_feet_ten_and_eleven,Height_Percentage
+Spencer Hawes,C,25,128,308,0.416,2014,71,United States,seven_feet_and_above,Height_Percentage
+Patty Mills,PG,25,135,318,0.425,2014,60,United States,six_feet_and_under,Height_Percentage
+Anthony Morrow,SG,28,88,195,0.451,2014,65,United States,six_feet_four_to_six,Height_Percentage
+Jimmer Fredette,SG,24,40,84,0.476,2014,62,United States,six_feet_one_to_three,Height_Percentage
+James Jones,SF,33,28,54,0.519,2014,68,United States,six_feet_seven_to_nine,Height_Percentage
+Matt Bonner,PF,33,42,98,0.429,2014,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Meyers Leonard,C,22,47,112,0.42,2015,71,United States,seven_feet_and_above,Height_Percentage
+Chris Paul,PG,29,139,349,0.398,2015,60,United States,six_feet_and_under,Height_Percentage
+Eric Gordon,SG,26,141,315,0.448,2015,64,United States,six_feet_four_to_six,Height_Percentage
+Stephen Curry,PG,26,286,646,0.443,2015,63,United States,six_feet_one_to_three,Height_Percentage
+Luke Babbitt,SF,25,59,115,0.513,2015,69,United States,six_feet_seven_to_nine,Height_Percentage
+Hedo Turkoglu,SF,35,60,139,0.432,2015,610,International,six_feet_ten_and_eleven,Height_Percentage
+Kelly Olynyk,C,24,85,210,0.405,2016,70,International,seven_feet_and_above,Height_Percentage
+D.J. Augustin,PG,28,68,168,0.405,2016,60,United States,six_feet_and_under,Height_Percentage
+Troy Daniels,SG,24,59,122,0.484,2016,64,United States,six_feet_four_to_six,Height_Percentage
+J.J. Redick,SG,31,200,421,0.475,2016,62,United States,six_feet_one_to_three,Height_Percentage
+James Ennis,SF,25,26,58,0.448,2016,67,United States,six_feet_seven_to_nine,Height_Percentage
+Chandler Parsons,SF,27,104,251,0.414,2016,610,United States,six_feet_ten_and_eleven,Height_Percentage
+Pau Gasol,C,36,56,104,0.538,2017,70,International,seven_feet_and_above,Height_Percentage
+Darren Collison,PG,29,73,175,0.417,2017,60,United States,six_feet_and_under,Height_Percentage
+Allen Crabbe,SG,24,134,302,0.444,2017,66,United States,six_feet_four_to_six,Height_Percentage
+Trey Burke,PG,24,31,70,0.443,2017,61,United States,six_feet_one_to_three,Height_Percentage
+James Jones,SF,36,31,66,0.47,2017,68,United States,six_feet_seven_to_nine,Height_Percentage
+Jason Smith,C,30,37,78,0.474,2017,611,United States,six_feet_ten_and_eleven,Height_Percentage
+Karl-Anthony Towns,C,22,120,285,0.421,2018,70,United States,seven_feet_and_above,Height_Percentage
+Darren Collison,PG,30,96,205,0.468,2018,60,United States,six_feet_and_under,Height_Percentage
+Buddy Hield,SG,25,176,408,0.431,2018,64,International,six_feet_four_to_six,Height_Percentage
+Jose Calderon,PG,36,45,97,0.464,2018,63,International,six_feet_one_to_three,Height_Percentage
+Tomas Satoransky,SG,26,47,101,0.465,2018,67,International,six_feet_seven_to_nine,Height_Percentage
+Al Horford,C,31,97,226,0.429,2018,610,International,six_feet_ten_and_eleven,Height_Percentage
+Dirk Nowitzki,PF,22,151,390,0.387,2001,70,International,seven_feet_and_above,Nation_Volume
+Antoine Walker,PF,24,221,603,0.367,2001,64,United States,six_feet_four_to_six,Nation_Volume
+Steve Nash,PG,27,156,343,0.455,2002,63,International,six_feet_one_to_three,Nation_Volume
+Ray Allen ,SG,26,229,528,0.434,2002,65,United States,six_feet_four_to_six,Nation_Volume
+Peja Stojakovic,SF,25,155,406,0.382,2003,69,International,six_feet_seven_to_nine,Nation_Volume
+Ray Allen ,SG,27,201,533,0.377,2003,65,United States,six_feet_four_to_six,Nation_Volume
+Peja Stojakovic,SF,26,240,554,0.433,2004,69,International,six_feet_seven_to_nine,Nation_Volume
+Baron Davis,PG,24,187,582,0.321,2004,63,United States,six_feet_one_to_three,Nation_Volume
+Peja Stojakovic,SF,27,174,433,0.402,2005,69,International,six_feet_seven_to_nine,Nation_Volume
+Kyle Korver,SF,23,226,558,0.405,2005,67,United States,six_feet_seven_to_nine,Nation_Volume
+Raja Bell,SG,29,197,446,0.442,2006,65,International,six_feet_four_to_six,Nation_Volume
+Ray Allen ,SG,30,269,653,0.412,2006,65,United States,six_feet_four_to_six,Nation_Volume
+Raja Bell,SG,30,205,496,0.413,2007,65,International,six_feet_four_to_six,Nation_Volume
+Gilbert Arenas,PG,25,205,584,0.351,2007,63,United States,six_feet_one_to_three,Nation_Volume
+Peja Stojakovic,SF,30,231,524,0.441,2008,69,International,six_feet_seven_to_nine,Nation_Volume
+Jason Richardson,SF,27,243,599,0.406,2008,66,United States,six_feet_four_to_six,Nation_Volume
+Ben Gordon,SG,25,173,422,0.41,2009,63,International,six_feet_one_to_three,Nation_Volume
+Rashard Lewis,PF,29,220,554,0.397,2009,69,United States,six_feet_seven_to_nine,Nation_Volume
+Danilo Gallinari,SF,21,186,488,0.381,2010,610,International,six_feet_ten_and_eleven,Nation_Volume
+Aaron Brooks,PG,25,209,525,0.398,2010,60,United States,six_feet_and_under,Nation_Volume
+Manu Ginobili,SG,33,154,441,0.349,2011,66,International,six_feet_four_to_six,Nation_Volume
+Dorell Wright,SF,25,194,516,0.376,2011,69,United States,six_feet_seven_to_nine,Nation_Volume
+Marco Belinelli,SG,25,107,284,0.377,2012,65,International,six_feet_four_to_six,Nation_Volume
+Ryan Anderson,PF,23,166,422,0.393,2012,610,United States,six_feet_ten_and_eleven,Nation_Volume
+Nicolas Batum,SF,24,165,444,0.372,2013,68,International,six_feet_seven_to_nine,Nation_Volume
+Stephen Curry,PG,24,272,600,0.453,2013,63,United States,six_feet_one_to_three,Nation_Volume
+Jose Calderon,PG,32,191,425,0.449,2014,63,International,six_feet_one_to_three,Nation_Volume
+Stephen Curry,PG,25,261,615,0.424,2014,63,United States,six_feet_one_to_three,Nation_Volume
+Kyrie Irving,PG,22,157,378,0.415,2015,63,International,six_feet_one_to_three,Nation_Volume
+Stephen Curry,PG,26,286,646,0.443,2015,63,United States,six_feet_one_to_three,Nation_Volume
+Mirza Teletovic,PF,30,181,460,0.393,2016,69,International,six_feet_seven_to_nine,Nation_Volume
+Stephen Curry,PG,27,402,886,0.454,2016,63,United States,six_feet_one_to_three,Nation_Volume
+Kyrie Irving,PG,24,177,441,0.401,2017,63,International,six_feet_one_to_three,Nation_Volume
+Stephen Curry,PG,28,324,789,0.411,2017,63,United States,six_feet_one_to_three,Nation_Volume
+Joe Ingles,SF,30,204,464,0.44,2018,68,International,six_feet_seven_to_nine,Nation_Volume
+James Harden,SG,28,265,722,0.367,2018,65,United States,six_feet_four_to_six,Nation_Volume
+Toni Kukoc,SF,32,70,157,0.446,2001,610,International,six_feet_ten_and_eleven,Nation_Percentage
+Brent Barry,SG,29,109,229,0.476,2001,66,United States,six_feet_four_to_six,Nation_Percentage
+Steve Nash,PG,27,156,343,0.455,2002,63,International,six_feet_one_to_three,Nation_Percentage
+Steve Smith,SG,32,116,246,0.472,2002,67,United States,six_feet_seven_to_nine,Nation_Percentage
+Steve Nash,PG,28,111,269,0.413,2003,63,International,six_feet_one_to_three,Nation_Percentage
+Jim Jackson,SF,32,32,71,0.451,2003,66,United States,six_feet_four_to_six,Nation_Percentage
+Peja Stojakovic,SF,26,240,554,0.433,2004,69,International,six_feet_seven_to_nine,Nation_Percentage
+Anthony Peeler,SG,34,68,141,0.482,2004,64,United States,six_feet_four_to_six,Nation_Percentage
+Steve Nash,PG,30,94,218,0.431,2005,63,International,six_feet_one_to_three,Nation_Percentage
+Fred Hoiberg,SG,32,70,145,0.483,2005,64,United States,six_feet_four_to_six,Nation_Percentage
+Leandro Barbosa,SG,23,87,196,0.444,2006,63,International,six_feet_one_to_three,Nation_Percentage
+Josh Childress,SF,22,32,65,0.492,2006,68,United States,six_feet_seven_to_nine,Nation_Percentage
+Walter Herrmann,PF,27,53,115,0.461,2007,69,International,six_feet_seven_to_nine,Nation_Percentage
+Jason Kapono,SF,25,108,210,0.514,2007,68,United States,six_feet_seven_to_nine,Nation_Percentage
+Steve Nash,PG,33,179,381,0.47,2008,63,International,six_feet_one_to_three,Nation_Percentage
+Jason Kapono,SF,26,57,118,0.483,2008,68,United States,six_feet_seven_to_nine,Nation_Percentage
+Kelenna Azubuike,SF,25,94,210,0.448,2009,65,International,six_feet_four_to_six,Nation_Percentage
+Anthony Morrow,SG,23,86,184,0.467,2009,65,United States,six_feet_four_to_six,Nation_Percentage
+Steve Nash,PG,35,124,291,0.426,2010,63,International,six_feet_one_to_three,Nation_Percentage
+Kyle Korver,SG,28,59,110,0.536,2010,67,United States,six_feet_seven_to_nine,Nation_Percentage
+Carlos Arroyo,PG,31,31,69,0.449,2011,62,International,six_feet_one_to_three,Nation_Percentage
+Brian Cardinal,SF,33,42,87,0.483,2011,68,United States,six_feet_seven_to_nine,Nation_Percentage
+Ersan Ilyasova,PF,24,51,112,0.455,2012,610,International,six_feet_ten_and_eleven,Nation_Percentage
+Steve Novak,PF,28,133,282,0.472,2012,610,United States,six_feet_ten_and_eleven,Nation_Percentage
+Jose Calderon,PG,31,130,282,0.461,2013,63,International,six_feet_one_to_three,Nation_Percentage
+Kyle Korver,SF,31,189,414,0.457,2013,67,United States,six_feet_seven_to_nine,Nation_Percentage
+Pablo Prigioni,PG,36,65,140,0.464,2014,63,International,six_feet_one_to_three,Nation_Percentage
+James Jones,SF,33,28,54,0.519,2014,68,United States,six_feet_seven_to_nine,Nation_Percentage
+Hedo Turkoglu,SF,35,60,139,0.432,2015,610,International,six_feet_ten_and_eleven,Nation_Percentage
+Luke Babbitt,SF,25,59,115,0.513,2015,69,United States,six_feet_seven_to_nine,Nation_Percentage
+Tony Parker,PG,33,27,65,0.415,2016,62,International,six_feet_one_to_three,Nation_Percentage
+Troy Daniels,SG,24,59,122,0.484,2016,64,United States,six_feet_four_to_six,Nation_Percentage
+Pau Gasol,C,36,56,104,0.538,2017,70,International,seven_feet_and_above,Nation_Percentage
+Jason Smith,C,30,37,78,0.474,2017,611,United States,six_feet_ten_and_eleven,Nation_Percentage
+Tomas Satoransky,SG,26,47,101,0.465,2018,67,International,six_feet_seven_to_nine,Nation_Percentage
+Darren Collison,PG,30,96,205,0.468,2018,60,United States,six_feet_and_under,Nation_Percentage

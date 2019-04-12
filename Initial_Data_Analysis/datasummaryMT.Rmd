@@ -1,0 +1,91 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+data <- read.csv("/Users/marcusthuillier/Desktop/MSiA/Winter_2019/MSIA411/Project/Player_data_2.csv", sep = ",")
+
+```
+
+
+```{r}
+head(data)
+```
+
+
+```{r}
+year <- data[data$year == 2004,]
+temp <- year[year$X3PA > 50,]
+for (i in c("PG","SG","SF","PF","C")){
+  test <- temp[temp$Pos == i,]
+  print(head(test[order(-test$X3P),],1))
+  print(head(test[order(-test$X3P.),],1))
+}
+
+```
+
+```{r}
+year <- data[data$year == 2018
+             ,]
+year$Height <- gsub("'","",year$Height)
+year$Height <- gsub("\"","",year$Height)
+temp <- year[year$X3PA > 50,]
+
+
+test <- temp[temp$Height == "50" | temp$Height == "51" | temp$Height == "52" | temp$Height == "53" | temp$Height == "54" | temp$Height == "55" | temp$Height == "56" | temp$Height == "57" | temp$Height == "58" | temp$Height == "59" | temp$Height == "510" | temp$Height == "511" | temp$Height == "60",]
+print(head(test[order(-test$X3P),],1))
+print(head(test[order(-test$X3P.),],1))
+test <- temp[temp$Height == "61" | temp$Height == "62" | temp$Height == "63",]
+print(head(test[order(-test$X3P),],1))
+print(head(test[order(-test$X3P.),],1))
+test <- temp[temp$Height == "64" | temp$Height == "65" | temp$Height == "66",]
+print(head(test[order(-test$X3P),],1))
+print(head(test[order(-test$X3P.),],1))
+test <- temp[temp$Height == "67" | temp$Height == "68" | temp$Height == "69",]
+print(head(test[order(-test$X3P),],1))
+print(head(test[order(-test$X3P.),],1))
+test <- temp[temp$Height == "610" | temp$Height == "611",]
+print(head(test[order(-test$X3P),],1))
+print(head(test[order(-test$X3P.),],1))
+test <- temp[temp$Height == "70" | temp$Height == "71" | temp$Height == "72" | temp$Height == "73" | temp$Height == "74" | temp$Height == "75" | temp$Height == "76",]
+print(head(test[order(-test$X3P),],1))
+print(head(test[order(-test$X3P.),],1))
+```
+
+```{r}
+data$Height <- gsub("'","",data$Height)
+data$Height <- gsub("\"","",data$Height)
+
+```
+
+```{r}
+test1 <- data[data$Pos == "PG",]
+test2 <- data[data$Pos == "SG",]
+test3 <- data[data$Pos == "SF",]
+test4 <- data[data$Pos == "PF",]
+test5 <- data[data$Pos == "C",]
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

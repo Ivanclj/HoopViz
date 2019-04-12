@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="http://d3js.org/d3.v4.js"></script>
+<style>
+
+#nav-container {
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    #nav-container .left {
+      margin-right: 20px;
+    }
+
+    #nav-container .right {
+      margin-left: 20px;
+    }
+
+path line {
+  fill: none;
+  stroke: #000;
+}
+
+body,html {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+  stroke: snow;
+}
+.bg {
+  /* The image used */
+  background-image: url("/Images/black_wood_court.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.dropbtn {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  float: bottom;
+  /*right: 1260px;
+  top: 0px;*/
+  float: left;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e30e0e;
+}
+
+
+  </style>
+</head>
+<div class="bg">
+ <div class="dropdown">
+  <button class="dropbtn"> ☰ Menu</button>
+    <div class="dropdown-content">
+      <a href="/indexes.html">Home</a><br>
+      <a href="/line_chart.html">Player Shooting</a><br>
+      <a href="/CourtChart.html">Team Shooting-CourtMap</a><br>
+      <a href="/scattrend.html">Playoff Success</a>
+    </div>
+</div>
+	<div id="nav-container">
+	    
+	    <div id="teamDropdown"></div>
+	   
+	</div>
+	<!-- Create a div where the graph will take place -->
+	<div id="my_dataviz"></div>
+</div>
+
+
+<script>
+ var margin = {top:50, right:50, bottom:50, left:80},
+  width = 1000 - margin.left - margin.right,
+  height = 350 - margin.top - margin.bottom;
+  
+  
+  // append the svg object to the body of the page
+var svg = d3.select("#my_dataviz")
+.append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+.append("g")
+  .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+// Labels of row and columns
+var myGroups = [2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018];
+var myVars = ["0-3 ft", "3-10 ft", "10-16 ft", "Over 16 ft", "3P"]
+
+// Build X scales and axis:
+var x = d3.scaleBand()
+  .range([ 0, width ])
+  .domain(myGroups)
+  .padding(0.01);
+
+  svg.append("g")
+  .attr("transform", "translate(0," + height + ")")
+  .call(d3.axisBottom(x))
+
+// Build Y scales and axis:
+var y = d3.scaleBand()
+  .range([ height, 0 ])
+  .domain(myVars)
+  .padding(0.01);
+
+  svg.append("g")
+  .call(d3.axisLeft(y));
+  
+  // add axis title
+svg.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + 40) + ")")
+      .style("text-anchor", "middle")
+	  .style("font-size","18px")
+	  .style("font-weight", "bold")
+      .text("Season");
+svg.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ -65 +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+			.style("font-size","18px")
+	  .style("font-weight", "bold")
+            .text("Shot Location");
+  
+  
+ // Build color scale
+//var myColor = d3.scaleSequential()
+//.domain([1,100])
+//.interpolator(d3.interpolateWarm);
+  //var maxNum = Math.round(d3.max(data,function(d){ return d.Frequency; }));
+
+ var colors = ["#0000FF", "#6F6FEE", "#A6A6E6", "#DDDDDD", "#E4B1B1", "#EB8585", "#F82C2C"];
+var labels = ["Low", "", "", "", "", "", "High"];
+	
+	var legend = svg.selectAll(".legend")
+              .data(colors, function(d) { return d; });
+
+          legend.enter().append("g")
+              .attr("class", "legend");
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return Math.floor(width / 18)*2 * i; })
+            .attr("y", height)
+            .attr("width", Math.floor(width / 18)*2)
+            .attr("height", Math.floor(width / 18) / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+            .text(function(d,i) { return labels[i]; })
+            .attr("x", function(d, i) { return  (Math.floor(width / 18)*2 * i); })
+            .attr("y", height + Math.floor(width / 18));
+//Read the data
+d3.csv("NBA_shooting_transposed.csv", function(data) {
+
+
+
+	var myColor = d3.scaleLinear()
+	 .domain([0, .2, .45])
+	 .range(["blue","#ddd","red"]);
+	  
+// group data by team
+    var nest = d3.nest()
+      .key(function(d) { return d.Team; })
+      .entries(data);
+	  
+	  // array of teams in the data
+    var teams = nest.map(function(d) { return d.key; });
+    var currentTeamIndex = 0;
+	
+	// create team dropdown menu
+    var teamMenu = d3.select("#teamDropdown");
+    teamMenu
+      .append("select")
+      .attr("id", "teamMenu")
+      .selectAll("option")
+        .data(teams)
+        .enter()
+        .append("option")
+        .attr("value", function(d, i) { return i; })
+        .text(function(d) { return d; });
+		
+	
+
+  // create a tooltip
+	var tooltip = d3.select("#my_dataviz")
+		.append("div")
+		.style("opacity", 0)
+		.style("position","absolute")
+		.attr("class", "tooltip")
+		.style("background-color", "white")
+		.style("border", "solid")
+		.style("border-width", "2px")
+		.style("border-radius", "5px")
+		.style("padding", "5px")
+		
+	
+
+  // Three function that change the tooltip when user hover / move / leave a cell
+  var round_number = d3.format(".1f");
+  
+  
+	/// DRAW HEATMAP FUNCTION 
+  var drawHeatmap = function(Team){
+  
+  // filter the data to return object of location of interest
+      var selectTeam = nest.find(function(d) {
+        
+		return d.key == Team;
+      
+	  });
+	  
+	  var mouseover = function(d) {
+		
+		tooltip.style("opacity", 1)
+		
+		}
+  
+	var mousemove = function(d) {
+		
+		tooltip
+			.data(selectTeam.values)
+		  .html(d.Team + " shot " + round_number(d.Frequency*100) +"% of shots from " + d.Distance +" in the " + d.year + " season")
+		  .style("left", (d3.mouse(this)[0]+70) + "px")
+		  .style("top", (d3.mouse(this)[1]) + "px")
+		  
+		}
+  
+	var mouseleave = function(d) {
+		
+		tooltip.style("opacity", 0)
+		
+		}  
+	
+  // add the squares
+  
+	var heatmap = svg.selectAll()
+		.data(selectTeam.values)
+		.enter()
+		.append("rect")
+		  .attr("x", function(d) { return x(d.year) })
+		  .attr("y", function(d) { return y(d.Distance) })
+		  .attr("width", x.bandwidth() )
+		  .attr("height", y.bandwidth() )
+		  .style("fill", function(d) { return myColor(d.Frequency)} )
+				.on("mouseover", mouseover)
+				.on("mousemove", mousemove)
+				.on("mouseleave", mouseleave)
+		
+		/// TITLE AND SUBTITLE ///
+		var title = svg.append("text")
+			.attr("x", 0)
+			.attr("y", -8)
+			.attr("text-anchor", "left")
+			.style("font-size", "24px")
+			.text(selectTeam.key + " Shots by Location");
+			
+		var subtitle = svg.append("text")
+			.attr("x",533+ (Math.floor(width / 18) ))
+			.attr("y", -40)
+			.attr("text-anchor", "left")
+			.style("font-size", "14px")
+			.style("font-weight", "bold")
+			.style("max-width", 400)
+			.text("Percentage of shots taken by location");
+			
+	// DRAW THE LEGEND  ---- STATIC LEGEND 
+	var colors = ["#0000FF", "#6F6FEE", "#A6A6E6", "#DDDDDD", "#E4B1B1", "#EB8585", "#F82C2C"];
+	
+	var labels = ["Low", "", "", "", "", "", "High"];
+	
+	var legend = svg.selectAll(".legend")
+              .data(colors, function(d) { return d; });
+
+          legend.enter().append("g")
+              .attr("class", "legend");
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return 533+ (Math.floor(width / 18) * i); })
+            .attr("y", -30)
+            .attr("width", Math.floor(width / 18))
+            .attr("height", Math.floor(width / 18) / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+			//.style("text-anchor", "center")
+            .text(function(d,i) { return labels[i]; })
+			.style("font-size", "14px")
+			.style("fill","white")
+			.style("font-weight","bold")
+            .attr("x", function(d, i) { return  540+ (Math.floor(width / 18) * i); })
+            .attr("y", -15);
+	
+	
+	}
+	
+	drawHeatmap(teams[currentTeamIndex]);
+	
+	
+	/// UPDATE THE HEATMAP ///
+	var updateHeatmap = function(Team) {
+	
+	// Build X scales and axis:
+var x = d3.scaleBand()
+  .range([ 0, width ])
+  .domain(myGroups)
+  .padding(0.01);
+
+  svg.append("g")
+  .attr("transform", "translate(0," + height + ")")
+  
+  .call(d3.axisBottom(x))
+
+// Build Y scales and axis:
+var y = d3.scaleBand()
+  .range([ height, 0 ])
+  .domain(myVars)
+  .padding(0.01);
+
+  svg.append("g")
+  .call(d3.axisLeft(y));
+	
+	console.log("currentTeamIndex: " + currentTeamIndex)
+	
+	var selectTeam = nest.find(function(d) {
+        return d.key == Team;
+      });
+	  
+	  var round_number = d3.format(".1f");
+	  var tooltip = d3.select("#my_dataviz")
+    .append("div")
+    .style("opacity", 0)
+	.style("position","absolute")
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+	  
+	  var mouseover = function(d) {
+		tooltip.style("opacity", 1)
+		}
+  
+  var mousemove = function(d) {
+    tooltip
+		//.data(selectTeam.values)
+      .html(d.Team + " shot " + round_number(d.Frequency*100) +"% of shots from " + d.Distance +" in the " + d.year + " season")
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  
+  var mouseleave = function(d) {
+    tooltip.style("opacity", 0)
+  }  
+	// update the data and redraw heatmap
+      var heatmap = svg.selectAll()
+        .data(selectTeam.values)
+		.enter()
+		.append("rect")
+			.attr("x", function(d) { return x(d.year) })
+			.attr("y", function(d) { return y(d.Distance) })
+			.attr("width", x.bandwidth() )
+			.attr("height", y.bandwidth() )
+			.style("fill", function(d) { return myColor(d.Frequency); });
+		
+		heatmap.transition()
+          .duration(250);
+          
+		heatmap.on("mouseover", mouseover)
+			.on("mousemove", mousemove)
+			.on("mouseleave", mouseleave);		
+		
+		/// TITLE AND SUBTITLE ///
+		var title = svg.append("text")
+			.attr("x", 0)
+			.attr("y", -8)
+			.attr("text-anchor", "left")
+			.style("font-size", "24px")
+			.text(selectTeam.key + " Shots by Location");
+			
+		var subtitle = svg.append("text")
+			.attr("x",533+ (Math.floor(width / 18) ))
+			.attr("y", -40)
+			.attr("text-anchor", "left")
+			.style("font-size", "14px")
+			.style("font-weight", "bold")
+			.style("max-width", 400)
+			.text("Percentage of shots taken by location");
+			
+	// DRAW THE LEGEND  ---- STATIC LEGEND 
+	var colors = ["#0000FF", "#6F6FEE", "#A6A6E6", "#DDDDDD", "#E4B1B1", "#EB8585", "#F82C2C"];
+	
+	var labels = ["Low", "", "", "", "", "", "High"];
+	
+	var legend = svg.selectAll(".legend")
+              .data(colors, function(d) { return d; });
+
+          legend.enter().append("g")
+              .attr("class", "legend");
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return 533+ (Math.floor(width / 18) * i); })
+            .attr("y", -30)
+            .attr("width", Math.floor(width / 18))
+            .attr("height", Math.floor(width / 18) / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+			//.style("text-anchor", "center")
+            .text(function(d,i) { return labels[i]; })
+			.style("font-size", "14px")
+			.style("fill","white")
+			.style("font-weight","bold")
+            .attr("x", function(d, i) { return  540+ (Math.floor(width / 18) * i); })
+            .attr("y", -15);
+		
+		
+		/// ADD AXES LABELS ///
+		svg.append("text")             
+		.attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + 40) + ")")
+		  .style("text-anchor", "middle")
+		  .style("font-size","18px")
+		  .style("font-weight", "bold")
+		  .text("Season");
+	  
+		svg.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ -65 +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+			.style("font-size","18px")
+			.style("font-weight", "bold")
+            .text("Shot Location");
+        
+    }
+	
+	
+	// run update function when dropdown selection changes
+    teamMenu.on("change", function() {
+      // find which location was selected from the dropdown
+      var selectedTeam = d3.select(this)
+        .select("select")
+        .property("value");
+      currentTeamIndex = +selectedTeam;
+      // run update function with selected location
+      svg.selectAll("text").remove();
+	  svg.selectAll("text").remove();
+	  updateHeatmap(teams[currentTeamIndex]);
+    })
+
+	
+	
+	// Add title to graph
+		
+
+// Add subtitle to graph
+		
+
+	
+
+})
+ 
+
+</script>
+

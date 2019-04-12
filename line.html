@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Page Template</title>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        
+    </head>
+  
+  <body>
+    <div id = "teamDropdown"></div>
+    <div id="graph"></div>
+  </body>
+  
+</html>
+
+
+
+<script>
+
+
+var margin = {top:50, right:50, bottom:100, left:80},
+  width = 1000 - margin.left - margin.right,
+  height = 300 - margin.top - margin.bottom;
+  
+  
+var myGroups = [2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018];
+
+  var x1 = d3.scaleBand()
+  .range([ 0, width ])
+	//.domain(myGroups)
+ .padding(1);
+
+
+
+// Build Y scales and axis:
+var y1 = d3.scaleLinear()
+.range([height,0]);
+
+
+ // Build Y scales and axis:
+var y2 = d3.scaleLinear()
+.range([height,0]); 
+
+
+var line1 = d3.line()
+  .x(function(d) { return x1(d.Season); })
+	.y(function(d) { return y1(d.Ortg); });
+
+  
+// define the line
+var line2 = d3.line()
+  .x(function(d) { return x1(d.Season); })
+	.y(function(d) { return y2(d.Win); });
+	
+
+// append the svg object to the body of the page
+  var svg1 = d3.select("#graph")
+	.append("svg")
+	  .attr("width", width + margin.left + margin.right)
+	  .attr("height", height + margin.top + margin.bottom)
+	.append("g")
+	  .attr("transform",
+			"translate(" + margin.left + "," + margin.top + ")");
+
+			// add axis title
+svg1.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + 40) + ")")
+      .style("text-anchor", "middle")
+	  .style("font-size","18px")
+	  .style("font-weight", "bold")
+      .text("Season");
+	  
+svg1.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ -65 +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+			.style("font-size","16px")
+			.style("font-weight", "bold")
+			.style("fill","black")
+            .text("Offensive Rating");
+
+svg1.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ (width+35) +","+(height/2)+")rotate(90)")  // text is drawn off the screen top left, move down and out and rotate
+			.style("font-size","16px")
+			.style("font-weight", "bold")
+			.style("fill","Brown")
+            .text("Winning Percentage");
+
+// read in the data
+
+d3.csv("Teams_by_Season_mapped2.csv", function(error, data) {
+  
+  if (error) throw error;
+
+  // format the data
+  data.forEach(function(d) {
+      d.Team = d['Team'];
+      d.Ortg = +d.Unadjusted_ORtg;
+      d.Win = +d.W_percentage;
+	  d.Season = +d.Season;
+	  
+  });
+  
+  console.log(data);
+  
+  var nest = d3.nest()
+      .key(function(d) { return d.Team; })
+      .entries(data);
+	  
+	var teams = nest.map(function(d) { return d.key; });
+	var currentTeamIndex = 0;
+	console.log(teams);
+	  
+	x1.domain(data.map(function(d) { return d.Season; }));
+	//console.log(x1.domain());
+	y1.domain([90, d3.max(data, function(d) {return Math.max(d.Ortg);})]);
+  y2.domain([0, d3.max(data, function(d) {return Math.max(d.Win); })]);
+  
+  var x1Axis = svg1.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x1));
+    
+var teamMenu = d3.select("#teamDropdown");
+    teamMenu
+      .append("select")
+      .attr("id", "teamMenu")
+      .selectAll("option")
+        .data(teams)
+        .enter()
+        .append("option")
+        .attr("value", function(d, i) { return i; })
+        .text(function(d) { return d; });
+		
+
+		// create a tooltip
+  var tooltip = d3.select("#graph")
+    .append("div")
+    .style("opacity", 0)
+	.style("position","absolute")
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px");
+
+	
+	
+	var mouseover = function(d) {
+	console.log(d);
+    tooltip.style("opacity", 1)
+  }
+  
+  var mousemove = function(d) {
+  //console.log(d);
+    tooltip
+		//.data(selectTeam.values)		
+		
+      .html(d.Team + ":  O-RTG:  " + d.Ortg + "  Win%:  " + d.Win)
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  
+  var mouseleave = function(d) {
+    tooltip
+	
+	.style("opacity", 0)
+  }  
+  
+  
+	// drawline function
+var drawLine = function(Team){
+    
+	
+	
+	
+	var selectTeam = nest.find(function(d) {
+        return d.key == Team;
+      });
+	  
+	  console.log(selectTeam.values);
+
+	
+	var drawLine1 = svg1.append("g")
+    		.attr("class", "line-and-dots")
+       // .attr("transform", "translate(" + ((margin.left + margin.right) / 2) + "," + 0 + ")")
+	
+	drawLine1.append("path")
+     .data(selectTeam.values)
+      .attr("class", "line")
+	  .style("fill","none")
+	  .style("stroke","black")
+	  .style("stroke-width","2px")
+      .attr("d", line1(selectTeam.values))
+			
+			
+	drawLine1.selectAll("line-circle")
+			.data(selectTeam.values)
+			.enter().append("circle")
+			.attr("class", "line-circle")
+        .attr("r", 3)
+        .attr("cx", function(d) { return x1(d.Season); })
+        .attr("cy", function(d) { return y1(d.Ortg); })
+		.on("mouseover", mouseover)
+			.on("mousemove", mousemove)
+			.on("mouseleave", mouseleave);
+	  	//console.log(selectTeam.values);
+		
+	var drawline2 = svg1.append("g")
+		.attr("class", "line-and-dots")
+	
+	
+	drawline2.append("path")
+     .data(selectTeam.values)
+      .attr("class", "line")
+	  .style("fill","none")
+	  .style("stroke","Brown")
+	  .style("stroke-width","2px")
+      .attr("d", line2(selectTeam.values))
+			
+			
+			
+			drawline2.selectAll("line-circle")
+			.data(selectTeam.values)
+			.enter().append("circle")
+			.attr("class", "line-circle")
+			.style("fill","brown")
+			.attr("r", 3)
+			.attr("cx", function(d) { return x1(d.Season); })
+			.attr("cy", function(d) { return y2(d.Win); })
+			.on("mouseover", mouseover)
+			.on("mousemove", mousemove)
+			.on("mouseleave", mouseleave);
+	  	//console.log(selectTeam.values);
+
+formatter = d3.format(".0%");
+
+		 var y1Axis = svg1.append("g")
+      .attr("class", "axisSteelBlue")
+	 
+      .call(d3.axisLeft(y1));
+
+  // Add the Y1 Axis
+  var y2Axis = svg1.append("g")
+      .attr("class", "axisRed")
+	  
+      .attr("transform", "translate( " + width + ", 0 )")
+      .call(d3.axisRight(y2));
+	  
+	}
+	drawLine(teams[currentTeamIndex]);
+	console.log(currentTeamIndex);
+	
+	
+	var updateLine = function(Team) {
+	
+	var selectTeam = nest.find(function(d) {
+        return d.key == Team;
+      });
+	  
+	   var tooltip = d3.select("#graph")
+    .append("div")
+    .style("opacity", 0)
+	.style("position","absolute")
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px");
+	
+	var mouseover = function(d) {
+    tooltip.style("opacity", 1)
+  }
+  
+  var mousemove = function(d) {
+    tooltip
+	.html(d.Team + ":  O-RTG:  " + d.Ortg + "  Win%:  " + d.Win)
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+	
+	
+	
+  var mouseleave = function(d) {
+    tooltip
+	
+	.style("opacity", 0)
+	
+  }  
+  
+	
+	var x1 = d3.scaleBand()
+  .range([ 0, width ])
+	.domain(myGroups)
+ .padding(1);
+
+ var x1Axis = svg1.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x1));
+
+
+// Build Y scales and axis:
+var y1 = d3.scaleLinear()
+.range([height,0])
+.domain([90, d3.max(selectTeam.values, function(d) {return Math.max(d.Ortg);})]);
+	 
+var y1Axis = svg1.append("g")
+      .attr("class", "axisSteelBlue")
+      .call(d3.axisLeft(y1));
+
+
+ // Build Y scales and axis:
+var y2 = d3.scaleLinear()
+.range([height,0])
+.domain([0, d3.max(selectTeam.values, function(d) {return Math.max(d.Win); })]);
+
+ var y2Axis = svg1.append("g")
+      .attr("class", "axisRed")
+      .attr("transform", "translate( " + width + ", 0 )")
+      .call(d3.axisRight(y2));
+
+		
+	//x1.domain(data.map(function(d) { return d.Season; }));
+	//console.log(x1.domain());
+//	y1.domain([90, d3.max(data, function(d) {return Math.max(d.Ortg);})]);
+  //y2.domain([0, d3.max(data, function(d) {return Math.max(d.Win); })]);
+  
+	
+var line1 = d3.line()
+  .x(function(d) { return x1(d.Season); })
+	.y(function(d) { return y1(d.Ortg); });
+
+  
+// define the line
+var line2 = d3.line()
+  .x(function(d) { return x1(d.Season); })
+	.y(function(d) { return y2(d.Win); });
+	
+	
+
+	
+
+	  
+	  
+	  	//y1.domain([90, d3.max(selectTeam.values, function(d) {return Math.max(d.Ortg);})]);
+		console.log(y1.domain());
+		console.log(y2.domain());
+  //y2.domain([0, d3.max(selectTeam.values, function(d) {return Math.max(d.Win); })]);
+  
+	  
+	 var drawLine1 = svg1.append("g")
+    		.attr("class", "line-and-dots")
+       // .attr("transform", "translate(" + ((margin.left + margin.right) / 2) + "," + 0 + ")")
+	
+	drawLine1.append("path")
+     .data(selectTeam.values)
+      .attr("class", "line")
+	  .style("fill","none")
+	  .style("stroke","black")
+	  .style("stroke-width","2px")
+      .attr("d", line1(selectTeam.values))
+			
+			
+	drawLine1.selectAll("line-circle")
+			.data(selectTeam.values)
+			.enter().append("circle")
+			.attr("class", "line-circle")
+        .attr("r", 3)
+        .attr("cx", function(d) { return x1(d.Season); })
+        .attr("cy", function(d) { return y1(d.Ortg); })
+		.on("mouseover", mouseover)
+			.on("mousemove", mousemove)
+			.on("mouseleave", mouseleave);
+	  	//console.log(selectTeam.values);
+		
+	var drawline2 = svg1.append("g")
+		.attr("class", "line-and-dots")
+	
+	
+	drawline2.append("path")
+     .data(selectTeam.values)
+      .attr("class", "line")
+	  .style("fill","none")
+	  .style("stroke","Brown")
+	  .style("stroke-width","2px")
+      .attr("d", line2(selectTeam.values))
+			
+			
+			
+			drawline2.selectAll("line-circle")
+			.data(selectTeam.values)
+			.enter().append("circle")
+			.attr("class", "line-circle")
+			.style("fill","brown")
+			.attr("r", 3)
+			.attr("cx", function(d) { return x1(d.Season); })
+			.attr("cy", function(d) { return y2(d.Win); })
+			.on("mouseover", mouseover)
+			.on("mousemove", mousemove)
+			.on("mouseleave", mouseleave);
+	  	//console.log(selectTeam.values);
+	// add axis title
+svg1.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + 40) + ")")
+      .style("text-anchor", "middle")
+	  .style("font-size","18px")
+	  .style("font-weight", "bold")
+      .text("Season");
+	  
+svg1.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ -65 +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+			.style("font-size","16px")
+			.style("font-weight", "bold")
+			.style("fill","black")
+            .text("Offensive Rating");
+svg1.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ (width+35) +","+(height/2)+")rotate(90)")  // text is drawn off the screen top left, move down and out and rotate
+			.style("font-size","16px")
+			.style("font-weight", "bold")
+			.style("fill","Brown")
+            .text("Winning Percentage");
+	}
+	
+	// run update function when dropdown selection changes
+    teamMenu.on("change", function() {
+      // find which location was selected from the dropdown
+      var selectedTeam = d3.select(this)
+        .select("select")
+        .property("value");
+      currentTeamIndex = +selectedTeam;
+      // run update function with selected location
+      svg1.selectAll("text").remove();
+	  svg1.selectAll("text").remove();
+	  svg1.selectAll("path").remove();
+	  svg1.selectAll("g").remove();
+	  updateLine(teams[currentTeamIndex]);
+    })
+	
+	});  
+
+
+</script>

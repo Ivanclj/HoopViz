@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<style type="text/css">
+
+.axis line {
+  stroke-width:2px;
+  stroke: #ccc;
+  stroke-dasharray: 2px 2px;
+}
+
+.axis text {
+  font-size: 12px;
+  fill: #777;
+}
+
+/*.axis path {
+  display: left;
+}*/
+
+.circle-group text {
+  fill: #aaa; /*grey out text*/
+  font-size: 11px;
+}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center; 
+    width: auto;
+    height: auto;           
+    padding: 2px;       
+    font: 10px sans-serif;    
+    background: gold; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+
+
+/*NEW CSS GOES HERE*/
+
+</style>
+
+<body>
+  <div id='titleDiv'></div>
+  <div id="buttonsDiv"></div>
+  <div id="second_buttonsDiv"></div>
+  
+</body>
+
+<script>
+
+
+
+
+// Add a title. This could alternatively be done above in the html section
+d3.select('#titleDiv')
+  .append('h1')
+  .attr('id', 'titleText')
+  .text(' AVG 3PT Attempts in past 20 years by Nationality')
+
+
+
+
+var radius = 7;
+
+var transitionTime = 500;
+
+var margin = {top: 20, right: 10, bottom: 40, left: 60};
+// Then define width and height as the inner dimensions of the chart area.
+var width = 980 - margin.left - margin.right,
+    height = 520 - margin.top - margin.bottom;
+// Lastly, define svg as a G element that translates the origin to the top-left corner of the chart area.
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xScale = d3.scaleTime()
+  .domain([new Date(2000, 0, 1), new Date(2019, 0, 1)])
+  .range([0, width]);
+
+var yScale = d3.scaleLinear()
+  .range([height, 0])
+
+var xAxis = d3.axisBottom(xScale)
+  .tickSizeInner(-height);
+
+var yAxis = d3.axisLeft(yScale).tickSizeInner(-width);
+  // *14* add gridlines
+  // .tickSize(-width);
+
+// // Define xAxisGroup and yAxisGroup. Will call the appropriate axis within ready function
+var xAxisGroup = svg.append("g")
+    .attr("class", "x axis") //gives group the classes `x` and `axis`
+    .attr("transform", "translate(0," + height + ")");
+
+  // text label for the x axis
+svg.append("text")             
+    .attr("transform",
+          "translate(" + (width/2) + " ," + 
+                         (height+height/16) + ")")
+    .style("text-anchor", "middle")
+    .text("Year");
+
+var yAxisGroup = svg.append("g")
+    .attr("class", "y axis"); //gives group the classes `y` and `axis`
+
+
+  // text label for the y axis
+svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left)
+    .attr("x",0 - (height / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .text("Mean 3PT Attempts per Season"); 
+
+
+
+
+
+// define dataSwap function
+function updateLegend(datasetGroup,ii,players,Top_Players) {
+  if(ii == 1){
+
+  }else{
+    d3.selectAll('.players').remove()
+    d3.selectAll('.legend').remove()
+    d3.selectAll('.playerline').remove()
+    d3.selectAll('.playersCircle').remove()
+    d3.selectAll('.playersText').remove()
+    d3.selectAll('.tooltip').remove()  
+    d3.selectAll('.multiple').remove()  
+    
+
+
+  }
+
+
+  // filter data to get new data subset based on year
+  var thisDataGroup = players.filter(function(d) { return d.csv == datasetGroup});
+  //console.log(thisDataGroup[0])
+
+  // index to index Top player later
+  var value = 0;
+
+  var top_players_datagrp = Top_Players.filter(function(d) {
+    if(datasetGroup == 'nationality'){
+      value = 'birth_country';
+      return d.choice == 'Nation_Volume'
+    }else if(datasetGroup == 'height'){
+      value = 'size';
+      return d.choice == 'Height_Volume'
+    }else{
+      value = 'Pos';
+      return d.choice == 'Position_Volume'
+    }
+  })
+  
+  // define scale domains using new data, pass newly defined scales into axes, call axes for each axis group
+  
+
+  yScale
+    .domain([d3.min(thisDataGroup, function(d) { return d.mean_atmp; })-10,d3.max(thisDataGroup, function(d) { return d.mean_atmp; })+10]);
+
+  xAxis.scale(xScale);
+
+  yAxis.scale(yScale);
+
+  xAxisGroup
+    .call(xAxis);
+
+  yAxisGroup
+    .transition()
+    .duration(transitionTime)
+    .call(yAxis);
+
+      //get diff fill color
+  var cValue = function(d){return d['value'];},
+    color = d3.scaleOrdinal(d3.schemeCategory10);
+
+  // set the colour scale
+  var mycolor = d3.scaleOrdinal(d3.schemeCategory10);
+
+
+  // Define the line
+  // 7. d3's line generator
+  var valueline = d3.line()
+      .x(function(d) { return xScale(d.year);  })
+      .y(function(d) { return yScale(d.mean_atmp);  })
+
+   // Nest the entries by series
+  var dataNest = d3.nest()
+      .key(function(d) {return d['value'];})
+      .entries(thisDataGroup);
+
+  //console.log(dataNest);
+
+
+
+  dataNest.forEach(function(d,i) { 
+          svg.append("path")
+              .style('fill','none')
+              .attr("class", "playerline")
+              .style("stroke", function() { // Add the colours dynamically
+                  return d.color = mycolor(d.key); })
+              .attr("d", valueline(d.values));
+
+
+          var legend = svg.selectAll(".legend")
+              .data(mycolor.domain())
+              .enter().append("g")
+              .attr("class", "legend")
+              .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+          var legend_X = width/100;
+          var legend_y = height/100;
+          
+
+          legend.append("rect")
+              .attr('x',legend_X )
+              .attr('y',legend_y)
+              .attr("width", 17)
+              .attr("height", 17)
+              .style("fill", mycolor(d.key));
+
+          legend.append("text")
+              .attr("x", legend_X+width/33)
+              .attr("y", legend_y + height/55)
+              .attr("dy", ".35em")
+              .style("text-anchor", "start")
+              .style('font-size','14px')
+              .text(d.key);
+            });
+
+// added tooltips
+ var info = d3.select("body").append("div") 
+    .attr("class", "tooltip")       
+    .style("opacity", 0);
+
+// vars needed for finding images
+var player_name = 'James_Harden';
+var img_path = '/Images/Player_Images/'+player_name+'.png';
+var player_age = 22;
+var player_3pt_attempt = 800;
+var player_3pt_perc = 0.42;
+
+
+
+
+  
+var players = svg.selectAll('.players')
+  .data(thisDataGroup).enter().append('g')
+  .attr('class', 'players')
+  // *13* fix x axis format
+  // .attr('transform', function(d) { return 'translate(' + xScale(d.month) + ',' + yScale(d.count) + ')'})
+  .attr('transform', function(d) { return 'translate(' + xScale(d.year) + ',' + yScale(d.mean_atmp) + ')'})
+  .on('mouseenter', function(d) {
+  // define hover events
+    // d3.select(this)
+    //   .select('text')
+    //   .transition()
+    //   .duration(0)
+    //   .style('opacity', 1)
+    
+    d3.selectAll('circle')
+      .style('opacity', 0.5)
+
+    d3.select(this)
+      .select('circle')
+      .transition()
+      .ease(d3.easeElastic)
+      .duration(transitionTime)
+      .attr('r', radius*2)
+      .style('opacity', 1)
+
+    info.transition()   
+        .duration(200)   
+        .style("opacity", .9)
+         ;
+    info.html("3PT shots attempted: " + d3.format(".1f")(d.three_atmp) +
+                "<br><br>3PT shots made: " + d3.format(".1f")(d.three_made) +
+                "<br><br>3PT shots %: " + d3.format(".1%")(d.perc_made)+
+                "<br><br>Avg shots attempted: " + d3.format(".1f")(d.mean_atmp) +
+                "<br><br>Number in group: " + d3.format(".1f")(d.num)) 
+        .style("left", (d3.event.pageX) + "px")   
+        .style("top", (d3.event.pageY - 28) + "px");
+
+    var tmp_ye = +d.year;
+    var tmp_value = d['value'];
+
+    var tmp_data = top_players_datagrp.filter(function(d) { return d[value] == tmp_value})
+    tmp_data = tmp_data.filter(function(d){return +d.year == tmp_ye})[0];
+
+
+    name_splits = tmp_data['Player'].split(' ');
+    player_name = name_splits[0]+'_'+name_splits[1];
+    img_path = '/Images/Player_Images/'+player_name+'.png';
+    player_age = tmp_data['Age'];
+    player_3pt_attempt = tmp_data['attempt_3P'];
+    player_3pt_perc = tmp_data['percent_3P'];
+
+
+
+    })
+  .on('mouseleave', function(d) {
+  // // define mouseleave events
+  //   d3.select(this)
+  //     .select('text')
+  //     .transition()
+  //     .style('opacity', 0)
+
+    d3.select(this)
+      .select('circle')
+      .transition()
+      .ease(d3.easeElastic)
+      .duration(transitionTime)
+      .attr('r', radius)
+
+    d3.selectAll('circle')
+      .style('opacity', 1)
+
+    info.transition()    
+    .duration(500)    
+    .style("opacity", 0); 
+  })
+  .on('click', function(d){
+    info.transition()
+    .duration(500)
+    .style("opacity", .9);
+    info.html("<span style='color:black'><h1>Best Shooter</h1><img src="+ 
+      img_path+" width='150' height='150'><p>Name: "+
+      player_name +"<br> Age: "+player_age+" <br> 3pt Attempts: "+
+      player_3pt_attempt+" <br> 3pt perc: "+player_3pt_perc+"</p></span>")
+        .style("left", (d3.event.pageX) + "px")   
+        .style("top", (d3.event.pageY - 28) + "px");
+
+
+  });
+
+players.append('circle')
+  .attr('class', 'playersCircle')
+  // *15* lime green circle fill (This is to show that can also be added using D3)
+  .style('fill', function(d){return color(cValue(d));})
+  .attr('r', radius);
+
+var round_number = d3.format(".1f");
+
+players.append('text')
+  .attr('class', 'playersText')
+  .attr('dx', 8)
+  .attr('dy', -8)
+  .text(function(d) { return round_number(d.mean_atmp);})
+  .style('font-size','10px')
+  .style('opacity',0.7);
+
+
+
+  // update title
+  d3.select('#titleText')
+    .text(' AVG 3PT Attempts in past 20 years by '+ datasetGroup)
+
+  //remove old elements
+
+  
+
+}
+
+
+function updateLegend2(datasetGroup,ii,players,Top_Players) {
+  if(ii == 1){
+
+  }else{
+
+    d3.selectAll('.players').remove()
+    d3.selectAll('.legend').remove()
+    d3.selectAll('.playerline').remove()
+    d3.selectAll('.playersCircle').remove()
+    d3.selectAll('.playersText').remove()
+    d3.selectAll('.tooltip').remove()  
+    d3.selectAll('.y.axis .tick').remove()  
+    d3.selectAll('.multiple').remove()  
+    
+
+  }
+
+
+  // filter data to get new data subset based on year
+  var thisDataGroup = players.filter(function(d) { return d.csv == datasetGroup});
+  //console.log(thisDataGroup[0])
+
+  // index to index Top player later
+  var value = 0;
+
+  var top_players_datagrp = Top_Players.filter(function(d) {
+    if(datasetGroup == 'nationality'){
+      value = 'birth_country';
+      return d.choice == 'Nation_Volume'
+    }else if(datasetGroup == 'height'){
+      value = 'size';
+      return d.choice == 'Height_Volume'
+    }else{
+      value = 'Pos';
+      return d.choice == 'Position_Volume'
+    }
+  })
+  
+  // define scale domains using new data, pass newly defined scales into axes, call axes for each axis group
+
+
+       // Nest the entries by series
+  var dataNest = d3.nest()
+      .key(function(d) {return d['value'];})
+      .entries(thisDataGroup);
+
+
+  var level_ls = dataNest.map(function(d) { return d.key; });
+
+
+    var y0 = d3.scaleBand()
+      .domain(level_ls)
+      .rangeRound([0, height], .15, 0);
+
+    var yScale = d3.scaleLinear()
+        .range([y0.bandwidth(), 0]);
+
+    yScale
+      .domain([d3.min(thisDataGroup, function(d) { return d.mean_atmp; })-10,d3.max(thisDataGroup, function(d) { return d.mean_atmp; })+10]);
+
+    xAxis.scale(xScale);
+
+    yAxis.scale(yScale);
+
+    xAxisGroup
+      .call(xAxis);
+
+    yAxisGroup
+      .transition()
+      .duration(transitionTime)
+      .call(yAxis);
+
+        //get diff fill color
+    var cValue = function(d){return d['value'];},
+      color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    // set the colour scale
+    var mycolor = d3.scaleOrdinal(d3.schemeCategory10);
+
+
+    var multiple = svg.selectAll(".multiple")
+    .data(y0.domain().map(function(d) { return {name: d}; }))
+    .enter().append("g")
+      .attr("class", function(d,i){return "multiple "+"multiple"+i})
+      .attr("transform", function(d) { return "translate(0," + y0(d.name) + ")"; });
+
+    multiple.append("g")
+        .attr("class", "y axis inside")
+        .call(yAxis.tickSize(-width));
+
+    multiple.append("text")
+    .attr("class", "title")
+    .attr("transform", "translate(" + (width - 6) + "," + (y0.bandwidth() - 6) + ")")
+    .style("text-anchor", "end")
+    .text(function(d) { return d.name.replace(/-/g, " "); });
+
+    // Define the line
+    // 7. d3's line generator
+    var valueline = d3.line()
+        .x(function(d) { return xScale(d.year);  })
+        .y(function(d) { return yScale(d.mean_atmp);  })
+
+
+
+
+
+    
+
+
+
+    dataNest.forEach(function(d,i) {
+
+            svg.select('.multiple'+i).append("path")
+                .style('fill','none')
+                .attr("class", "playerline")
+                .style("stroke", function() { // Add the colours dynamically
+                    return d.color = mycolor(d.key); })
+                .attr("d", valueline(d.values))
+              
+
+            var legend = svg.selectAll(".legend")
+                .data(mycolor.domain())
+                .enter().append("g")
+                .attr("class", "legend")
+                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+            var legend_X = width/100;
+            var legend_y = height/100;
+            
+
+            legend.append("rect")
+                .attr('x',legend_X )
+                .attr('y',legend_y)
+                .attr("width", 17)
+                .attr("height", 17)
+                .style("fill", mycolor(d.key));
+
+            legend.append("text")
+                .attr("x", legend_X+width/33)
+                .attr("y", legend_y + height/55)
+                .attr("dy", ".35em")
+                .style("text-anchor", "start")
+                .style('font-size','14px')
+                .text(d.key);
+              });
+
+  // added tooltips
+   var info = d3.select("body").append("div") 
+      .attr("class", "tooltip")       
+      .style("opacity", 0);
+
+  // vars needed for finding images
+  var player_name = 'James_Harden';
+  var img_path = '/Images/Player_Images/'+player_name+'.png';
+  var player_age = 22;
+  var player_3pt_attempt = 800;
+  var player_3pt_perc = 0.42;
+
+
+
+
+ dataNest.forEach(function(d,i) { 
+
+  //console.log(thisDataGroup)
+
+    var this_key = d.key
+    var tmp_data = thisDataGroup.filter(function(d){
+        return d['value'] == this_key;
+      })
+
+
+
+    var players = d3.select('.multiple'+i).selectAll('.players'+i)
+      .data(tmp_data).enter().append('g')
+      .attr('class', 'players'+i)
+      // *13* fix x axis format
+      // .attr('transform', function(d) { return 'translate(' + xScale(d.month) + ',' + yScale(d.count) + ')'})
+      .attr('transform', function(d) { return 'translate(' + xScale(d.year) + ',' + yScale(d.mean_atmp) + ')'})
+      .on('mouseenter', function(d) {
+      // define hover events
+        // d3.select(this)
+        //   .select('text')
+        //   .transition()
+        //   .duration(0)
+        //   .style('opacity', 1)
+        
+        d3.selectAll('circle')
+          .style('opacity', 0.5)
+
+        d3.select(this)
+          .select('circle')
+          .transition()
+          .ease(d3.easeElastic)
+          .duration(transitionTime)
+          .attr('r', radius*2)
+          .style('opacity', 1)
+
+        info.transition()   
+            .duration(200)   
+            .style("opacity", .9)
+             ;
+        info.html("3PT shots attempted: " + d3.format(".1f")(d.three_atmp) +
+                    "<br><br>3PT shots made: " + d3.format(".1f")(d.three_made) +
+                    "<br><br>3PT shots %: " + d3.format(".1%")(d.perc_made)+
+                    "<br><br>Avg shots attempted: " + d3.format(".1f")(d.mean_atmp) +
+                    "<br><br>Number in group: " + d3.format(".1f")(d.num)) 
+            .style("left", (d3.event.pageX) + "px")   
+            .style("top", (d3.event.pageY - 28) + "px");
+
+        var tmp_ye = +d.year;
+        var tmp_value = d['value'];
+
+        var tmp_data = top_players_datagrp.filter(function(d) { return d[value] == tmp_value})
+        tmp_data = tmp_data.filter(function(d){return +d.year == tmp_ye})[0];
+
+
+        name_splits = tmp_data['Player'].split(' ');
+        player_name = name_splits[0]+'_'+name_splits[1];
+        img_path = '/Images/Player_Images/'+player_name+'.png';
+        player_age = tmp_data['Age'];
+        player_3pt_attempt = tmp_data['attempt_3P'];
+        player_3pt_perc = tmp_data['percent_3P'];
+
+
+
+      })
+    .on('mouseleave', function(d) {
+    // // define mouseleave events
+    //   d3.select(this)
+    //     .select('text')
+    //     .transition()
+    //     .style('opacity', 0)
+
+      d3.select(this)
+        .select('circle')
+        .transition()
+        .ease(d3.easeElastic)
+        .duration(transitionTime)
+        .attr('r', radius)
+
+      d3.selectAll('circle')
+        .style('opacity', 1)
+
+      info.transition()    
+      .duration(500)    
+      .style("opacity", 0); 
+    })
+    .on('click', function(d){
+      info.transition()
+      .duration(500)
+      .style("opacity", .9);
+      info.html("<span style='color:black'><h1>Best Shooter</h1><img src="+ 
+        img_path+" width='150' height='150'><p>Name: "+
+        player_name +"<br> Age: "+player_age+" <br> 3pt Attempts: "+
+        player_3pt_attempt+" <br> 3pt perc: "+player_3pt_perc+"</p></span>")
+          .style("left", (d3.event.pageX) + "px")   
+          .style("top", (d3.event.pageY - 28) + "px");
+
+
+    });
+
+  players.append('circle')
+    .attr('class', 'playersCircle')
+    // *15* lime green circle fill (This is to show that can also be added using D3)
+    .style('fill', function(d){return color(cValue(d));})
+    .attr('r', radius);
+
+
+  var round_number = d3.format(".1f");
+
+  players.append('text')
+    .attr('class', 'playersText')
+    .attr('dx', 8)
+    .attr('dy', -8)
+    .text(function(d) { return round_number(d.mean_atmp);})
+    .style('font-size','10px')
+    .style('opacity',0.7);
+
+
+
+  });
+
+
+
+  // update title
+  d3.select('#titleText')
+    .text(' AVG 3PT Attempts in past 20 years by '+ datasetGroup)
+
+  //remove old elements
+
+  
+
+}
+
+
+
+//////-----READ IN DATA----/////////
+d3.queue()
+.defer(d3.csv, "Final_Data/All_Year.csv")
+.defer(d3.csv, "/Final_Data/Top_Players.csv")
+.await(function(error, players, top_players) {
+    if (error) {
+        console.error('Oh dear, something went wrong: ' + error);
+    }
+    else {
+        var parser = d3.timeParse('%Y');
+
+        // format data 
+        players.forEach(function(d) {
+            d.year = parser(d.year);
+            d.mean_atmp = +d.mean_atmp;
+            d.num = +d.num;
+
+        })
+
+        top_players.forEach(function(d) {
+            d.year = parser(d.year);
+        });
+
+
+      updateLegend('nationality',1,players,top_players);
+
+        var nest = d3.nest()
+        .key(function(d){
+          return d.csv;
+        })
+        // .key(function(d){
+        //   return d['value'];
+        // })
+        .entries(players)
+        //console.log(nest[0])
+          // create buttons
+      var buttons = d3.select("#buttonsDiv")
+
+
+      // var image = svg.append('image').attr("xlink:href", '/Images/Player_Images/James_Harden.png')
+      //     .attr("width", 50)
+      //     .attr("height", 50)
+      //     .attr("x", 30)
+      //     .attr("y", 10);
+
+      buttons.append("select")
+        .selectAll("option")
+            .data(nest)
+            .enter()
+            .append("option")
+            .attr("value", function(d){
+                return d.key;
+            })
+            .text(function(d){
+                return d.key;
+            })
+      buttons.on('change', function() {
+          var newData = d3.select(this)
+          .select('select')
+          .property('value');
+          // console.log(newData)
+          updateLegend(newData,2,players,top_players);
+        });
+
+      var second_button = d3.select('#second_buttonsDiv')
+
+      var second_button_choices = ['stacked','facet']
+
+      second_button.append("select")
+        .selectAll("option")
+            .data(second_button_choices)
+            .enter()
+            .append("option")
+            .attr("value", function(d){
+                return d;
+            })
+            .text(function(d){
+                return d;
+            })
+      
+      second_button.on('change', function() {
+          var newData = d3.select(this)
+          .select('select')
+          .property('value');
+          // console.log(newData)
+          if(newData == 'stacked'){
+            var first_button = d3.select('#buttonsDiv')
+                                .select('select').property('value')
+            updateLegend(first_button,2,players,top_players);
+          }else{   
+            var first_button = d3.select('#buttonsDiv')
+                                .select('select').property('value')
+
+            updateLegend2(first_button,2,players,top_players);
+
+          }
+        });
+    }
+
+});
+
+
+</script>

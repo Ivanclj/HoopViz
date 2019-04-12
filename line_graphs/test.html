@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<style type="text/css">
+
+.axis line {
+  stroke-width:2px;
+  stroke: #ccc;
+  stroke-dasharray: 2px 2px;
+}
+
+.axis text {
+  font-size: 12px;
+  fill: #777;
+}
+
+/*.axis path {
+  display: left;
+}*/
+
+.circle-group text {
+  fill: #aaa; /*grey out text*/
+  font-size: 11px;
+}
+.line {
+  fill: none;
+  stroke: #EF5285;
+  stroke-width: 2px;
+}
+
+
+
+/*NEW CSS GOES HERE*/
+
+</style>
+
+<body>
+  <div id='titleDiv'></div>
+  <div id="buttonsDiv"></div>
+</body>
+
+<script>
+
+
+
+
+
+
+
+
+// Add a title. This could alternatively be done above in the html section
+d3.select('#titleDiv')
+  .append('h1')
+  .attr('id', 'titleText')
+  .text(' AVG 3PT Attempts in past 20 years by Nationality')
+
+
+var radius = 7;
+
+var transitionTime = 500;
+
+var margin = {top: 20, right: 10, bottom: 40, left: 60};
+// Then define width and height as the inner dimensions of the chart area.
+var width = 980 - margin.left - margin.right,
+    height = 520 - margin.top - margin.bottom;
+// Lastly, define svg as a G element that translates the origin to the top-left corner of the chart area.
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xScale = d3.scaleTime()
+  .domain([new Date(2000, 0, 1), new Date(2019, 0, 1)])
+  .range([0, width]);
+
+var yScale = d3.scaleLinear()
+  .range([height, 0])
+
+var xAxis = d3.axisBottom(xScale)
+  .tickSize(-height);
+
+var yAxis = d3.axisLeft(yScale)
+  // *14* add gridlines
+  // .tickSize(-width);
+
+// Define xAxisGroup and yAxisGroup. Will call the appropriate axis within ready function
+var xAxisGroup = svg.append("g")
+    .attr("class", "x axis") //gives group the classes `x` and `axis`
+    .attr("transform", "translate(0," + height + ")");
+
+  // text label for the x axis
+svg.append("text")             
+    .attr("transform",
+          "translate(" + (width/2) + " ," + 
+                         (height+height/16) + ")")
+    .style("text-anchor", "middle")
+    .text("Year");
+
+var yAxisGroup = svg.append("g")
+    .attr("class", "y axis"); //gives group the classes `y` and `axis`
+
+
+  // text label for the y axis
+svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left)
+    .attr("x",0 - (height / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .text("Mean 3PT Attempts per Season"); 
+
+  // 7. d3's line generator
+  var valueline = d3.line()
+      .x(function(d) { return xScale(d.year);  })
+      .y(function(d) { return yScale(d.mean_atmp);  })
+
+// transforming data into json
+d3.csv("Final_Data/All_Year.csv",ready)
+
+function ready(error, data) {
+
+  if (error) return console.warn(error);
+  console.log(data[0])
+
+  window.data = data;
+
+  var parser = d3.timeParse('%Y');
+
+  // format data
+  data.forEach(function(d) {
+      d.year = parser(d.year);
+      d.mean_atmp = +d.mean_atmp;
+      d.num = +d.num;
+
+  });
+
+  var nest = d3.nest()
+  .key(function(d){
+    return d.csv;
+  })
+  .key(function(d){
+    return d['value'];
+  })
+  .entries(data)
+
+  console.log(nest[0])
+
+  // Create a dropdown
+  var buttons = d3.select("#buttonsDiv")
+
+  buttons
+  .append("select")
+  .selectAll("option")
+      .data(nest)
+      .enter()
+      .append("option")
+      .attr("value", function(d){
+          return d.key;
+      })
+      .text(function(d){
+          return d.key;
+      })
+
+    // Function to create the initial graph
+  var initialGraph = function(datagrp){
+
+    // Filter the data to include only fruit of interest
+    var selectFruit = nest.filter(function(d){
+                return d.key == datagrp;
+              })
+
+    //console.log(selectFruit[0])
+    yScale
+    .domain([d3.min(data, function(d) { return d.mean_atmp; })-10,d3.max(data, function(d) { return d.mean_atmp; })+10]);
+
+    xAxis.scale(xScale)
+
+    yAxis.scale(yScale)
+
+    xAxisGroup.call(xAxis);
+
+    yAxisGroup.call(yAxis);
+
+    //get diff fill color
+  var cValue = function(d){return d['value'];},
+    color = d3.scaleOrdinal(d3.schemeCategory10);
+
+  // set the colour scale
+  var mycolor = d3.scaleOrdinal(d3.schemeCategory10);
+
+
+      var players = svg.selectAll(".players")
+        .data(selectFruit, function(d){
+          return d ? d.key : this.key;
+        })
+        .enter()
+        .append("g")
+        .attr("class", "players")
+
+
+            var initialPath = players.selectAll(".line")
+              .data(function(d) { return d.values; })
+              .enter()
+              .append("path")
+
+    initialPath
+      //.style('fill','none')
+    //   .style("stroke", function() { // Add the colours dynamically
+    // return d.color = mycolor(d.key); })
+      .attr("d", function(d){
+        return valueline(d.values)
+      })
+      .attr("class", "line")
+
+  }
+
+  // Create initial graph
+  initialGraph("nationality")
+
+
+
+  // Update the data
+  var updateGraph = function(fruit){
+
+    // Filter the data to include only fruit of interest
+    var selectFruit = nest.filter(function(d){
+                return d.key == fruit;
+              })
+
+    // Select all of the grouped elements and update the data
+      var selectFruitGroups = svg.selectAll(".players")
+        .data(selectFruit)
+
+        // Select all the lines and transition to new positions
+            selectFruitGroups.selectAll("path.line")
+               .data(function(d){
+                  return (d.values);
+                })
+                .transition()
+                  .duration(500)
+                  .attr("d", function(d){
+                    return valueline(d.values)
+                  })
+
+
+  }
+
+
+  // Run update function when dropdown selection changes
+  buttons.on('change', function(){
+
+    // Find which fruit was selected from the dropdown
+    var selectedFruit = d3.select(this)
+            .select("select")
+            .property("value")
+
+        // Run update function with the selected fruit
+        updateGraph(selectedFruit)
+
+
+    });
+
+
+  
+
+
+  //   // filter to define startData
+  // var startData = data.filter(function(d) { return d.csv == 'nationality'; })
+
+  // yScale
+  //   .domain([d3.min(data, function(d) { return d.mean_atmp; })-10,d3.max(data, function(d) { return d.mean_atmp; })+10]);
+
+  // xAxis.scale(xScale)
+
+  // yAxis.scale(yScale)
+
+  // xAxisGroup.call(xAxis);
+
+  // yAxisGroup.call(yAxis);
+
+  //   //get diff fill color
+  // var cValue = function(d){return d['value'];},
+  //   color = d3.scaleOrdinal(d3.schemeCategory10);
+
+  // // set the colour scale
+  // var mycolor = d3.scaleOrdinal(d3.schemeCategory10);
+
+
+  // Define the line
+  // // 7. d3's line generator
+  // var valueline = d3.line()
+  //     .x(function(d) { return xScale(d.year);  })
+  //     .y(function(d) { return yScale(d.mean_atmp);  })
+
+//    // Nest the entries by series
+//   var dataNest = d3.nest()
+//       .key(function(d) {return d['value'];})
+//       .entries(startData);
+
+
+
+// dataNest.forEach(function(d,i) { 
+//         svg.append("path")
+//             .style('fill','none')
+//             .attr("class", "playerline")
+//             .style("stroke", function() { // Add the colours dynamically
+//                 return d.color = mycolor(d.key); })
+//             .attr("d", valueline(d.values));
+
+
+//         var legend = svg.selectAll(".legend")
+//             .data(mycolor.domain())
+//             .enter().append("g")
+//             .attr("class", "legend")
+//             .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+//         var legend_X = width/100;
+//         var legend_y = height/100;
+        
+
+//         legend.append("rect")
+//             .attr('x',legend_X )
+//             .attr('y',legend_y)
+//             .attr("width", 17)
+//             .attr("height", 17)
+//             .style("fill", mycolor(d.key));
+
+//         legend.append("text")
+//             .attr("x", legend_X+width/33)
+//             .attr("y", legend_y + height/55)
+//             .attr("dy", ".35em")
+//             .style("text-anchor", "start")
+//             .style('font-size','14px')
+//             .text(d.key);
+//           });
+
+// var players = svg.selectAll('.players')
+//   .data(startData).enter().append('g')
+//   .attr('class', 'players')
+//   // *13* fix x axis format
+//   // .attr('transform', function(d) { return 'translate(' + xScale(d.month) + ',' + yScale(d.count) + ')'})
+//   .attr('transform', function(d) { return 'translate(' + xScale(d.year) + ',' + yScale(d.mean_atmp) + ')'})
+//   .on('mouseenter', function(d) {
+//   // define hover events
+//     d3.select(this)
+//       .select('text')
+//       .transition()
+//       .duration(0)
+//       .style('opacity', 1)
+    
+//     d3.selectAll('circle')
+//       .style('opacity', 0.5)
+
+//     d3.select(this)
+//       .select('circle')
+//       .transition()
+//       .ease(d3.easeElastic)
+//       .duration(transitionTime)
+//       .attr('r', radius*2)
+//       .style('opacity', 1)
+//     })
+//   .on('mouseleave', function(d) {
+//   // define mouseleave events
+//     d3.select(this)
+//       .select('text')
+//       .transition()
+//       .style('opacity', 0)
+
+//     d3.select(this)
+//       .select('circle')
+//       .transition()
+//       .ease(d3.easeElastic)
+//       .duration(transitionTime)
+//       .attr('r', radius)
+
+//     d3.selectAll('circle')
+//       .style('opacity', 1)
+//   })
+
+// players.append('circle')
+//   .attr('class', 'playersCircle')
+//   // *15* lime green circle fill (This is to show that can also be added using D3)
+//   .style('fill', function(d){return color(cValue(d));})
+//   .attr('r', radius);
+
+// var round_number = d3.format(".1f");
+
+// players.append('text')
+//   .attr('class', 'playersText')
+//   .attr('dx', 8)
+//   .attr('dy', -8)
+//   .text(function(d) { return round_number(d.mean_atmp);})
+//   .style('font-size','10px')
+//   .style('opacity',0);
+
+
+  //   // create buttons
+  // var value_list = d3.set(data.map(function(d) { return d['csv'] ;})).values();
+
+  // d3.select('#buttonsDiv')
+  // .selectAll('button')
+  // .data(value_list)
+  // .enter().append('button')
+  // .text(function(d) { return d; })
+  // .on('click', function(d) {
+  //   dataSwap(d) 
+  // })
+
+
+};
+
+</script>

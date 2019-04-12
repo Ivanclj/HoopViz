@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css">
+body {
+  margin: 0;
+  font-family: arial, sans;
+}
+
+.line {
+    stroke: #E4002B;
+    fill: none;
+    stroke-width: 3;
+}
+
+.title {
+    stroke: #E4002B;
+    font-size: 18px;
+}
+
+.axis line {
+    fill: none;
+    stroke: snow;
+    shape-rendering: crispEdges;
+    stroke-dasharray: 2px 2px;
+}
+
+.label {
+  font-size: 15px;
+}
+
+.trend {
+    stroke: #E4002B;
+    fill: none;
+    stroke-width: 1;
+}
+
+.legend{
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.legend text,
+.axis text {
+  font-size: 13px;
+  fill: #333;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke-width:1px;
+  stroke: #e7e7e7;
+}
+
+circle {
+  stroke: #fff;
+}
+
+.bubble {
+  opacity: .75;
+  transition: opacity 0.3s;
+}
+
+.bubble text {
+  opacity: 0;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+.bubble:hover text {
+  opacity: 1;
+}
+
+.bubble image {
+  opacity: 0;
+}
+
+.bubble:hover image {
+  opacity: 1;
+}
+
+.bubble:hover circle {
+  fill-opacity: 1;
+}
+
+body,html {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+  stroke: snow;
+}
+.bg {
+  /* The image used */
+  background-image: url("/Images/black_wood_court.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 8em;
+  margin-right: 0;
+  font-weight: bold
+  ;
+
+}
+.dropbtn {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  float: bottom;
+  /*right: 1260px;
+  top: 0px;*/
+  float: left;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e30e0e;
+}
+</style>
+<body>
+  <div class="bg">
+ <div class="dropdown">
+  <button class="dropbtn"> ☰ Menu</button>
+    <div class="dropdown-content">
+      <a href="/indexes.html">Home</a><br>
+      <a href="/line_chart.html">Player Shooting</a><br>
+      <a href="/heatmapline.html">Team Shooting-HeatMap</a><br>
+      <a href="/CourtChart.html">Team Shooting-CourtMap</a>
+    </div>
+  </div>
+</div></body>
+
+<script src="//d3js.org/d3.v4.0.0-alpha.35.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+
+<script>
+
+d3.select('.bg')
+  .append('h1')
+  .attr('id', 'titleText')
+  .attr('style','color:snow')
+  .text("Playoff success based on three point shooting");
+
+var margin = { top: 50, right: 50, bottom: 50, left: 100 };
+var width = 1350 - margin.left - margin.right;
+var height = 500 - margin.top - margin.bottom;
+
+var svg = d3.select(".bg")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xscale = d3.scaleLinear()
+  .domain([2001,2018])
+  .range([0,width - 300])
+  .nice();
+
+var yscale = d3.scaleLinear()
+  .range([height,0]);
+
+var radius = d3.scaleSqrt()
+  .range([2,8]);
+
+var xAxis = d3.axisBottom()
+  .tickSizeInner(-height)
+  .scale(xscale)
+  .tickFormat(d3.format("d"));
+
+var yAxis = d3.axisLeft()
+  .tickSizeInner(-width + 300)
+  .scale(yscale)
+
+var color = d3.scaleOrdinal()
+      .domain(["Above in both", "Above in portion of shots taken from three", "Above in three point percentage", "Below in both"])
+      .range(["1D4BCF","3EB941","D5C01D","951395"]);
+
+var active_link = "0"; //to control legend selections and hover
+var legendClicked; //to control legend selections
+var legendClassArray = []; //store legend classes to select bars in plotSingle()
+var y_orig; //to store original y-posn
+var x_mean = 0;
+var mean1 = 0;
+var mean2 = 0;
+var mean3 = 0;
+var mean4 = 0;
+var term11 = 0;
+var term12 = 0;
+var term13 = 0;
+var term14 = 0;
+var term2 = 0;
+var x = [];
+var y = [];
+var Names = [];
+var n = 18;
+var Year = [];
+
+d3.csv("test3.csv", function(error, data) {
+  console.log(data);
+  // data pre-processing
+  var format = d3.timeParse("%Y");
+
+  data.forEach(function(d) {
+    d.y = +d["Average_Wins"];
+    d.x = +d["Year"];
+    d.r = +d["Number"];
+    x.push(+d["Year"]);
+    y.push(+d["Average_Wins"]);
+    x_mean += +d["Year"];
+    Names.push(d["Teams"]);
+	Year.push(d["Year"]);
+  });
+  
+  //console.log(Year);
+  // fix this to get the name of all the teams in a group
+  //Names = Names.slice(0).toString().split(",",1)
+  //names_slice = Names.slice(0).toString().split('",',1)
+  //names_slice = Names[0]
+  //console.log(Names);
+  //console.log(names_slice);
+  
+  //names_single = Names.slice(0).toString().split(',',1)
+  //console.log(names_single);
+  
+  mean1 = y.slice(0,18).reduce(add);
+  mean2 = y.slice(18,36).reduce(add);
+  mean3 = y.slice(36,54).reduce(add);
+  mean4 = y.slice(54,72).reduce(add);
+
+  function add(accumulator, a) {
+    return accumulator + a;
+  }
+
+    // calculate mean x and y
+    x_mean /= x.length;
+    mean1 /= n;
+    mean2 /= n;
+    mean3 /= n;
+    mean4 /= n;
+
+    var xr = 0;
+    var yr1 = 0;
+    var yr2 = 0;
+    var yr3 = 0;
+    var yr4 = 0;
+    for (i = 0; i < n; i++) {
+        xr = x[i] - x_mean;
+        yr1 = y[i] - mean1;
+        yr2 = y[i+n] - mean2;
+        yr3 = y[i+2*n] - mean3;
+        yr4 = y[i+3*n] - mean4;
+        term11 += xr * yr1;
+        term12 += xr * yr2;
+        term13 += xr * yr3;
+        term14 += xr * yr4;
+        term2 += xr * xr;
+    }
+
+    var b11 = term11 / term2;
+    var b01 = mean1 - (b11 * x_mean);
+    // perform regression 
+    var b12 = term12 / term2;
+    var b02 = mean2 - (b12 * x_mean);
+    // perform regression 
+    var b13 = term13 / term2;
+    var b03 = mean3 - (b13 * x_mean);
+    // perform regression 
+    var b14 = term14 / term2;
+    var b04 = mean4 - (b14 * x_mean);
+    // perform regression 
+
+    yhat1 = [];
+    yhat2 = [];
+    yhat3 = [];
+    yhat4 = [];
+        // fit line using coeffs
+    for (i = 0; i < n; i++) {
+        yhat1.push(b01 + (x[i] * b11));
+        yhat2.push(b02 + (x[i+n] * b12));
+        yhat3.push(b03 + (x[i+2*n] * b13));
+        yhat4.push(b04 + (x[i+3*n] * b14));
+    }
+
+  data.sort(function(a,b) { return b.r - a.r; });
+
+  yscale.domain(d3.extent(data, function(d) {
+    return d.y;
+  })).nice();
+
+  radius.domain(d3.extent(data, function(d) {
+    return d.r;
+  })).nice();
+
+  svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .attr("class", "x axis")
+    .call(xAxis);
+
+  svg.append("g")
+    .attr("transform", "translate(0,0)")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+  var group = svg.selectAll("g.bubble")
+    .data(data)
+    .enter().append("g")
+    .attr("class", "bubble")
+    .attr("transform", function(d) {
+      return "translate(" + xscale(d.x) + "," + yscale(d.y) + ")"
+    });
+
+  group
+    .append("circle")
+    .attr("r", function(d) { return radius(d.r)*1.5;  })
+    .style("fill", function(d) {
+      return color(d["Category"]);
+    })
+			  
+			  group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[0];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[0];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[0];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[0];
+						  };
+				})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			   group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -15)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[1];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[1];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[1];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[1];
+						  };
+				});
+				
+				group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -30)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[2];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[2];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[2];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[2];
+						  };
+				});
+				
+			   group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -45)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[3];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[3];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[3];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[3];
+						  };
+				});
+				
+			  group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -60)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[4];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[4];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[4];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[4];
+						  };
+				});
+				
+			   group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -75)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[5];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[5];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[5];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[5];
+						  };
+				});
+				
+				group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -90)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[6];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[6];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[6];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[6];
+						  };
+				});
+				
+			   group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -105)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[7];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[7];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[7];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[7];
+						  };
+				});
+				
+				group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -120)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[8];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[8];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[8];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[8];
+						  };
+				});
+				
+				group
+				.append("text")
+				.attr("x", function(d) { return radius(d.r)+10; })
+				.attr("y", -135)
+				.attr("alignment-baseline", "middle")
+				.text(function(d,i) {
+						 if (d["Category"] == "Above in both") {
+								name_slice = (Names[d["Year"] - 2001].slice(0).toString().split(','))
+								return name_slice[9];
+							  }
+							  if (d["Category"] == "Above in portion of shots taken from three") {
+								name_slice = Names[d["Year"] - 2001 + 18].slice(0).toString().split(',')
+								return name_slice[9];
+							  }
+							  if (d["Category"] == "Above in three point percentage") {
+								name_slice = Names[d["Year"] - 2001 + 36].slice(0).toString().split(',')
+								return name_slice[9];
+							  }
+							  if (d["Category"] == "Below in both") {
+								name_slice = Names[d["Year"] - 2001 + 54].slice(0).toString().split(',')
+								return name_slice[9];
+						  };
+				});
+				
+				 group
+					.append("text")
+					.attr("x", function(d) { return radius(d.r)+35; })
+					.attr("y", 30)
+					.attr("alignment-baseline", "middle")
+					//.attr("fill", "red")
+					.text(function(d) {
+					  return d["Winner"];  
+					});
+	
+				group.append('image')
+						.attr("x", function(d) { return radius(d.r); })
+						.attr("y", 15)
+						.attr('width', 30)
+						.attr('height', 30)
+						.attr("alignment-baseline", "middle")
+						.attr('xlink:href', function(d) {if (d["Winner"] == ""){return ''} else {return '/Images/crown.png'}});
+						;
+						
+
+  svg.append("text")
+          .attr('class', 'label')
+          .attr("transform", "rotate(-90)")
+          .attr('x', -200)
+          .attr('y', -50)
+          .style("text-anchor", "middle")
+          .text("Average Wins in the Playoffs");
+
+  svg.append("text")
+    .attr("x", width-725)
+    .attr("y", height+35)
+    .attr("text-anchor", "end")
+    .attr("class", "label")
+    .text("Season");
+
+
+var linearSize = d3.scaleLinear().domain([1,9]).range([3.5, 12]);
+
+svg.append("g")
+  .attr("class", "legendSize")
+  .attr("transform", "translate(" + (width - 200) + "," + (height - 80) + ")")
+
+var legendSize = d3.legendSize()
+  .scale(linearSize)
+  .shape('circle')
+  .title("Teams")
+  .shapePadding(15)
+  .labelFormat(d3.format(".0f"))
+  .labelOffset(20)
+  .orient('horizontal');
+
+svg.select(".legendSize")
+  .call(legendSize);
+
+    svg.append("text")
+    .attr("x", width - 105)
+      .attr("y", height / 2- 25)
+    .attr("text-anchor", "middle")
+    .attr("class", "label")
+    .text("With respect to league average");
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain().slice().reverse())
+    .enter().append("g")
+      .attr("class", function (d) {
+//        legendClassArray.push(d.replace(/\s/g, '')); //remove spaces
+        legendClassArray.push(d); //remove spaces
+        return "legend";
+      })
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("y", height / 2- 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color)
+      .attr("id", function (d, i) {
+//        return "id" + d.replace(/\s/g, '');
+        return "id" + d;
+      })
+      .on("mouseover",function(){        
+
+        if (active_link === "0") d3.select(this).style("cursor", "pointer");
+        else {
+          if (active_link.split("class").pop() === this.id.split("id").pop()) {
+            d3.select(this).style("cursor", "pointer");
+          } else d3.select(this).style("cursor", "auto");
+        }
+      })
+      .on("click",function(d){        
+
+
+        if (active_link === "0") { //nothing selected, turn on this selection
+          d3.select(this)           
+
+            active_link = this.id.split("id").pop();
+            
+
+            plotSingle(this);
+
+            //gray out the others
+            for (i = 0; i < legendClassArray.length; i++) {
+              if (legendClassArray[i] != active_link) {
+                d3.select("#id" + legendClassArray[i])
+                  .style("opacity", .75);
+              }
+            }
+
+           
+        } else { //deactivate
+          if (active_link === this.id.split("id").pop()) {//active square selected; turn it OFF
+            d3.select(this)           
+
+         active_link = "0"; //reset
+
+           //restore remaining boxes to normal opacity
+            for (i = 0; i < legendClassArray.length; i++) {              
+                d3.select("id" + legendClassArray[i])
+                  .style("opacity", .75);
+            }
+
+            //restore plot to original
+            restorePlot(d);
+
+          }
+
+        } //end active_link check
+
+      });
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", height / 2 - 9)
+      .attr("dy", ".35em")
+    .style("text-anchor", "end")
+      .text(function(d) { return d; });
+
+  function restorePlot(d) {
+    
+    svg.selectAll(".trend").remove();
+
+    //restore opacity of erased bars
+    for (i = 0; i < legendClassArray.length; i++) {
+      if (legendClassArray[i] == class_keep) {
+        d3.selectAll(".bubble")
+          .transition()
+          .duration(1000)
+
+          .style("opacity", .75);
+      }
+    }
+
+  }
+
+  function plotSingle(d) {
+
+    class_keep = d.id.split("id").pop();
+    idx = legendClassArray.indexOf(class_keep);
+
+    //erase all but selected bars by setting opacity to 0
+    for (i = 0; i < legendClassArray.length; i++) {
+      if (legendClassArray[i] != class_keep) {
+
+        d3.selectAll(".bubble")
+        .filter(function(d) { return d["Category"] == legendClassArray[i]; })
+         .transition()
+          .duration(1000) 
+        
+          .style("opacity", 0);
+      } else {
+        if (legendClassArray[i] == "Above in both") {
+          svg.append("line")
+          .attr("class", "trend")
+          .style("stroke", "snow")
+          .style("opacity", 1) 
+          .attr("x1", xscale(x[0]))     // x position of the first end of the line
+          .attr("y1", yscale(yhat1[0]))      // y position of the first end of the line
+          .attr("x2", xscale(x[17]))     // x position of the second end of the line
+          .attr("y2", yscale(yhat1[17]));    // y position of the second end of the line
+        }
+        else if (legendClassArray[i] == "Above in portion of shots taken from three") {
+            svg.append("line")
+            .attr("class", "trend")
+            .style("stroke", "snow")
+           .style("opacity", 1) 
+    .attr("x1", xscale(x[18]))     // x position of the first end of the line
+    .attr("y1", yscale(yhat2[0]))      // y position of the first end of the line
+    .attr("x2", xscale(x[35]))     // x position of the second end of the line
+    .attr("y2", yscale(yhat2[17]));    // y position of the second end of the line
+
+        }
+        else if (legendClassArray[i] == "Above in three point percentage") {
+
+  svg.append("line")
+.attr("class", "trend")
+  .style("stroke", "snow")
+  .style("opacity", 1) 
+    .attr("x1", xscale(x[36]))     // x position of the first end of the line
+    .attr("y1", yscale(yhat3[0]))      // y position of the first end of the line
+    .attr("x2", xscale(x[53]))     // x position of the second end of the line
+    .attr("y2", yscale(yhat3[17]));    // y position of the second end of the line
+        }
+        else if (legendClassArray[i] == "Below in both") {
+  svg.append("line")
+.attr("class", "trend")
+  .style("stroke", "snow")
+  .style("opacity", 1) 
+    .attr("x1", xscale(x[54]))     // x position of the first end of the line
+    .attr("y1", yscale(yhat4[0]))      // y position of the first end of the line
+    .attr("x2", xscale(x[71]))     // x position of the second end of the line
+    .attr("y2", yscale(yhat4[17]));    // y position of the second end of the line
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      }
+    }
+   
+  } 
+
+});
+</script>

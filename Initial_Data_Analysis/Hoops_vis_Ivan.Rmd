@@ -1,0 +1,150 @@
+---
+title: "Hoops_vis_Ivan"
+author: "LC"
+date: "2/5/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## library
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(readr)
+```
+
+## read data
+```{r}
+players <- read.csv("~/Desktop/MSIA/Courses/MSIA_411_Data_Vis/Hoop_Viz/Final_Data/players.csv")
+top_players <- read.csv("~/Desktop/MSIA/Courses/MSIA_411_Data_Vis/Hoop_Viz/Final_Data/Top_Players.csv")
+```
+
+## EDA
+```{r}
+str(players)
+summary(players)
+
+str(top_players)
+summary(top_players)
+```
+
+```{r}
+## 3pt attempts in total
+players <- na.omit(players)
+# nationality
+players.agg <- players %>% group_by(birth_country,year) %>% summarise(num = n(),
+                                                                 three_atmp = sum(attempt_3P),
+                                                                 three_made = sum(made_3P),
+                                                                 perc_made = three_made/three_atmp,
+                                                                 mean_atmp = mean(attempt_3P)) %>% 
+  arrange(year)
+
+players.agg
+
+# account for lockout season
+
+players.agg[players.agg$year==2012,'mean_atmp'] = players.agg[players.agg$year==2012,'three_atmp']*(82/66)/
+  players.agg[players.agg$year==2012,'num']
+
+players.agg[players.agg$year==2012,]
+
+# heights
+players$Height <- gsub("'","",players$Height)
+players$Height <- gsub("\"","",players$Height)
+
+players$size[players$Height == "50" | players$Height == "51" | players$Height == "52" | players$Height == "53" | players$Height == "54" | players$Height == "55" | players$Height == "56" | players$Height == "57" | players$Height == "58" | players$Height == "59" | players$Height == "510" | players$Height == "511" | players$Height == "60"]<-"six_feet_and_under"
+
+players$size[players$Height == "61" | players$Height == "62" | players$Height == "63"]<-"six_feet_one_to_three"
+
+players$size[players$Height == "64" | players$Height == "65" | players$Height == "66"]<-"six_feet_four_to_six"
+
+players$size[players$Height == "67" | players$Height == "68" | players$Height == "69"]<-"six_feet_seven_to_nine"
+
+players$size[players$Height == "610" | players$Height == "611"]<-"six_feet_ten_and_eleven"
+
+players$size[players$Height == "70" | players$Height == "71" | players$Height == "72" | players$Height == "73" | players$Height == "74" | players$Height == "75" | players$Height == "76"]<-"seven_feet_and_above"
+
+players.agg.height<- players %>% group_by(size,year) %>% summarise(num = n(),
+                                                                 three_atmp = sum(attempt_3P),
+                                                                 three_made = sum(made_3P),
+                                                                 perc_made = three_made/three_atmp,
+                                                                 mean_atmp = mean(attempt_3P)) %>% 
+  arrange(year)
+
+players.agg.height
+
+players.agg.height[players.agg.height$year==2012,'mean_atmp'] = players.agg.height[players.agg.height$year==2012,'three_atmp']*(82/66)/
+  players.agg.height[players.agg.height$year==2012,'num']
+
+players.agg.height[players.agg.height$year==2012,]
+
+# POS
+players$Pos[players$Pos == "PG-SF"] <- "PG"
+players$Pos[players$Pos == "SG-PF"] <- "SG"
+players.agg.pos<- players %>% group_by(Pos,year) %>% summarise(num = n(),
+                                                                 three_atmp = sum(attempt_3P),
+                                                                 three_made = sum(made_3P),
+                                                                 perc_made = three_made/three_atmp,
+                                                                 mean_atmp = mean(attempt_3P)) %>% 
+  arrange(year)
+
+players.agg.pos
+
+
+players.agg.pos[players.agg.pos$year==2012,'mean_atmp'] = players.agg.pos[players.agg.pos$year==2012,'three_atmp']*(82/66)/
+  players.agg.pos[players.agg.pos$year==2012,'num']
+
+players.agg.pos[players.agg.pos$year==2012,]
+
+
+```
+
+```{r}
+ggplot(data = players.agg)+geom_point(aes(year,mean_atmp,color = birth_country))+geom_line(aes(year,mean_atmp,color = birth_country))
+
+ggplot(data = players.agg)+geom_point(aes(year,num,color = birth_country))+geom_line(aes(year,num,color = birth_country))
+
+
+ggplot(data = players.agg.height)+geom_point(aes(year,mean_atmp,color = size))+geom_line(aes(year,mean_atmp,color = size))
+
+ggplot(data = players.agg.height)+geom_point(aes(year,num,color = size))+geom_line(aes(year,num,color = size))
+
+ggplot(data = players.agg.pos)+geom_point(aes(year,mean_atmp,color = Pos))+geom_line(aes(year,mean_atmp,color = Pos))
+
+ggplot(data = players.agg.pos)+geom_point(aes(year,num,color = Pos))+geom_line(aes(year,num,color = Pos))
+
+
+```
+
+```{r}
+colnames(players.agg)[1] <- 'value'
+colnames(players.agg.height)[1] <- 'value'
+colnames(players.agg.pos)[1] <- 'value'
+
+players.agg$csv <- 'nationality'
+players.agg.height$csv <- 'height'
+players.agg.pos$csv <- 'position'
+
+
+tmp <- rbind(as.matrix(players.agg),as.matrix(players.agg.height),as.matrix(players.agg.pos)) %>% as.data.frame()
+
+```
+
+```{r}
+ggplot(data = tmp[tmp$csv=='nationality',])+geom_point(aes(year,mean_atmp,color = value))+geom_line(aes(year,mean_atmp,color = value))
+
+```
+
+```{r}
+
+# save csv
+write_csv(players.agg,'~/Desktop/MSIA/Courses/MSIA 411 Data Vis/Hoop_Viz/Final_Data/Nation_Year.csv')
+write_csv(players.agg.height,'~/Desktop/MSIA/Courses/MSIA 411 Data Vis/Hoop_Viz/Final_Data/Height_Year.csv')
+write_csv(players.agg.pos,'~/Desktop/MSIA/Courses/MSIA 411 Data Vis/Hoop_Viz/Final_Data/Position_Year.csv')
+write_csv(tmp,'~/Desktop/MSIA/Courses/MSIA_411_Data_Vis/Hoop_Viz/Final_Data/All_Year.csv')
+
+
+```

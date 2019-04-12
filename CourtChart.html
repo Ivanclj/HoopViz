@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js'></script>
+    <script src="https://d3js.org/d3-contour.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+    <script src='CourtChart/Court.js'></script>
+    <script src='CourtChart/Slider.js'></script>
+    <script src='CourtChart/Zones.js'></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700' rel='stylesheet'>
+
+
+  </head>
+  <body>
+  <div class="bg">
+    <div class="dropdown">
+    <button class="dropbtn"> ☰ Menu</button>
+      <div class="dropdown-content">
+        <a href="indexes.html">Home</a><br>
+        <a href="heatmapline.html">Team Shooting-HeatMap</a><br>
+        <a href="scattrend.html">Playoff Success</a>
+        <a href="line_chart.html">Player Shooting</a>
+  
+      </div>
+    </div>
+    <div id="nav-container">
+     <div id="teamDropdown"></div>
+    </div>
+      <div id='court'></div>
+      <div id='zone'></div>
+      <div id='stats'></div>
+
+    <div id='giforlife'>
+      <iframe src="https://giphy.com/embed/UddZtcUQtMgc8" id = infographic
+      width="600" height="450" frameBorder="0" class="giphy-embed" allowFullScreen  ></iframe>
+<!--      <img src= '/Images/courtchart/nba.jpg' id = 'infographic' alt="kuz"  height="400" width="600" > -->
+    </div>
+  </div>
+  <style>
+
+body,html {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  /* The image used */
+  background-image: url("/Images/black_wood_court.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropbtn {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  /*right: 1260px;
+  top: 0px;*/
+  float: left;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e30e0e;
+}
+
+#court {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 50px;
+  bottom: 0px;
+}
+
+.slider rect {
+  fill: silver;
+  shape-rendering: crispEdges;
+}
+
+
+.slider line {
+  fill: snow;
+  stroke: snow;
+  opacity: 0.3;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 90px;
+  padding: 5px;
+  height: 40px;
+  font: 10px sans-serif;
+  opacity: .75;
+  pointer-events: none;
+}
+
+.teamName {
+  position: absolute;
+  text-align: center;
+  width: 90px;
+  padding: 5px;
+  height: 50px;
+  font: 18px Righteous;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.header {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font: 25px Righteous;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.axis text{
+  fill:snow;
+}
+.domain{
+  stroke: snow;
+}
+.tick line{
+  stroke: snow;
+}
+#giforlife {
+  position: absolute;
+  top:130px;
+  left:750px;
+  border-radius: 10%;
+}
+
+iframe{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px gray;
+}
+
+   </style>
+
+    <script>
+      function change_info(option){
+          d3.selectAll('.giforlife').remove()
+
+          if(option == 'All Teams'){
+            info_path = "https://giphy.com/embed/UddZtcUQtMgc8"; 
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Houston Rockets'){
+            info_path = "https://giphy.com/embed/3oAt2dA6LxMkRrGc0g";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Los Angeles Lakers'){
+              info_path = "https://giphy.com/embed/EimNpKJpihLY4"; 
+              document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Dallas Mavericks'){
+            info_path = "https://giphy.com/embed/3mJMwCa0YKnRCHA8ER";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Golden State Warriors'){
+            info_path = "https://giphy.com/embed/5bpZkvrwx0B4PqgQFd";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Cleveland Cavaliers'){
+            info_path = "https://giphy.com/embed/8cDKaE5HFgmE3qQr2a";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Boston Celtics'){
+            info_path = "https://giphy.com/embed/xT9KVlzsyG5MivgM2k";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Atlanta Hawks'){
+            info_path = "https://giphy.com/embed/5dYnAgvjsAEXm60Sg5";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'New Orleans Pelicans'){
+            info_path = "https://giphy.com/embed/l0ErUdFVmzFzlhpyU";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Chicago Bulls'){
+            info_path = "https://giphy.com/embed/3o6YglDndxKdCNw7q8";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Indiana Pacers'){
+            info_path = "https://giphy.com/embed/umWQh108RZcg8";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Brooklyn Nets'){
+            info_path = "https://giphy.com/embed/4Z9nTLOusADmMIoDFd";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Washington Wizards'){
+            info_path = "https://giphy.com/embed/12F7n8D12gc3fO";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Oklahoma City Thunder'){
+            info_path = "https://giphy.com/embed/l0HlG20F6Wk2Gr85y";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Los Angeles Clippers'){
+            info_path = "https://giphy.com/embed/l2YWs9vhysuUzdZAc";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Toronto Raptors'){
+            info_path = "https://giphy.com/embed/3OPDtda81TuxO";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Charlotte Hornets'){
+            info_path = "https://giphy.com/embed/5aYj1JGKG2JfFfZzlq";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Philadelphia 76ers'){
+            info_path = "https://giphy.com/embed/3o7qDFg6xkLxOVdZTi";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Memphis Grizzlies'){
+            info_path = "https://giphy.com/embed/YfACqrGia4YV2";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Denver Nuggets'){
+            info_path = "https://giphy.com/embed/8L1ujYNdNCS8EAe6Pg";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Miami Heat'){
+            info_path = "https://giphy.com/embed/9t6xpYZ9npJmM";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'San Antonio Spurs'){
+            info_path = "https://giphy.com/embed/3orieQksWxnylxGeM8";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Milwaukee Bucks'){
+            info_path = "https://giphy.com/embed/xT0xeAzRFyLb9VNPt6";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Orlando Magic'){
+            info_path = "https://giphy.com/embed/xUA7aUOybCDbpN5s6k";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Detroit Pistons'){
+            info_path = "https://giphy.com/embed/3o6fJaT95ICDXOhE1G";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Detroit Pistons'){
+            info_path = "https://giphy.com/embed/3o6fJaT95ICDXOhE1G";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Minnesota Timberwolves'){
+            info_path = "https://giphy.com/embed/4T1Kl9Vm2mDtrwY4ja";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Portland Trail Blazers'){
+            info_path = "https://giphy.com/embed/2UpKilp2WPMBgMdTdr";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Phoenix Suns'){
+            info_path = "https://giphy.com/embed/3o6ZsUnxWbseAVL6s8";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'New York Knicks'){
+            info_path = "https://giphy.com/embed/26h0pQdlddhWYJfgc";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Utah Jazz'){
+            info_path = "https://giphy.com/embed/3o7bujNF9KpbEMBydW";
+            document.getElementById("infographic").src=info_path;
+          }
+          else if(option == 'Sacramento Kings'){
+            info_path = "https://giphy.com/embed/3o7aTvSMoFaZe1Hnmo";
+            document.getElementById("infographic").src=info_path;
+          }
+        }
+
+        const margin = { left: 20, right: 20, top: 20, bottom: 20 };
+        var chartDiv = document.getElementById('court');
+        var court = d3.select(chartDiv).append('court').append('svg');
+        court.attr('width', 700)
+             .attr('height', 750)
+
+        var court_g = court.append('g');
+    
+        var slider_axis = court.append('g')
+                               .attr('class', 'slider-axis');
+        var slider_rect = court.append('g')
+                               .attr('class', 'slider-rect');
+
+        var rect_entity = slider_rect.append('rect');
+
+        const court_xScale = d3.scaleLinear()
+                                     .domain([-25, 25]);
+        const court_yScale = d3.scaleLinear()
+                                     .domain([-4,43]);
+        const shot_xScale = d3.scaleLinear()
+                                     .domain([-250, 250]);
+        const shot_yScale = d3.scaleLinear()
+                                     .domain([-45,420]);
+
+        var Basket;
+        var Backboard;
+        var Outterbox;
+        var Innerbox;
+        var CornerThreeLeft;
+        var CornerThreeRight;
+        var OuterLine;
+        var RestrictedArea;
+        var TopFreeThrow;
+        var BottomFreeThrow;
+        var ThreeLine;
+        var CenterOuter;
+        var CenterInner;
+        
+        var myColor = d3.scaleLinear()
+                      .domain([0, .2, .45])
+                      .range(["blue","#ddd","red"]);
+
+        var data;
+        var CornerThreeLeftFull;
+        var CornerThreeRightFull;
+        var ImagePlaceRight;
+        var ImagePlaceLeft;
+        var ZeroToThree;
+        var ThreeToTen;
+        var TenToSixteen;
+        var SixteenPlus;
+        var ThreePointFull;
+        var TeamName;
+        var value = 2001;
+        var year;
+        var team;
+        var teams;
+        var currentTeamIndex;
+        var Header;
+
+        Slider();
+
+        d3.csv("Final_Data/NBA_shooting_mapped.csv", function(rows) {
+          year = 2001
+          team = "All Teams"
+          data = rows.filter(d=>d.Team===(team));
+
+          data = data.filter(d=>d.year==(year));
+
+          
+
+          execute();
+
+          var nest = d3.nest().key(function(d) { return d.Team; }).entries(rows);
+          teams = nest.map(function(d) { return d.key; });
+          currentTeamIndex = 0;
+
+          var teamMenu = d3.select("#teamDropdown");
+          teamMenu.append("select").attr("id", "teamMenu").selectAll("option").data(teams)
+            .enter().append("option").attr("value", function(d, i) { return i; }).text(function(d) { return d; });
+
+         var selectTeam = nest.find(function(d) {
+            return d.key == teams[currentTeamIndex];
+          });
+
+                  // run update function when dropdown selection changes
+          teamMenu.on("change", function() {
+          // find which location was selected from the dropdown
+          var selectedTeam = d3.select(this).select("select").property("value");
+          currentTeamIndex = +selectedTeam;
+          // run update function with selected location
+
+          court_g.selectAll("path").remove();
+          court_g.selectAll("image").remove();
+          court_g.selectAll("text").remove();
+
+          team = teams[currentTeamIndex]
+
+          data = rows.filter(d=>d.Team===(team));
+
+          data = data.filter(d=>d.year==(year));
+          
+          change_info(team);
+
+          execute();
+
+
+          });
+
+        });
+
+        function UpdateData() {
+        d3.csv("Final_Data/NBA_shooting_mapped.csv", function(rows) {
+          year = value.getFullYear() + 1
+          team = teams[currentTeamIndex]
+
+          court_g.selectAll("path").remove();
+          court_g.selectAll("image").remove();
+          court_g.selectAll("text").remove();
+
+          data = rows.filter(d=>d.Team==(team));
+
+          data = data.filter(d=>d.year==(year));
+
+          execute();
+        });
+        }
+
+        function execute() {
+
+        Header = court_g.append('text').text((year - 1).toString() + '-' + (year).toString() + ' season shooting')
+                .attr('class', "header")
+                .attr('fill', 'snow')
+                .style("text-anchor", "middle")
+
+        Basket = court_g.append('circle');
+        Backboard = court_g.append('rect');
+        Outterbox = court_g.append('rect');
+        Innerbox = court_g.append('rect');
+        CornerThreeLeft = court_g.append('rect');
+        CornerThreeRight = court_g.append('rect');
+        OuterLine = court_g.append('rect');
+        RestrictedArea = court_g.append('path');
+        TopFreeThrow = court_g.append('path');
+        BottomFreeThrow = court_g.append('path');
+        ThreeLine = court_g.append('path');
+        CenterOuter = court_g.append('path');
+        CenterInner = court_g.append('path');
+
+        
+        
+        draw_court();
+        
+        var color = [myColor(data[0].portion_from_0_to_3),
+          myColor(data[0].portion_from_3_to_10),
+          myColor(data[0].portion_from_10_to_16),
+          myColor(data[0].portion_from_over_16),
+          myColor(data[0].portion_from_3)]
+
+        var div = d3.select(".bg").append("div")
+        .attr("class", "tooltip")
+        .style("display", "none");
+
+        function mouseover() {div.style("display", "inline");}
+        function mouseout() {div.style("display", "none");}
+
+        ImagePlaceRight = court_g.append('image').attr('xlink:href', 'Images/Team_Logo/' + data[0].Team + '.png');
+        ImagePlaceLeft = court_g.append('image').attr('xlink:href', 'Images/Team_Logo/' + data[0].Team + '.png');
+
+        TeamName = court_g.append('text').text(data[0].Team)
+                .attr('class', "teamName")
+                .attr('fill', 'snow')
+                .style("text-anchor", "middle")
+
+        ZeroToThree = court_g.append('path').style('fill', color[0]).style("opacity", .9)
+            .on("mouseover", mouseover)
+						.on("mousemove", function mousemove() {
+							div.text(data[0].portion_from_0_to_3 + '% of shots taken between 0 and 3 feet')
+              .style("left", (d3.event.pageX + 5) + "px")
+              .style("top", (d3.event.pageY - 12) + "px");})
+							.on("mouseout", mouseout);
+        
+        ThreeToTen = court_g.append('path').style('fill', color[1]).style("opacity", .9)
+            .on("mouseover", mouseover)
+						.on("mousemove", function mousemove() {
+							div.text(data[0].portion_from_3_to_10 + '% of shots taken between 3 and 10 feet')
+              .style("left", (d3.event.pageX + 5) + "px")
+              .style("top", (d3.event.pageY - 12) + "px");})
+							.on("mouseout", mouseout);
+
+        TenToSixteen = court_g.append('path').style('fill', color[2]).style("opacity", .9)
+            .on("mouseover", mouseover)
+						.on("mousemove", function mousemove() {
+							div.text(data[0].portion_from_10_to_16 + '% of shots taken between 10 and 16 feet')
+              .style("left", (d3.event.pageX + 5) + "px")
+              .style("top", (d3.event.pageY - 12) + "px");})
+							.on("mouseout", mouseout);
+
+        SixteenPlus = court_g.append('path').style('fill', color[3]).style("opacity", .9)
+            .on("mouseover", mouseover)
+						.on("mousemove", function mousemove() {
+							div.text(data[0].portion_from_over_16 + '% of shots taken from over 16 feet')
+              .style("left", (d3.event.pageX + 5) + "px")
+              .style("top", (d3.event.pageY - 12) + "px");})
+							.on("mouseout", mouseout);
+
+      ThreePointFull = court_g.append('path').style('fill', color[4]).style("opacity", .9)
+            .on("mouseover", mouseover)
+					.on("mousemove", function mousemove() {
+							div.text(data[0].portion_from_3 + '% of shots taken from 3')
+              .style("left", (d3.event.pageX) + "px")
+             .style("top", (d3.event.pageY - 12) + "px");})
+							.on("mouseout", mouseout);
+
+
+        draw_zone();
+
+        var defs = court_g.append("defs");
+        
+        var linearGradient = defs.append("linearGradient")
+                                 .attr("id", "linear-gradient");
+
+        //Append a linearGradient element to the defs and give it a unique id
+        //Append multiple color stops by using D3's data/enter step
+        var gradient = linearGradient.selectAll("stop")
+            .data([
+                {offset: "0%", color: "blue"},
+                {offset: "50%", color: "#ddd"},
+                {offset: "100%", color: "red"}
+                ])
+            .enter().append("stop")
+            .attr("offset", function(d) { return d.offset; })
+            .attr("stop-color", function(d) { return d.color; });
+        
+        court_g.append("rect")
+          .attr('x', court_xScale(-25))
+         .attr('y', court_yScale(50))
+         .attr('width', court_xScale(23))
+         .attr('height', 20)
+         .style('opacity', 1)
+          .style("fill", "url(#linear-gradient)");
+
+        court_g.append("text")
+          .attr('class', 'legendText')
+          .attr('x', court_xScale(-24.5))
+         .attr('y', court_yScale(51.2))
+         .attr('width', court_xScale(5))
+         .attr('height', court_yScale(5))
+          .text("Low")
+          .style('font-size','11px')
+          .style("fill", "white")
+          .style("font-weight", "bold")
+          .style('opacity',1)
+          
+        court_g.append("text")
+          .attr('class', 'legendText')
+          .attr('x', court_xScale(22))
+         .attr('y', court_yScale(51.2))
+         .attr('width', court_xScale(5))
+         .attr('height', court_yScale(5))
+          .text("High")
+          .style('font-size','11px')
+          .style("fill", "white")
+          .style("font-weight", "bold")
+          .style('opacity',1)
+
+        court_g.append("text")
+          .attr('class', 'legendText')
+          .attr('x', court_xScale(-13))
+         .attr('y', court_yScale(53))
+         .attr('width', court_xScale(5))
+         .attr('height', court_yScale(5))
+          .text("Percentage of shots taken by location")
+          .style('font-size','14px')
+          .style("fill", "snow")
+          .style('opacity',1)
+
+        }
+    </script>
+  </body>
+</html>

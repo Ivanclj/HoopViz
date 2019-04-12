@@ -1,0 +1,2791 @@
+,Team,year,Distance,Frequency,Win,ORtg
+1,All Teams,2001,0-3 ft,0.273,0,0
+2,All Teams,2001,3-10 ft,0.168,0,0
+3,All Teams,2001,10-16 ft,0.158,0,0
+4,All Teams,2001,Over 16 ft,0.232,0,0
+5,All Teams,2001,3P,0.17,0,0
+6,All Teams,2002,0-3 ft,0.287,0,0
+7,All Teams,2002,3-10 ft,0.148,0,0
+8,All Teams,2002,10-16 ft,0.153,0,0
+9,All Teams,2002,Over 16 ft,0.23,0,0
+10,All Teams,2002,3P,0.181,0,0
+11,All Teams,2003,0-3 ft,0.286,0,0
+12,All Teams,2003,3-10 ft,0.15,0,0
+13,All Teams,2003,10-16 ft,0.146,0,0
+14,All Teams,2003,Over 16 ft,0.236,0,0
+15,All Teams,2003,3P,0.182,0,0
+16,All Teams,2004,0-3 ft,0.297,0,0
+17,All Teams,2004,3-10 ft,0.147,0,0
+18,All Teams,2004,10-16 ft,0.141,0,0
+19,All Teams,2004,Over 16 ft,0.229,0,0
+20,All Teams,2004,3P,0.187,0,0
+21,All Teams,2005,0-3 ft,0.304,0,0
+22,All Teams,2005,3-10 ft,0.135,0,0
+23,All Teams,2005,10-16 ft,0.129,0,0
+24,All Teams,2005,Over 16 ft,0.236,0,0
+25,All Teams,2005,3P,0.196,0,0
+26,All Teams,2006,0-3 ft,0.309,0,0
+27,All Teams,2006,3-10 ft,0.133,0,0
+28,All Teams,2006,10-16 ft,0.119,0,0
+29,All Teams,2006,Over 16 ft,0.236,0,0
+30,All Teams,2006,3P,0.202,0,0
+31,All Teams,2007,0-3 ft,0.314,0,0
+32,All Teams,2007,3-10 ft,0.131,0,0
+33,All Teams,2007,10-16 ft,0.113,0,0
+34,All Teams,2007,Over 16 ft,0.229,0,0
+35,All Teams,2007,3P,0.213,0,0
+36,All Teams,2008,0-3 ft,0.308,0,0
+37,All Teams,2008,3-10 ft,0.124,0,0
+38,All Teams,2008,10-16 ft,0.111,0,0
+39,All Teams,2008,Over 16 ft,0.235,0,0
+40,All Teams,2008,3P,0.222,0,0
+41,All Teams,2009,0-3 ft,0.314,0,0
+42,All Teams,2009,3-10 ft,0.124,0,0
+43,All Teams,2009,10-16 ft,0.111,0,0
+44,All Teams,2009,Over 16 ft,0.227,0,0
+45,All Teams,2009,3P,0.224,0,0
+46,All Teams,2010,0-3 ft,0.32,0,0
+47,All Teams,2010,3-10 ft,0.129,0,0
+48,All Teams,2010,10-16 ft,0.11,0,0
+49,All Teams,2010,Over 16 ft,0.218,0,0
+50,All Teams,2010,3P,0.222,0,0
+51,All Teams,2011,0-3 ft,0.276,0,0
+52,All Teams,2011,3-10 ft,0.178,0,0
+53,All Teams,2011,10-16 ft,0.11,0,0
+54,All Teams,2011,Over 16 ft,0.214,0,0
+55,All Teams,2011,3P,0.222,0,0
+56,All Teams,2012,0-3 ft,0.287,0,0
+57,All Teams,2012,3-10 ft,0.169,0,0
+58,All Teams,2012,10-16 ft,0.11,0,0
+59,All Teams,2012,Over 16 ft,0.208,0,0
+60,All Teams,2012,3P,0.226,0,0
+61,All Teams,2013,0-3 ft,0.293,0,0
+62,All Teams,2013,3-10 ft,0.164,0,0
+63,All Teams,2013,10-16 ft,0.107,0,0
+64,All Teams,2013,Over 16 ft,0.193,0,0
+65,All Teams,2013,3P,0.243,0,0
+66,All Teams,2014,0-3 ft,0.286,0,0
+67,All Teams,2014,3-10 ft,0.169,0,0
+68,All Teams,2014,10-16 ft,0.105,0,0
+69,All Teams,2014,Over 16 ft,0.18,0,0
+70,All Teams,2014,3P,0.259,0,0
+71,All Teams,2015,0-3 ft,0.288,0,0
+72,All Teams,2015,3-10 ft,0.165,0,0
+73,All Teams,2015,10-16 ft,0.103,0,0
+74,All Teams,2015,Over 16 ft,0.175,0,0
+75,All Teams,2015,3P,0.268,0,0
+76,All Teams,2016,0-3 ft,0.293,0,0
+77,All Teams,2016,3-10 ft,0.158,0,0
+78,All Teams,2016,10-16 ft,0.103,0,0
+79,All Teams,2016,Over 16 ft,0.162,0,0
+80,All Teams,2016,3P,0.285,0,0
+81,All Teams,2017,0-3 ft,0.29,0,0
+82,All Teams,2017,3-10 ft,0.152,0,0
+83,All Teams,2017,10-16 ft,0.099,0,0
+84,All Teams,2017,Over 16 ft,0.142,0,0
+85,All Teams,2017,3P,0.316,0,0
+86,All Teams,2018,0-3 ft,0.281,0,0
+87,All Teams,2018,3-10 ft,0.156,0,0
+88,All Teams,2018,10-16 ft,0.106,0,0
+89,All Teams,2018,Over 16 ft,0.12,0,0
+90,All Teams,2018,3P,0.337,0,0
+91,Atlanta Hawks,2001,0-3 ft,0.258,0.305,99.51
+92,Atlanta Hawks,2001,3-10 ft,0.19,0.305,99.51
+93,Atlanta Hawks,2001,10-16 ft,0.214,0.305,99.51
+94,Atlanta Hawks,2001,Over 16 ft,0.198,0.305,99.51
+95,Atlanta Hawks,2001,3P,0.14,0.305,99.51
+96,Atlanta Hawks,2002,0-3 ft,0.328,0.402,102.72
+97,Atlanta Hawks,2002,3-10 ft,0.153,0.402,102.72
+98,Atlanta Hawks,2002,10-16 ft,0.146,0.402,102.72
+99,Atlanta Hawks,2002,Over 16 ft,0.193,0.402,102.72
+100,Atlanta Hawks,2002,3P,0.181,0.402,102.72
+101,Atlanta Hawks,2003,0-3 ft,0.269,0.427,103.1
+102,Atlanta Hawks,2003,3-10 ft,0.158,0.427,103.1
+103,Atlanta Hawks,2003,10-16 ft,0.181,0.427,103.1
+104,Atlanta Hawks,2003,Over 16 ft,0.214,0.427,103.1
+105,Atlanta Hawks,2003,3P,0.177,0.427,103.1
+106,Atlanta Hawks,2004,0-3 ft,0.303,0.341,101.91
+107,Atlanta Hawks,2004,3-10 ft,0.148,0.341,101.91
+108,Atlanta Hawks,2004,10-16 ft,0.153,0.341,101.91
+109,Atlanta Hawks,2004,Over 16 ft,0.205,0.341,101.91
+110,Atlanta Hawks,2004,3P,0.191,0.341,101.91
+111,Atlanta Hawks,2005,0-3 ft,0.371,0.159,101.23
+112,Atlanta Hawks,2005,3-10 ft,0.141,0.159,101.23
+113,Atlanta Hawks,2005,10-16 ft,0.139,0.159,101.23
+114,Atlanta Hawks,2005,Over 16 ft,0.204,0.159,101.23
+115,Atlanta Hawks,2005,3P,0.146,0.159,101.23
+116,Atlanta Hawks,2006,0-3 ft,0.342,0.317,107.2
+117,Atlanta Hawks,2006,3-10 ft,0.132,0.317,107.2
+118,Atlanta Hawks,2006,10-16 ft,0.118,0.317,107.2
+119,Atlanta Hawks,2006,Over 16 ft,0.231,0.317,107.2
+120,Atlanta Hawks,2006,3P,0.178,0.317,107.2
+121,Atlanta Hawks,2007,0-3 ft,0.356,0.366,103.83
+122,Atlanta Hawks,2007,3-10 ft,0.097,0.366,103.83
+123,Atlanta Hawks,2007,10-16 ft,0.09,0.366,103.83
+124,Atlanta Hawks,2007,Over 16 ft,0.294,0.366,103.83
+125,Atlanta Hawks,2007,3P,0.163,0.366,103.83
+126,Atlanta Hawks,2008,0-3 ft,0.339,0.451,107.6
+127,Atlanta Hawks,2008,3-10 ft,0.14,0.451,107.6
+128,Atlanta Hawks,2008,10-16 ft,0.096,0.451,107.6
+129,Atlanta Hawks,2008,Over 16 ft,0.261,0.451,107.6
+130,Atlanta Hawks,2008,3P,0.165,0.451,107.6
+131,Atlanta Hawks,2009,0-3 ft,0.267,0.573,110.28
+132,Atlanta Hawks,2009,3-10 ft,0.16,0.573,110.28
+133,Atlanta Hawks,2009,10-16 ft,0.101,0.573,110.28
+134,Atlanta Hawks,2009,Over 16 ft,0.219,0.573,110.28
+135,Atlanta Hawks,2009,3P,0.253,0.573,110.28
+136,Atlanta Hawks,2010,0-3 ft,0.296,0.646,112.6
+137,Atlanta Hawks,2010,3-10 ft,0.167,0.646,112.6
+138,Atlanta Hawks,2010,10-16 ft,0.087,0.646,112.6
+139,Atlanta Hawks,2010,Over 16 ft,0.237,0.646,112.6
+140,Atlanta Hawks,2010,3P,0.214,0.646,112.6
+141,Atlanta Hawks,2011,0-3 ft,0.233,0.537,107.01
+142,Atlanta Hawks,2011,3-10 ft,0.175,0.537,107.01
+143,Atlanta Hawks,2011,10-16 ft,0.097,0.537,107.01
+144,Atlanta Hawks,2011,Over 16 ft,0.274,0.537,107.01
+145,Atlanta Hawks,2011,3P,0.222,0.537,107.01
+146,Atlanta Hawks,2012,0-3 ft,0.277,0.606,105.74
+147,Atlanta Hawks,2012,3-10 ft,0.153,0.606,105.74
+148,Atlanta Hawks,2012,10-16 ft,0.074,0.606,105.74
+149,Atlanta Hawks,2012,Over 16 ft,0.247,0.606,105.74
+150,Atlanta Hawks,2012,3P,0.249,0.606,105.74
+151,Atlanta Hawks,2013,0-3 ft,0.281,0.537,105.5
+152,Atlanta Hawks,2013,3-10 ft,0.152,0.537,105.5
+153,Atlanta Hawks,2013,10-16 ft,0.073,0.537,105.5
+154,Atlanta Hawks,2013,Over 16 ft,0.208,0.537,105.5
+155,Atlanta Hawks,2013,3P,0.286,0.537,105.5
+156,Atlanta Hawks,2014,0-3 ft,0.263,0.463,106.71
+157,Atlanta Hawks,2014,3-10 ft,0.174,0.463,106.71
+158,Atlanta Hawks,2014,10-16 ft,0.102,0.463,106.71
+159,Atlanta Hawks,2014,Over 16 ft,0.145,0.463,106.71
+160,Atlanta Hawks,2014,3P,0.316,0.463,106.71
+161,Atlanta Hawks,2015,0-3 ft,0.29,0.732,110
+162,Atlanta Hawks,2015,3-10 ft,0.158,0.732,110
+163,Atlanta Hawks,2015,10-16 ft,0.08,0.732,110
+164,Atlanta Hawks,2015,Over 16 ft,0.151,0.732,110
+165,Atlanta Hawks,2015,3P,0.321,0.732,110
+166,Atlanta Hawks,2016,0-3 ft,0.326,0.585,105.75
+167,Atlanta Hawks,2016,3-10 ft,0.121,0.585,105.75
+168,Atlanta Hawks,2016,10-16 ft,0.078,0.585,105.75
+169,Atlanta Hawks,2016,Over 16 ft,0.138,0.585,105.75
+170,Atlanta Hawks,2016,3P,0.336,0.585,105.75
+171,Atlanta Hawks,2017,0-3 ft,0.331,0.524,105.55
+172,Atlanta Hawks,2017,3-10 ft,0.117,0.524,105.55
+173,Atlanta Hawks,2017,10-16 ft,0.092,0.524,105.55
+174,Atlanta Hawks,2017,Over 16 ft,0.151,0.524,105.55
+175,Atlanta Hawks,2017,3P,0.309,0.524,105.55
+176,Atlanta Hawks,2018,0-3 ft,0.279,0.293,105.74
+177,Atlanta Hawks,2018,3-10 ft,0.131,0.293,105.74
+178,Atlanta Hawks,2018,10-16 ft,0.105,0.293,105.74
+179,Atlanta Hawks,2018,Over 16 ft,0.122,0.293,105.74
+180,Atlanta Hawks,2018,3P,0.363,0.293,105.74
+181,Boston Celtics,2001,0-3 ft,0.287,0.439,102.41
+182,Boston Celtics,2001,3-10 ft,0.161,0.439,102.41
+183,Boston Celtics,2001,10-16 ft,0.121,0.439,102.41
+184,Boston Celtics,2001,Over 16 ft,0.18,0.439,102.41
+185,Boston Celtics,2001,3P,0.252,0.439,102.41
+186,Boston Celtics,2002,0-3 ft,0.293,0.598,104.1
+187,Boston Celtics,2002,3-10 ft,0.124,0.598,104.1
+188,Boston Celtics,2002,10-16 ft,0.111,0.598,104.1
+189,Boston Celtics,2002,Over 16 ft,0.182,0.598,104.1
+190,Boston Celtics,2002,3P,0.289,0.598,104.1
+191,Boston Celtics,2003,0-3 ft,0.268,0.537,101.9
+192,Boston Celtics,2003,3-10 ft,0.14,0.537,101.9
+193,Boston Celtics,2003,10-16 ft,0.109,0.537,101.9
+194,Boston Celtics,2003,Over 16 ft,0.152,0.537,101.9
+195,Boston Celtics,2003,3P,0.331,0.537,101.9
+196,Boston Celtics,2004,0-3 ft,0.285,0.439,102.76
+197,Boston Celtics,2004,3-10 ft,0.126,0.439,102.76
+198,Boston Celtics,2004,10-16 ft,0.118,0.439,102.76
+199,Boston Celtics,2004,Over 16 ft,0.222,0.439,102.76
+200,Boston Celtics,2004,3P,0.249,0.439,102.76
+201,Boston Celtics,2005,0-3 ft,0.364,0.549,108.31
+202,Boston Celtics,2005,3-10 ft,0.119,0.549,108.31
+203,Boston Celtics,2005,10-16 ft,0.113,0.549,108.31
+204,Boston Celtics,2005,Over 16 ft,0.212,0.549,108.31
+205,Boston Celtics,2005,3P,0.192,0.549,108.31
+206,Boston Celtics,2006,0-3 ft,0.341,0.402,106.12
+207,Boston Celtics,2006,3-10 ft,0.117,0.402,106.12
+208,Boston Celtics,2006,10-16 ft,0.111,0.402,106.12
+209,Boston Celtics,2006,Over 16 ft,0.228,0.402,106.12
+210,Boston Celtics,2006,3P,0.204,0.402,106.12
+211,Boston Celtics,2007,0-3 ft,0.317,0.293,104.07
+212,Boston Celtics,2007,3-10 ft,0.152,0.293,104.07
+213,Boston Celtics,2007,10-16 ft,0.102,0.293,104.07
+214,Boston Celtics,2007,Over 16 ft,0.23,0.293,104.07
+215,Boston Celtics,2007,3P,0.199,0.293,104.07
+216,Boston Celtics,2008,0-3 ft,0.32,0.805,111.1
+217,Boston Celtics,2008,3-10 ft,0.118,0.805,111.1
+218,Boston Celtics,2008,10-16 ft,0.102,0.805,111.1
+219,Boston Celtics,2008,Over 16 ft,0.211,0.805,111.1
+220,Boston Celtics,2008,3P,0.249,0.805,111.1
+221,Boston Celtics,2009,0-3 ft,0.332,0.756,111.25
+222,Boston Celtics,2009,3-10 ft,0.123,0.756,111.25
+223,Boston Celtics,2009,10-16 ft,0.109,0.756,111.25
+224,Boston Celtics,2009,Over 16 ft,0.223,0.756,111.25
+225,Boston Celtics,2009,3P,0.214,0.756,111.25
+226,Boston Celtics,2010,0-3 ft,0.339,0.61,108.65
+227,Boston Celtics,2010,3-10 ft,0.139,0.61,108.65
+228,Boston Celtics,2010,10-16 ft,0.107,0.61,108.65
+229,Boston Celtics,2010,Over 16 ft,0.188,0.61,108.65
+230,Boston Celtics,2010,3P,0.228,0.61,108.65
+231,Boston Celtics,2011,0-3 ft,0.313,0.683,107.36
+232,Boston Celtics,2011,3-10 ft,0.14,0.683,107.36
+233,Boston Celtics,2011,10-16 ft,0.113,0.683,107.36
+234,Boston Celtics,2011,Over 16 ft,0.254,0.683,107.36
+235,Boston Celtics,2011,3P,0.18,0.683,107.36
+236,Boston Celtics,2012,0-3 ft,0.28,0.591,102.12
+237,Boston Celtics,2012,3-10 ft,0.116,0.591,102.12
+238,Boston Celtics,2012,10-16 ft,0.145,0.591,102.12
+239,Boston Celtics,2012,Over 16 ft,0.266,0.591,102.12
+240,Boston Celtics,2012,3P,0.194,0.591,102.12
+241,Boston Celtics,2013,0-3 ft,0.287,0.506,104.07
+242,Boston Celtics,2013,3-10 ft,0.13,0.506,104.07
+243,Boston Celtics,2013,10-16 ft,0.128,0.506,104.07
+244,Boston Celtics,2013,Over 16 ft,0.239,0.506,104.07
+245,Boston Celtics,2013,3P,0.215,0.506,104.07
+246,Boston Celtics,2014,0-3 ft,0.273,0.305,103.82
+247,Boston Celtics,2014,3-10 ft,0.148,0.305,103.82
+248,Boston Celtics,2014,10-16 ft,0.109,0.305,103.82
+249,Boston Celtics,2014,Over 16 ft,0.219,0.305,103.82
+250,Boston Celtics,2014,3P,0.251,0.305,103.82
+251,Boston Celtics,2015,0-3 ft,0.279,0.488,105.32
+252,Boston Celtics,2015,3-10 ft,0.145,0.488,105.32
+253,Boston Celtics,2015,10-16 ft,0.103,0.488,105.32
+254,Boston Celtics,2015,Over 16 ft,0.193,0.488,105.32
+255,Boston Celtics,2015,3P,0.28,0.488,105.32
+256,Boston Celtics,2016,0-3 ft,0.318,0.585,107.3
+257,Boston Celtics,2016,3-10 ft,0.141,0.585,107.3
+258,Boston Celtics,2016,10-16 ft,0.094,0.585,107.3
+259,Boston Celtics,2016,Over 16 ft,0.154,0.585,107.3
+260,Boston Celtics,2016,3P,0.293,0.585,107.3
+261,Boston Celtics,2017,0-3 ft,0.296,0.646,111.88
+262,Boston Celtics,2017,3-10 ft,0.129,0.646,111.88
+263,Boston Celtics,2017,10-16 ft,0.071,0.646,111.88
+264,Boston Celtics,2017,Over 16 ft,0.111,0.646,111.88
+265,Boston Celtics,2017,3P,0.393,0.646,111.88
+266,Boston Celtics,2018,0-3 ft,0.259,0.671,108.4
+267,Boston Celtics,2018,3-10 ft,0.158,0.671,108.4
+268,Boston Celtics,2018,10-16 ft,0.106,0.671,108.4
+269,Boston Celtics,2018,Over 16 ft,0.12,0.671,108.4
+270,Boston Celtics,2018,3P,0.357,0.671,108.4
+271,Brooklyn Nets,2001,0-3 ft,0.322,0.317,100.78
+272,Brooklyn Nets,2001,3-10 ft,0.137,0.317,100.78
+273,Brooklyn Nets,2001,10-16 ft,0.132,0.317,100.78
+274,Brooklyn Nets,2001,Over 16 ft,0.243,0.317,100.78
+275,Brooklyn Nets,2001,3P,0.165,0.317,100.78
+276,Brooklyn Nets,2002,0-3 ft,0.327,0.634,104.78
+277,Brooklyn Nets,2002,3-10 ft,0.135,0.634,104.78
+278,Brooklyn Nets,2002,10-16 ft,0.133,0.634,104.78
+279,Brooklyn Nets,2002,Over 16 ft,0.23,0.634,104.78
+280,Brooklyn Nets,2002,3P,0.175,0.634,104.78
+281,Brooklyn Nets,2003,0-3 ft,0.34,0.598,104.42
+282,Brooklyn Nets,2003,3-10 ft,0.133,0.598,104.42
+283,Brooklyn Nets,2003,10-16 ft,0.112,0.598,104.42
+284,Brooklyn Nets,2003,Over 16 ft,0.258,0.598,104.42
+285,Brooklyn Nets,2003,3P,0.158,0.598,104.42
+286,Brooklyn Nets,2004,0-3 ft,0.332,0.573,101.76
+287,Brooklyn Nets,2004,3-10 ft,0.111,0.573,101.76
+288,Brooklyn Nets,2004,10-16 ft,0.113,0.573,101.76
+289,Brooklyn Nets,2004,Over 16 ft,0.268,0.573,101.76
+290,Brooklyn Nets,2004,3P,0.176,0.573,101.76
+291,Brooklyn Nets,2005,0-3 ft,0.276,0.512,102.29
+292,Brooklyn Nets,2005,3-10 ft,0.118,0.512,102.29
+293,Brooklyn Nets,2005,10-16 ft,0.119,0.512,102.29
+294,Brooklyn Nets,2005,Over 16 ft,0.299,0.512,102.29
+295,Brooklyn Nets,2005,3P,0.187,0.512,102.29
+296,Brooklyn Nets,2006,0-3 ft,0.299,0.598,104.66
+297,Brooklyn Nets,2006,3-10 ft,0.114,0.598,104.66
+298,Brooklyn Nets,2006,10-16 ft,0.102,0.598,104.66
+299,Brooklyn Nets,2006,Over 16 ft,0.257,0.598,104.66
+300,Brooklyn Nets,2006,3P,0.229,0.598,104.66
+301,Brooklyn Nets,2007,0-3 ft,0.332,0.5,106.45
+302,Brooklyn Nets,2007,3-10 ft,0.089,0.5,106.45
+303,Brooklyn Nets,2007,10-16 ft,0.077,0.5,106.45
+304,Brooklyn Nets,2007,Over 16 ft,0.24,0.5,106.45
+305,Brooklyn Nets,2007,3P,0.263,0.5,106.45
+306,Brooklyn Nets,2008,0-3 ft,0.347,0.415,104.61
+307,Brooklyn Nets,2008,3-10 ft,0.085,0.415,104.61
+308,Brooklyn Nets,2008,10-16 ft,0.09,0.415,104.61
+309,Brooklyn Nets,2008,Over 16 ft,0.256,0.415,104.61
+310,Brooklyn Nets,2008,3P,0.222,0.415,104.61
+311,Brooklyn Nets,2009,0-3 ft,0.33,0.415,109.14
+312,Brooklyn Nets,2009,3-10 ft,0.088,0.415,109.14
+313,Brooklyn Nets,2009,10-16 ft,0.102,0.415,109.14
+314,Brooklyn Nets,2009,Over 16 ft,0.215,0.415,109.14
+315,Brooklyn Nets,2009,3P,0.265,0.415,109.14
+316,Brooklyn Nets,2010,0-3 ft,0.346,0.146,101.54
+317,Brooklyn Nets,2010,3-10 ft,0.126,0.146,101.54
+318,Brooklyn Nets,2010,10-16 ft,0.119,0.146,101.54
+319,Brooklyn Nets,2010,Over 16 ft,0.229,0.146,101.54
+320,Brooklyn Nets,2010,3P,0.181,0.146,101.54
+321,Brooklyn Nets,2011,0-3 ft,0.236,0.293,103.99
+322,Brooklyn Nets,2011,3-10 ft,0.213,0.293,103.99
+323,Brooklyn Nets,2011,10-16 ft,0.123,0.293,103.99
+324,Brooklyn Nets,2011,Over 16 ft,0.227,0.293,103.99
+325,Brooklyn Nets,2011,3P,0.201,0.293,103.99
+326,Brooklyn Nets,2012,0-3 ft,0.255,0.333,103.77
+327,Brooklyn Nets,2012,3-10 ft,0.134,0.333,103.77
+328,Brooklyn Nets,2012,10-16 ft,0.126,0.333,103.77
+329,Brooklyn Nets,2012,Over 16 ft,0.207,0.333,103.77
+330,Brooklyn Nets,2012,3P,0.278,0.333,103.77
+331,Brooklyn Nets,2013,0-3 ft,0.272,0.598,109.1
+332,Brooklyn Nets,2013,3-10 ft,0.203,0.598,109.1
+333,Brooklyn Nets,2013,10-16 ft,0.102,0.598,109.1
+334,Brooklyn Nets,2013,Over 16 ft,0.154,0.598,109.1
+335,Brooklyn Nets,2013,3P,0.269,0.598,109.1
+336,Brooklyn Nets,2014,0-3 ft,0.256,0.537,107.42
+337,Brooklyn Nets,2014,3-10 ft,0.171,0.537,107.42
+338,Brooklyn Nets,2014,10-16 ft,0.112,0.537,107.42
+339,Brooklyn Nets,2014,Over 16 ft,0.16,0.537,107.42
+340,Brooklyn Nets,2014,3P,0.301,0.537,107.42
+341,Brooklyn Nets,2015,0-3 ft,0.268,0.463,105.15
+342,Brooklyn Nets,2015,3-10 ft,0.213,0.463,105.15
+343,Brooklyn Nets,2015,10-16 ft,0.116,0.463,105.15
+344,Brooklyn Nets,2015,Over 16 ft,0.164,0.463,105.15
+345,Brooklyn Nets,2015,3P,0.24,0.463,105.15
+346,Brooklyn Nets,2016,0-3 ft,0.284,0.256,103.74
+347,Brooklyn Nets,2016,3-10 ft,0.211,0.256,103.74
+348,Brooklyn Nets,2016,10-16 ft,0.106,0.256,103.74
+349,Brooklyn Nets,2016,Over 16 ft,0.181,0.256,103.74
+350,Brooklyn Nets,2016,3P,0.218,0.256,103.74
+351,Brooklyn Nets,2017,0-3 ft,0.309,0.244,104.61
+352,Brooklyn Nets,2017,3-10 ft,0.173,0.244,104.61
+353,Brooklyn Nets,2017,10-16 ft,0.077,0.244,104.61
+354,Brooklyn Nets,2017,Over 16 ft,0.07,0.244,104.61
+355,Brooklyn Nets,2017,3P,0.371,0.244,104.61
+356,Brooklyn Nets,2018,0-3 ft,0.269,0.341,107.71
+357,Brooklyn Nets,2018,3-10 ft,0.175,0.341,107.71
+358,Brooklyn Nets,2018,10-16 ft,0.083,0.341,107.71
+359,Brooklyn Nets,2018,Over 16 ft,0.062,0.341,107.71
+360,Brooklyn Nets,2018,3P,0.411,0.341,107.71
+361,Charlotte Hornets,2001,0-3 ft,0,,
+362,Charlotte Hornets,2001,3-10 ft,0,,
+363,Charlotte Hornets,2001,10-16 ft,0,,
+364,Charlotte Hornets,2001,Over 16 ft,0,,
+365,Charlotte Hornets,2001,3P,0,,
+366,Charlotte Hornets,2002,0-3 ft,0,,
+367,Charlotte Hornets,2002,3-10 ft,0,,
+368,Charlotte Hornets,2002,10-16 ft,0,,
+369,Charlotte Hornets,2002,Over 16 ft,0,,
+370,Charlotte Hornets,2002,3P,0,,
+371,Charlotte Hornets,2003,0-3 ft,0,,
+372,Charlotte Hornets,2003,3-10 ft,0,,
+373,Charlotte Hornets,2003,10-16 ft,0,,
+374,Charlotte Hornets,2003,Over 16 ft,0,,
+375,Charlotte Hornets,2003,3P,0,,
+376,Charlotte Hornets,2004,0-3 ft,0,,
+377,Charlotte Hornets,2004,3-10 ft,0,,
+378,Charlotte Hornets,2004,10-16 ft,0,,
+379,Charlotte Hornets,2004,Over 16 ft,0,,
+380,Charlotte Hornets,2004,3P,0,,
+381,Charlotte Hornets,2005,0-3 ft,0.284,0.22,101.91
+382,Charlotte Hornets,2005,3-10 ft,0.149,0.22,101.91
+383,Charlotte Hornets,2005,10-16 ft,0.145,0.22,101.91
+384,Charlotte Hornets,2005,Over 16 ft,0.294,0.22,101.91
+385,Charlotte Hornets,2005,3P,0.128,0.22,101.91
+386,Charlotte Hornets,2006,0-3 ft,0.328,0.317,103.14
+387,Charlotte Hornets,2006,3-10 ft,0.12,0.317,103.14
+388,Charlotte Hornets,2006,10-16 ft,0.107,0.317,103.14
+389,Charlotte Hornets,2006,Over 16 ft,0.261,0.317,103.14
+390,Charlotte Hornets,2006,3P,0.184,0.317,103.14
+391,Charlotte Hornets,2007,0-3 ft,0.335,0.402,104.29
+392,Charlotte Hornets,2007,3-10 ft,0.129,0.402,104.29
+393,Charlotte Hornets,2007,10-16 ft,0.095,0.402,104.29
+394,Charlotte Hornets,2007,Over 16 ft,0.249,0.402,104.29
+395,Charlotte Hornets,2007,3P,0.193,0.402,104.29
+396,Charlotte Hornets,2008,0-3 ft,0.338,0.39,105.39
+397,Charlotte Hornets,2008,3-10 ft,0.114,0.39,105.39
+398,Charlotte Hornets,2008,10-16 ft,0.098,0.39,105.39
+399,Charlotte Hornets,2008,Over 16 ft,0.229,0.39,105.39
+400,Charlotte Hornets,2008,3P,0.22,0.39,105.39
+401,Charlotte Hornets,2009,0-3 ft,0.368,0.427,105.42
+402,Charlotte Hornets,2009,3-10 ft,0.119,0.427,105.42
+403,Charlotte Hornets,2009,10-16 ft,0.082,0.427,105.42
+404,Charlotte Hornets,2009,Over 16 ft,0.219,0.427,105.42
+405,Charlotte Hornets,2009,3P,0.213,0.427,105.42
+406,Charlotte Hornets,2010,0-3 ft,0.408,0.537,105.26
+407,Charlotte Hornets,2010,3-10 ft,0.098,0.537,105.26
+408,Charlotte Hornets,2010,10-16 ft,0.08,0.537,105.26
+409,Charlotte Hornets,2010,Over 16 ft,0.203,0.537,105.26
+410,Charlotte Hornets,2010,3P,0.211,0.537,105.26
+411,Charlotte Hornets,2011,0-3 ft,0.334,0.415,104.32
+412,Charlotte Hornets,2011,3-10 ft,0.145,0.415,104.32
+413,Charlotte Hornets,2011,10-16 ft,0.097,0.415,104.32
+414,Charlotte Hornets,2011,Over 16 ft,0.235,0.415,104.32
+415,Charlotte Hornets,2011,3P,0.189,0.415,104.32
+416,Charlotte Hornets,2012,0-3 ft,0.29,0.106,95.85
+417,Charlotte Hornets,2012,3-10 ft,0.125,0.106,95.85
+418,Charlotte Hornets,2012,10-16 ft,0.108,0.106,95.85
+419,Charlotte Hornets,2012,Over 16 ft,0.309,0.106,95.85
+420,Charlotte Hornets,2012,3P,0.169,0.106,95.85
+421,Charlotte Hornets,2013,0-3 ft,0.319,0.256,102.34
+422,Charlotte Hornets,2013,3-10 ft,0.147,0.256,102.34
+423,Charlotte Hornets,2013,10-16 ft,0.111,0.256,102.34
+424,Charlotte Hornets,2013,Over 16 ft,0.212,0.256,102.34
+425,Charlotte Hornets,2013,3P,0.21,0.256,102.34
+426,Charlotte Hornets,2014,0-3 ft,0.29,0.524,104.31
+427,Charlotte Hornets,2014,3-10 ft,0.151,0.524,104.31
+428,Charlotte Hornets,2014,10-16 ft,0.122,0.524,104.31
+429,Charlotte Hornets,2014,Over 16 ft,0.218,0.524,104.31
+430,Charlotte Hornets,2014,3P,0.219,0.524,104.31
+431,Charlotte Hornets,2015,0-3 ft,0.263,0.402,100.92
+432,Charlotte Hornets,2015,3-10 ft,0.153,0.402,100.92
+433,Charlotte Hornets,2015,10-16 ft,0.124,0.402,100.92
+434,Charlotte Hornets,2015,Over 16 ft,0.234,0.402,100.92
+435,Charlotte Hornets,2015,3P,0.226,0.402,100.92
+436,Charlotte Hornets,2016,0-3 ft,0.274,0.585,107.72
+437,Charlotte Hornets,2016,3-10 ft,0.129,0.585,107.72
+438,Charlotte Hornets,2016,10-16 ft,0.093,0.585,107.72
+439,Charlotte Hornets,2016,Over 16 ft,0.156,0.585,107.72
+440,Charlotte Hornets,2016,3P,0.348,0.585,107.72
+441,Charlotte Hornets,2017,0-3 ft,0.282,0.439,109.57
+442,Charlotte Hornets,2017,3-10 ft,0.133,0.439,109.57
+443,Charlotte Hornets,2017,10-16 ft,0.099,0.439,109.57
+444,Charlotte Hornets,2017,Over 16 ft,0.152,0.439,109.57
+445,Charlotte Hornets,2017,3P,0.335,0.439,109.57
+446,Charlotte Hornets,2018,0-3 ft,0.273,0.439,109.95
+447,Charlotte Hornets,2018,3-10 ft,0.16,0.439,109.95
+448,Charlotte Hornets,2018,10-16 ft,0.114,0.439,109.95
+449,Charlotte Hornets,2018,Over 16 ft,0.138,0.439,109.95
+450,Charlotte Hornets,2018,3P,0.314,0.439,109.95
+451,Chicago Bulls,2001,0-3 ft,0.275,0.183,98.12
+452,Chicago Bulls,2001,3-10 ft,0.151,0.183,98.12
+453,Chicago Bulls,2001,10-16 ft,0.175,0.183,98.12
+454,Chicago Bulls,2001,Over 16 ft,0.251,0.183,98.12
+455,Chicago Bulls,2001,3P,0.148,0.183,98.12
+456,Chicago Bulls,2002,0-3 ft,0.295,0.256,99.05
+457,Chicago Bulls,2002,3-10 ft,0.111,0.256,99.05
+458,Chicago Bulls,2002,10-16 ft,0.161,0.256,99.05
+459,Chicago Bulls,2002,Over 16 ft,0.299,0.256,99.05
+460,Chicago Bulls,2002,3P,0.134,0.256,99.05
+461,Chicago Bulls,2003,0-3 ft,0.324,0.366,101.03
+462,Chicago Bulls,2003,3-10 ft,0.169,0.366,101.03
+463,Chicago Bulls,2003,10-16 ft,0.148,0.366,101.03
+464,Chicago Bulls,2003,Over 16 ft,0.211,0.366,101.03
+465,Chicago Bulls,2003,3P,0.148,0.366,101.03
+466,Chicago Bulls,2004,0-3 ft,0.283,0.28,97.49
+467,Chicago Bulls,2004,3-10 ft,0.13,0.28,97.49
+468,Chicago Bulls,2004,10-16 ft,0.142,0.28,97.49
+469,Chicago Bulls,2004,Over 16 ft,0.259,0.28,97.49
+470,Chicago Bulls,2004,3P,0.186,0.28,97.49
+471,Chicago Bulls,2005,0-3 ft,0.297,0.573,102.14
+472,Chicago Bulls,2005,3-10 ft,0.144,0.573,102.14
+473,Chicago Bulls,2005,10-16 ft,0.128,0.573,102.14
+474,Chicago Bulls,2005,Over 16 ft,0.214,0.573,102.14
+475,Chicago Bulls,2005,3P,0.217,0.573,102.14
+476,Chicago Bulls,2006,0-3 ft,0.292,0.5,104.64
+477,Chicago Bulls,2006,3-10 ft,0.106,0.5,104.64
+478,Chicago Bulls,2006,10-16 ft,0.114,0.5,104.64
+479,Chicago Bulls,2006,Over 16 ft,0.269,0.5,104.64
+480,Chicago Bulls,2006,3P,0.219,0.5,104.64
+481,Chicago Bulls,2007,0-3 ft,0.302,0.598,105.71
+482,Chicago Bulls,2007,3-10 ft,0.1,0.598,105.71
+483,Chicago Bulls,2007,10-16 ft,0.118,0.598,105.71
+484,Chicago Bulls,2007,Over 16 ft,0.295,0.598,105.71
+485,Chicago Bulls,2007,3P,0.186,0.598,105.71
+486,Chicago Bulls,2008,0-3 ft,0.306,0.402,104.65
+487,Chicago Bulls,2008,3-10 ft,0.102,0.402,104.65
+488,Chicago Bulls,2008,10-16 ft,0.12,0.402,104.65
+489,Chicago Bulls,2008,Over 16 ft,0.282,0.402,104.65
+490,Chicago Bulls,2008,3P,0.19,0.402,104.65
+491,Chicago Bulls,2009,0-3 ft,0.33,0.5,109.32
+492,Chicago Bulls,2009,3-10 ft,0.084,0.5,109.32
+493,Chicago Bulls,2009,10-16 ft,0.104,0.5,109.32
+494,Chicago Bulls,2009,Over 16 ft,0.293,0.5,109.32
+495,Chicago Bulls,2009,3P,0.189,0.5,109.32
+496,Chicago Bulls,2010,0-3 ft,0.331,0.5,104.24
+497,Chicago Bulls,2010,3-10 ft,0.105,0.5,104.24
+498,Chicago Bulls,2010,10-16 ft,0.108,0.5,104.24
+499,Chicago Bulls,2010,Over 16 ft,0.3,0.5,104.24
+500,Chicago Bulls,2010,3P,0.156,0.5,104.24
+501,Chicago Bulls,2011,0-3 ft,0.304,0.756,109.3
+502,Chicago Bulls,2011,3-10 ft,0.151,0.756,109.3
+503,Chicago Bulls,2011,10-16 ft,0.102,0.756,109.3
+504,Chicago Bulls,2011,Over 16 ft,0.229,0.756,109.3
+505,Chicago Bulls,2011,3P,0.215,0.756,109.3
+506,Chicago Bulls,2012,0-3 ft,0.297,0.758,108.22
+507,Chicago Bulls,2012,3-10 ft,0.142,0.758,108.22
+508,Chicago Bulls,2012,10-16 ft,0.116,0.758,108.22
+509,Chicago Bulls,2012,Over 16 ft,0.241,0.758,108.22
+510,Chicago Bulls,2012,3P,0.205,0.758,108.22
+511,Chicago Bulls,2013,0-3 ft,0.306,0.549,104.23
+512,Chicago Bulls,2013,3-10 ft,0.139,0.549,104.23
+513,Chicago Bulls,2013,10-16 ft,0.14,0.549,104.23
+514,Chicago Bulls,2013,Over 16 ft,0.226,0.549,104.23
+515,Chicago Bulls,2013,3P,0.189,0.549,104.23
+516,Chicago Bulls,2014,0-3 ft,0.297,0.585,103.49
+517,Chicago Bulls,2014,3-10 ft,0.148,0.585,103.49
+518,Chicago Bulls,2014,10-16 ft,0.112,0.585,103.49
+519,Chicago Bulls,2014,Over 16 ft,0.222,0.585,103.49
+520,Chicago Bulls,2014,3P,0.222,0.585,103.49
+521,Chicago Bulls,2015,0-3 ft,0.308,0.61,108.48
+522,Chicago Bulls,2015,3-10 ft,0.156,0.61,108.48
+523,Chicago Bulls,2015,10-16 ft,0.099,0.61,108.48
+524,Chicago Bulls,2015,Over 16 ft,0.163,0.61,108.48
+525,Chicago Bulls,2015,3P,0.269,0.61,108.48
+526,Chicago Bulls,2016,0-3 ft,0.291,0.512,105.85
+527,Chicago Bulls,2016,3-10 ft,0.162,0.512,105.85
+528,Chicago Bulls,2016,10-16 ft,0.117,0.512,105.85
+529,Chicago Bulls,2016,Over 16 ft,0.185,0.512,105.85
+530,Chicago Bulls,2016,3P,0.244,0.512,105.85
+531,Chicago Bulls,2017,0-3 ft,0.28,0.5,108.04
+532,Chicago Bulls,2017,3-10 ft,0.167,0.5,108.04
+533,Chicago Bulls,2017,10-16 ft,0.117,0.5,108.04
+534,Chicago Bulls,2017,Over 16 ft,0.179,0.5,108.04
+535,Chicago Bulls,2017,3P,0.256,0.5,108.04
+536,Chicago Bulls,2018,0-3 ft,0.254,0.329,104.39
+537,Chicago Bulls,2018,3-10 ft,0.165,0.329,104.39
+538,Chicago Bulls,2018,10-16 ft,0.095,0.329,104.39
+539,Chicago Bulls,2018,Over 16 ft,0.135,0.329,104.39
+540,Chicago Bulls,2018,3P,0.35,0.329,104.39
+541,Cleveland Cavaliers,2001,0-3 ft,0.28,0.366,101.1
+542,Cleveland Cavaliers,2001,3-10 ft,0.201,0.366,101.1
+543,Cleveland Cavaliers,2001,10-16 ft,0.19,0.366,101.1
+544,Cleveland Cavaliers,2001,Over 16 ft,0.228,0.366,101.1
+545,Cleveland Cavaliers,2001,3P,0.101,0.366,101.1
+546,Cleveland Cavaliers,2002,0-3 ft,0.255,0.354,105.41
+547,Cleveland Cavaliers,2002,3-10 ft,0.141,0.354,105.41
+548,Cleveland Cavaliers,2002,10-16 ft,0.206,0.354,105.41
+549,Cleveland Cavaliers,2002,Over 16 ft,0.242,0.354,105.41
+550,Cleveland Cavaliers,2002,3P,0.156,0.354,105.41
+551,Cleveland Cavaliers,2003,0-3 ft,0.303,0.207,97.25
+552,Cleveland Cavaliers,2003,3-10 ft,0.159,0.207,97.25
+553,Cleveland Cavaliers,2003,10-16 ft,0.188,0.207,97.25
+554,Cleveland Cavaliers,2003,Over 16 ft,0.216,0.207,97.25
+555,Cleveland Cavaliers,2003,3P,0.133,0.207,97.25
+556,Cleveland Cavaliers,2004,0-3 ft,0.318,0.427,102.1
+557,Cleveland Cavaliers,2004,3-10 ft,0.173,0.427,102.1
+558,Cleveland Cavaliers,2004,10-16 ft,0.196,0.427,102.1
+559,Cleveland Cavaliers,2004,Over 16 ft,0.197,0.427,102.1
+560,Cleveland Cavaliers,2004,3P,0.116,0.427,102.1
+561,Cleveland Cavaliers,2005,0-3 ft,0.312,0.512,107.58
+562,Cleveland Cavaliers,2005,3-10 ft,0.161,0.512,107.58
+563,Cleveland Cavaliers,2005,10-16 ft,0.159,0.512,107.58
+564,Cleveland Cavaliers,2005,Over 16 ft,0.233,0.512,107.58
+565,Cleveland Cavaliers,2005,3P,0.135,0.512,107.58
+566,Cleveland Cavaliers,2006,0-3 ft,0.351,0.61,108.49
+567,Cleveland Cavaliers,2006,3-10 ft,0.121,0.61,108.49
+568,Cleveland Cavaliers,2006,10-16 ft,0.103,0.61,108.49
+569,Cleveland Cavaliers,2006,Over 16 ft,0.198,0.61,108.49
+570,Cleveland Cavaliers,2006,3P,0.228,0.61,108.49
+571,Cleveland Cavaliers,2007,0-3 ft,0.323,0.61,106.15
+572,Cleveland Cavaliers,2007,3-10 ft,0.129,0.61,106.15
+573,Cleveland Cavaliers,2007,10-16 ft,0.123,0.61,106.15
+574,Cleveland Cavaliers,2007,Over 16 ft,0.214,0.61,106.15
+575,Cleveland Cavaliers,2007,3P,0.211,0.61,106.15
+576,Cleveland Cavaliers,2008,0-3 ft,0.321,0.549,106.66
+577,Cleveland Cavaliers,2008,3-10 ft,0.105,0.549,106.66
+578,Cleveland Cavaliers,2008,10-16 ft,0.106,0.549,106.66
+579,Cleveland Cavaliers,2008,Over 16 ft,0.238,0.549,106.66
+580,Cleveland Cavaliers,2008,3P,0.231,0.549,106.66
+581,Cleveland Cavaliers,2009,0-3 ft,0.278,0.805,113.29
+582,Cleveland Cavaliers,2009,3-10 ft,0.101,0.805,113.29
+583,Cleveland Cavaliers,2009,10-16 ft,0.101,0.805,113.29
+584,Cleveland Cavaliers,2009,Over 16 ft,0.262,0.805,113.29
+585,Cleveland Cavaliers,2009,3P,0.259,0.805,113.29
+586,Cleveland Cavaliers,2010,0-3 ft,0.339,0.744,112.27
+587,Cleveland Cavaliers,2010,3-10 ft,0.119,0.744,112.27
+588,Cleveland Cavaliers,2010,10-16 ft,0.08,0.744,112.27
+589,Cleveland Cavaliers,2010,Over 16 ft,0.214,0.744,112.27
+590,Cleveland Cavaliers,2010,3P,0.248,0.744,112.27
+591,Cleveland Cavaliers,2011,0-3 ft,0.296,0.232,102.74
+592,Cleveland Cavaliers,2011,3-10 ft,0.179,0.232,102.74
+593,Cleveland Cavaliers,2011,10-16 ft,0.097,0.232,102.74
+594,Cleveland Cavaliers,2011,Over 16 ft,0.203,0.232,102.74
+595,Cleveland Cavaliers,2011,3P,0.224,0.232,102.74
+596,Cleveland Cavaliers,2012,0-3 ft,0.326,0.318,101.86
+597,Cleveland Cavaliers,2012,3-10 ft,0.188,0.318,101.86
+598,Cleveland Cavaliers,2012,10-16 ft,0.081,0.318,101.86
+599,Cleveland Cavaliers,2012,Over 16 ft,0.167,0.318,101.86
+600,Cleveland Cavaliers,2012,3P,0.238,0.318,101.86
+601,Cleveland Cavaliers,2013,0-3 ft,0.294,0.293,105.09
+602,Cleveland Cavaliers,2013,3-10 ft,0.174,0.293,105.09
+603,Cleveland Cavaliers,2013,10-16 ft,0.116,0.293,105.09
+604,Cleveland Cavaliers,2013,Over 16 ft,0.188,0.293,105.09
+605,Cleveland Cavaliers,2013,3P,0.229,0.293,105.09
+606,Cleveland Cavaliers,2014,0-3 ft,0.269,0.402,104.95
+607,Cleveland Cavaliers,2014,3-10 ft,0.17,0.402,104.95
+608,Cleveland Cavaliers,2014,10-16 ft,0.128,0.402,104.95
+609,Cleveland Cavaliers,2014,Over 16 ft,0.197,0.402,104.95
+610,Cleveland Cavaliers,2014,3P,0.236,0.402,104.95
+611,Cleveland Cavaliers,2015,0-3 ft,0.295,0.646,111.93
+612,Cleveland Cavaliers,2015,3-10 ft,0.156,0.646,111.93
+613,Cleveland Cavaliers,2015,10-16 ft,0.092,0.646,111.93
+614,Cleveland Cavaliers,2015,Over 16 ft,0.124,0.646,111.93
+615,Cleveland Cavaliers,2015,3P,0.334,0.646,111.93
+616,Cleveland Cavaliers,2016,0-3 ft,0.28,0.695,111.8
+617,Cleveland Cavaliers,2016,3-10 ft,0.149,0.695,111.8
+618,Cleveland Cavaliers,2016,10-16 ft,0.095,0.695,111.8
+619,Cleveland Cavaliers,2016,Over 16 ft,0.125,0.695,111.8
+620,Cleveland Cavaliers,2016,3P,0.352,0.695,111.8
+621,Cleveland Cavaliers,2017,0-3 ft,0.284,0.622,114.25
+622,Cleveland Cavaliers,2017,3-10 ft,0.11,0.622,114.25
+623,Cleveland Cavaliers,2017,10-16 ft,0.092,0.622,114.25
+624,Cleveland Cavaliers,2017,Over 16 ft,0.115,0.622,114.25
+625,Cleveland Cavaliers,2017,3P,0.399,0.622,114.25
+626,Cleveland Cavaliers,2018,0-3 ft,0.297,0.61,113.58
+627,Cleveland Cavaliers,2018,3-10 ft,0.113,0.61,113.58
+628,Cleveland Cavaliers,2018,10-16 ft,0.092,0.61,113.58
+629,Cleveland Cavaliers,2018,Over 16 ft,0.119,0.61,113.58
+630,Cleveland Cavaliers,2018,3P,0.379,0.61,113.58
+631,Dallas Mavericks,2001,0-3 ft,0.257,0.646,108
+632,Dallas Mavericks,2001,3-10 ft,0.165,0.646,108
+633,Dallas Mavericks,2001,10-16 ft,0.166,0.646,108
+634,Dallas Mavericks,2001,Over 16 ft,0.21,0.646,108
+635,Dallas Mavericks,2001,3P,0.202,0.646,108
+636,Dallas Mavericks,2002,0-3 ft,0.281,0.695,112.8
+637,Dallas Mavericks,2002,3-10 ft,0.121,0.695,112.8
+638,Dallas Mavericks,2002,10-16 ft,0.146,0.695,112.8
+639,Dallas Mavericks,2002,Over 16 ft,0.214,0.695,112.8
+640,Dallas Mavericks,2002,3P,0.237,0.695,112.8
+641,Dallas Mavericks,2003,0-3 ft,0.253,0.732,111.43
+642,Dallas Mavericks,2003,3-10 ft,0.131,0.732,111.43
+643,Dallas Mavericks,2003,10-16 ft,0.136,0.732,111.43
+644,Dallas Mavericks,2003,Over 16 ft,0.241,0.732,111.43
+645,Dallas Mavericks,2003,3P,0.239,0.732,111.43
+646,Dallas Mavericks,2004,0-3 ft,0.29,0.634,113.01
+647,Dallas Mavericks,2004,3-10 ft,0.159,0.634,113.01
+648,Dallas Mavericks,2004,10-16 ft,0.129,0.634,113.01
+649,Dallas Mavericks,2004,Over 16 ft,0.219,0.634,113.01
+650,Dallas Mavericks,2004,3P,0.201,0.634,113.01
+651,Dallas Mavericks,2005,0-3 ft,0.287,0.707,111.32
+652,Dallas Mavericks,2005,3-10 ft,0.132,0.707,111.32
+653,Dallas Mavericks,2005,10-16 ft,0.148,0.707,111.32
+654,Dallas Mavericks,2005,Over 16 ft,0.243,0.707,111.32
+655,Dallas Mavericks,2005,3P,0.19,0.707,111.32
+656,Dallas Mavericks,2006,0-3 ft,0.287,0.732,112.87
+657,Dallas Mavericks,2006,3-10 ft,0.143,0.732,112.87
+658,Dallas Mavericks,2006,10-16 ft,0.178,0.732,112.87
+659,Dallas Mavericks,2006,Over 16 ft,0.218,0.732,112.87
+660,Dallas Mavericks,2006,3P,0.175,0.732,112.87
+661,Dallas Mavericks,2007,0-3 ft,0.269,0.817,112.32
+662,Dallas Mavericks,2007,3-10 ft,0.104,0.817,112.32
+663,Dallas Mavericks,2007,10-16 ft,0.163,0.817,112.32
+664,Dallas Mavericks,2007,Over 16 ft,0.246,0.817,112.32
+665,Dallas Mavericks,2007,3P,0.218,0.817,112.32
+666,Dallas Mavericks,2008,0-3 ft,0.264,0.622,111.9
+667,Dallas Mavericks,2008,3-10 ft,0.108,0.622,111.9
+668,Dallas Mavericks,2008,10-16 ft,0.17,0.622,111.9
+669,Dallas Mavericks,2008,Over 16 ft,0.243,0.622,111.9
+670,Dallas Mavericks,2008,3P,0.215,0.622,111.9
+671,Dallas Mavericks,2009,0-3 ft,0.266,0.61,111.2
+672,Dallas Mavericks,2009,3-10 ft,0.089,0.61,111.2
+673,Dallas Mavericks,2009,10-16 ft,0.162,0.61,111.2
+674,Dallas Mavericks,2009,Over 16 ft,0.242,0.61,111.2
+675,Dallas Mavericks,2009,3P,0.241,0.61,111.2
+676,Dallas Mavericks,2010,0-3 ft,0.282,0.671,110
+677,Dallas Mavericks,2010,3-10 ft,0.127,0.671,110
+678,Dallas Mavericks,2010,10-16 ft,0.142,0.671,110
+679,Dallas Mavericks,2010,Over 16 ft,0.229,0.671,110
+680,Dallas Mavericks,2010,3P,0.222,0.671,110
+681,Dallas Mavericks,2011,0-3 ft,0.24,0.695,110.24
+682,Dallas Mavericks,2011,3-10 ft,0.162,0.695,110.24
+683,Dallas Mavericks,2011,10-16 ft,0.125,0.695,110.24
+684,Dallas Mavericks,2011,Over 16 ft,0.199,0.695,110.24
+685,Dallas Mavericks,2011,3P,0.274,0.695,110.24
+686,Dallas Mavericks,2012,0-3 ft,0.24,0.545,104.08
+687,Dallas Mavericks,2012,3-10 ft,0.167,0.545,104.08
+688,Dallas Mavericks,2012,10-16 ft,0.148,0.545,104.08
+689,Dallas Mavericks,2012,Over 16 ft,0.175,0.545,104.08
+690,Dallas Mavericks,2012,3P,0.271,0.545,104.08
+691,Dallas Mavericks,2013,0-3 ft,0.242,0.5,106.66
+692,Dallas Mavericks,2013,3-10 ft,0.179,0.5,106.66
+693,Dallas Mavericks,2013,10-16 ft,0.16,0.5,106.66
+694,Dallas Mavericks,2013,Over 16 ft,0.182,0.5,106.66
+695,Dallas Mavericks,2013,3P,0.236,0.5,106.66
+696,Dallas Mavericks,2014,0-3 ft,0.262,0.598,111.95
+697,Dallas Mavericks,2014,3-10 ft,0.156,0.598,111.95
+698,Dallas Mavericks,2014,10-16 ft,0.135,0.598,111.95
+699,Dallas Mavericks,2014,Over 16 ft,0.173,0.598,111.95
+700,Dallas Mavericks,2014,3P,0.274,0.598,111.95
+701,Dallas Mavericks,2015,0-3 ft,0.287,0.61,110.3
+702,Dallas Mavericks,2015,3-10 ft,0.142,0.61,110.3
+703,Dallas Mavericks,2015,10-16 ft,0.094,0.61,110.3
+704,Dallas Mavericks,2015,Over 16 ft,0.182,0.61,110.3
+705,Dallas Mavericks,2015,3P,0.296,0.61,110.3
+706,Dallas Mavericks,2016,0-3 ft,0.243,0.512,107.29
+707,Dallas Mavericks,2016,3-10 ft,0.149,0.512,107.29
+708,Dallas Mavericks,2016,10-16 ft,0.111,0.512,107.29
+709,Dallas Mavericks,2016,Over 16 ft,0.159,0.512,107.29
+710,Dallas Mavericks,2016,3P,0.339,0.512,107.29
+711,Dallas Mavericks,2017,0-3 ft,0.201,0.402,106.28
+712,Dallas Mavericks,2017,3-10 ft,0.127,0.402,106.28
+713,Dallas Mavericks,2017,10-16 ft,0.116,0.402,106.28
+714,Dallas Mavericks,2017,Over 16 ft,0.189,0.402,106.28
+715,Dallas Mavericks,2017,3P,0.366,0.402,106.28
+716,Dallas Mavericks,2018,0-3 ft,0.241,0.293,106.92
+717,Dallas Mavericks,2018,3-10 ft,0.135,0.293,106.92
+718,Dallas Mavericks,2018,10-16 ft,0.105,0.293,106.92
+719,Dallas Mavericks,2018,Over 16 ft,0.137,0.293,106.92
+720,Dallas Mavericks,2018,3P,0.382,0.293,106.92
+721,Denver Nuggets,2001,0-3 ft,0.295,0.488,104.26
+722,Denver Nuggets,2001,3-10 ft,0.137,0.488,104.26
+723,Denver Nuggets,2001,10-16 ft,0.138,0.488,104.26
+724,Denver Nuggets,2001,Over 16 ft,0.221,0.488,104.26
+725,Denver Nuggets,2001,3P,0.21,0.488,104.26
+726,Denver Nuggets,2002,0-3 ft,0.3,0.329,102.34
+727,Denver Nuggets,2002,3-10 ft,0.147,0.329,102.34
+728,Denver Nuggets,2002,10-16 ft,0.121,0.329,102.34
+729,Denver Nuggets,2002,Over 16 ft,0.245,0.329,102.34
+730,Denver Nuggets,2002,3P,0.187,0.329,102.34
+731,Denver Nuggets,2003,0-3 ft,0.297,0.207,93.2
+732,Denver Nuggets,2003,3-10 ft,0.171,0.207,93.2
+733,Denver Nuggets,2003,10-16 ft,0.135,0.207,93.2
+734,Denver Nuggets,2003,Over 16 ft,0.272,0.207,93.2
+735,Denver Nuggets,2003,3P,0.126,0.207,93.2
+736,Denver Nuggets,2004,0-3 ft,0.345,0.524,104.61
+737,Denver Nuggets,2004,3-10 ft,0.111,0.524,104.61
+738,Denver Nuggets,2004,10-16 ft,0.127,0.524,104.61
+739,Denver Nuggets,2004,Over 16 ft,0.272,0.524,104.61
+740,Denver Nuggets,2004,3P,0.146,0.524,104.61
+741,Denver Nuggets,2005,0-3 ft,0.364,0.598,106.6
+742,Denver Nuggets,2005,3-10 ft,0.102,0.598,106.6
+743,Denver Nuggets,2005,10-16 ft,0.117,0.598,106.6
+744,Denver Nuggets,2005,Over 16 ft,0.274,0.598,106.6
+745,Denver Nuggets,2005,3P,0.142,0.598,106.6
+746,Denver Nuggets,2006,0-3 ft,0.367,0.537,106.16
+747,Denver Nuggets,2006,3-10 ft,0.088,0.537,106.16
+748,Denver Nuggets,2006,10-16 ft,0.103,0.537,106.16
+749,Denver Nuggets,2006,Over 16 ft,0.28,0.537,106.16
+750,Denver Nuggets,2006,3P,0.161,0.537,106.16
+751,Denver Nuggets,2007,0-3 ft,0.37,0.549,108.12
+752,Denver Nuggets,2007,3-10 ft,0.104,0.549,108.12
+753,Denver Nuggets,2007,10-16 ft,0.1,0.549,108.12
+754,Denver Nuggets,2007,Over 16 ft,0.214,0.549,108.12
+755,Denver Nuggets,2007,3P,0.212,0.549,108.12
+756,Denver Nuggets,2008,0-3 ft,0.362,0.61,110.46
+757,Denver Nuggets,2008,3-10 ft,0.102,0.61,110.46
+758,Denver Nuggets,2008,10-16 ft,0.1,0.61,110.46
+759,Denver Nuggets,2008,Over 16 ft,0.208,0.61,110.46
+760,Denver Nuggets,2008,3P,0.228,0.61,110.46
+761,Denver Nuggets,2009,0-3 ft,0.376,0.659,111.03
+762,Denver Nuggets,2009,3-10 ft,0.1,0.659,111.03
+763,Denver Nuggets,2009,10-16 ft,0.081,0.659,111.03
+764,Denver Nuggets,2009,Over 16 ft,0.216,0.659,111.03
+765,Denver Nuggets,2009,3P,0.227,0.659,111.03
+766,Denver Nuggets,2010,0-3 ft,0.351,0.646,112.32
+767,Denver Nuggets,2010,3-10 ft,0.11,0.646,112.32
+768,Denver Nuggets,2010,10-16 ft,0.094,0.646,112.32
+769,Denver Nuggets,2010,Over 16 ft,0.218,0.646,112.32
+770,Denver Nuggets,2010,3P,0.227,0.646,112.32
+771,Denver Nuggets,2011,0-3 ft,0.349,0.61,112.84
+772,Denver Nuggets,2011,3-10 ft,0.133,0.61,112.84
+773,Denver Nuggets,2011,10-16 ft,0.074,0.61,112.84
+774,Denver Nuggets,2011,Over 16 ft,0.186,0.61,112.84
+775,Denver Nuggets,2011,3P,0.258,0.61,112.84
+776,Denver Nuggets,2012,0-3 ft,0.404,0.576,109.95
+777,Denver Nuggets,2012,3-10 ft,0.151,0.576,109.95
+778,Denver Nuggets,2012,10-16 ft,0.077,0.576,109.95
+779,Denver Nuggets,2012,Over 16 ft,0.125,0.576,109.95
+780,Denver Nuggets,2012,3P,0.243,0.576,109.95
+781,Denver Nuggets,2013,0-3 ft,0.415,0.695,111.23
+782,Denver Nuggets,2013,3-10 ft,0.172,0.695,111.23
+783,Denver Nuggets,2013,10-16 ft,0.08,0.695,111.23
+784,Denver Nuggets,2013,Over 16 ft,0.115,0.695,111.23
+785,Denver Nuggets,2013,3P,0.217,0.695,111.23
+786,Denver Nuggets,2014,0-3 ft,0.309,0.439,106.59
+787,Denver Nuggets,2014,3-10 ft,0.182,0.439,106.59
+788,Denver Nuggets,2014,10-16 ft,0.08,0.439,106.59
+789,Denver Nuggets,2014,Over 16 ft,0.15,0.439,106.59
+790,Denver Nuggets,2014,3P,0.278,0.439,106.59
+791,Denver Nuggets,2015,0-3 ft,0.297,0.366,105.11
+792,Denver Nuggets,2015,3-10 ft,0.177,0.366,105.11
+793,Denver Nuggets,2015,10-16 ft,0.09,0.366,105.11
+794,Denver Nuggets,2015,Over 16 ft,0.151,0.366,105.11
+795,Denver Nuggets,2015,3P,0.284,0.366,105.11
+796,Denver Nuggets,2016,0-3 ft,0.342,0.402,106.22
+797,Denver Nuggets,2016,3-10 ft,0.158,0.402,106.22
+798,Denver Nuggets,2016,10-16 ft,0.08,0.402,106.22
+799,Denver Nuggets,2016,Over 16 ft,0.142,0.402,106.22
+800,Denver Nuggets,2016,3P,0.277,0.402,106.22
+801,Denver Nuggets,2017,0-3 ft,0.33,0.488,113.9
+802,Denver Nuggets,2017,3-10 ft,0.156,0.488,113.9
+803,Denver Nuggets,2017,10-16 ft,0.078,0.488,113.9
+804,Denver Nuggets,2017,Over 16 ft,0.108,0.488,113.9
+805,Denver Nuggets,2017,3P,0.329,0.488,113.9
+806,Denver Nuggets,2018,0-3 ft,0.275,0.561,113.02
+807,Denver Nuggets,2018,3-10 ft,0.204,0.561,113.02
+808,Denver Nuggets,2018,10-16 ft,0.09,0.561,113.02
+809,Denver Nuggets,2018,Over 16 ft,0.074,0.561,113.02
+810,Denver Nuggets,2018,3P,0.357,0.561,113.02
+811,Detroit Pistons,2001,0-3 ft,0.295,0.39,100.61
+812,Detroit Pistons,2001,3-10 ft,0.109,0.39,100.61
+813,Detroit Pistons,2001,10-16 ft,0.15,0.39,100.61
+814,Detroit Pistons,2001,Over 16 ft,0.284,0.39,100.61
+815,Detroit Pistons,2001,3P,0.162,0.39,100.61
+816,Detroit Pistons,2002,0-3 ft,0.283,0.61,105.77
+817,Detroit Pistons,2002,3-10 ft,0.124,0.61,105.77
+818,Detroit Pistons,2002,10-16 ft,0.146,0.61,105.77
+819,Detroit Pistons,2002,Over 16 ft,0.207,0.61,105.77
+820,Detroit Pistons,2002,3P,0.24,0.61,105.77
+821,Detroit Pistons,2003,0-3 ft,0.264,0.61,104.84
+822,Detroit Pistons,2003,3-10 ft,0.135,0.61,104.84
+823,Detroit Pistons,2003,10-16 ft,0.145,0.61,104.84
+824,Detroit Pistons,2003,Over 16 ft,0.219,0.61,104.84
+825,Detroit Pistons,2003,3P,0.237,0.61,104.84
+826,Detroit Pistons,2004,0-3 ft,0.34,0.659,103.18
+827,Detroit Pistons,2004,3-10 ft,0.153,0.659,103.18
+828,Detroit Pistons,2004,10-16 ft,0.175,0.659,103.18
+829,Detroit Pistons,2004,Over 16 ft,0.179,0.659,103.18
+830,Detroit Pistons,2004,3P,0.153,0.659,103.18
+831,Detroit Pistons,2005,0-3 ft,0.321,0.659,106.49
+832,Detroit Pistons,2005,3-10 ft,0.117,0.659,106.49
+833,Detroit Pistons,2005,10-16 ft,0.183,0.659,106.49
+834,Detroit Pistons,2005,Over 16 ft,0.215,0.659,106.49
+835,Detroit Pistons,2005,3P,0.164,0.659,106.49
+836,Detroit Pistons,2006,0-3 ft,0.269,0.78,111.59
+837,Detroit Pistons,2006,3-10 ft,0.086,0.78,111.59
+838,Detroit Pistons,2006,10-16 ft,0.174,0.78,111.59
+839,Detroit Pistons,2006,Over 16 ft,0.249,0.78,111.59
+840,Detroit Pistons,2006,3P,0.221,0.78,111.59
+841,Detroit Pistons,2007,0-3 ft,0.291,0.646,109.8
+842,Detroit Pistons,2007,3-10 ft,0.11,0.646,109.8
+843,Detroit Pistons,2007,10-16 ft,0.182,0.646,109.8
+844,Detroit Pistons,2007,Over 16 ft,0.216,0.646,109.8
+845,Detroit Pistons,2007,3P,0.201,0.646,109.8
+846,Detroit Pistons,2008,0-3 ft,0.265,0.72,112.09
+847,Detroit Pistons,2008,3-10 ft,0.085,0.72,112.09
+848,Detroit Pistons,2008,10-16 ft,0.153,0.72,112.09
+849,Detroit Pistons,2008,Over 16 ft,0.295,0.72,112.09
+850,Detroit Pistons,2008,3P,0.203,0.72,112.09
+851,Detroit Pistons,2009,0-3 ft,0.284,0.476,108.21
+852,Detroit Pistons,2009,3-10 ft,0.091,0.476,108.21
+853,Detroit Pistons,2009,10-16 ft,0.156,0.476,108.21
+854,Detroit Pistons,2009,Over 16 ft,0.304,0.476,108.21
+855,Detroit Pistons,2009,3P,0.165,0.476,108.21
+856,Detroit Pistons,2010,0-3 ft,0.319,0.329,106.6
+857,Detroit Pistons,2010,3-10 ft,0.125,0.329,106.6
+858,Detroit Pistons,2010,10-16 ft,0.145,0.329,106.6
+859,Detroit Pistons,2010,Over 16 ft,0.23,0.329,106.6
+860,Detroit Pistons,2010,3P,0.18,0.329,106.6
+861,Detroit Pistons,2011,0-3 ft,0.307,0.366,108.37
+862,Detroit Pistons,2011,3-10 ft,0.15,0.366,108.37
+863,Detroit Pistons,2011,10-16 ft,0.132,0.366,108.37
+864,Detroit Pistons,2011,Over 16 ft,0.222,0.366,108.37
+865,Detroit Pistons,2011,3P,0.189,0.366,108.37
+866,Detroit Pistons,2012,0-3 ft,0.329,0.379,102.13
+867,Detroit Pistons,2012,3-10 ft,0.172,0.379,102.13
+868,Detroit Pistons,2012,10-16 ft,0.107,0.379,102.13
+869,Detroit Pistons,2012,Over 16 ft,0.216,0.379,102.13
+870,Detroit Pistons,2012,3P,0.175,0.379,102.13
+871,Detroit Pistons,2013,0-3 ft,0.37,0.354,104.57
+872,Detroit Pistons,2013,3-10 ft,0.172,0.354,104.57
+873,Detroit Pistons,2013,10-16 ft,0.072,0.354,104.57
+874,Detroit Pistons,2013,Over 16 ft,0.169,0.354,104.57
+875,Detroit Pistons,2013,3P,0.217,0.354,104.57
+876,Detroit Pistons,2014,0-3 ft,0.356,0.354,106.6
+877,Detroit Pistons,2014,3-10 ft,0.197,0.354,106.6
+878,Detroit Pistons,2014,10-16 ft,0.068,0.354,106.6
+879,Detroit Pistons,2014,Over 16 ft,0.157,0.354,106.6
+880,Detroit Pistons,2014,3P,0.222,0.354,106.6
+881,Detroit Pistons,2015,0-3 ft,0.323,0.39,106.22
+882,Detroit Pistons,2015,3-10 ft,0.192,0.39,106.22
+883,Detroit Pistons,2015,10-16 ft,0.065,0.39,106.22
+884,Detroit Pistons,2015,Over 16 ft,0.128,0.39,106.22
+885,Detroit Pistons,2015,3P,0.29,0.39,106.22
+886,Detroit Pistons,2016,0-3 ft,0.294,0.537,106.78
+887,Detroit Pistons,2016,3-10 ft,0.184,0.537,106.78
+888,Detroit Pistons,2016,10-16 ft,0.104,0.537,106.78
+889,Detroit Pistons,2016,Over 16 ft,0.116,0.537,106.78
+890,Detroit Pistons,2016,3P,0.303,0.537,106.78
+891,Detroit Pistons,2017,0-3 ft,0.25,0.451,106.53
+892,Detroit Pistons,2017,3-10 ft,0.189,0.451,106.53
+893,Detroit Pistons,2017,10-16 ft,0.141,0.451,106.53
+894,Detroit Pistons,2017,Over 16 ft,0.157,0.451,106.53
+895,Detroit Pistons,2017,3P,0.263,0.451,106.53
+896,Detroit Pistons,2018,0-3 ft,0.26,0.476,107.95
+897,Detroit Pistons,2018,3-10 ft,0.185,0.476,107.95
+898,Detroit Pistons,2018,10-16 ft,0.107,0.476,107.95
+899,Detroit Pistons,2018,Over 16 ft,0.116,0.476,107.95
+900,Detroit Pistons,2018,3P,0.333,0.476,107.95
+901,Golden State Warriors,2001,0-3 ft,0.24,0.207,98.41
+902,Golden State Warriors,2001,3-10 ft,0.226,0.207,98.41
+903,Golden State Warriors,2001,10-16 ft,0.159,0.207,98.41
+904,Golden State Warriors,2001,Over 16 ft,0.241,0.207,98.41
+905,Golden State Warriors,2001,3P,0.134,0.207,98.41
+906,Golden State Warriors,2002,0-3 ft,0.297,0.256,103.56
+907,Golden State Warriors,2002,3-10 ft,0.235,0.256,103.56
+908,Golden State Warriors,2002,10-16 ft,0.111,0.256,103.56
+909,Golden State Warriors,2002,Over 16 ft,0.215,0.256,103.56
+910,Golden State Warriors,2002,3P,0.142,0.256,103.56
+911,Golden State Warriors,2003,0-3 ft,0.271,0.463,109.01
+912,Golden State Warriors,2003,3-10 ft,0.207,0.463,109.01
+913,Golden State Warriors,2003,10-16 ft,0.123,0.463,109.01
+914,Golden State Warriors,2003,Over 16 ft,0.222,0.463,109.01
+915,Golden State Warriors,2003,3P,0.178,0.463,109.01
+916,Golden State Warriors,2004,0-3 ft,0.272,0.451,103.71
+917,Golden State Warriors,2004,3-10 ft,0.196,0.451,103.71
+918,Golden State Warriors,2004,10-16 ft,0.117,0.451,103.71
+919,Golden State Warriors,2004,Over 16 ft,0.218,0.451,103.71
+920,Golden State Warriors,2004,3P,0.197,0.451,103.71
+921,Golden State Warriors,2005,0-3 ft,0.254,0.415,105.24
+922,Golden State Warriors,2005,3-10 ft,0.155,0.415,105.24
+923,Golden State Warriors,2005,10-16 ft,0.092,0.415,105.24
+924,Golden State Warriors,2005,Over 16 ft,0.248,0.415,105.24
+925,Golden State Warriors,2005,3P,0.252,0.415,105.24
+926,Golden State Warriors,2006,0-3 ft,0.283,0.415,105.36
+927,Golden State Warriors,2006,3-10 ft,0.152,0.415,105.36
+928,Golden State Warriors,2006,10-16 ft,0.083,0.415,105.36
+929,Golden State Warriors,2006,Over 16 ft,0.211,0.415,105.36
+930,Golden State Warriors,2006,3P,0.27,0.415,105.36
+931,Golden State Warriors,2007,0-3 ft,0.338,0.512,107.62
+932,Golden State Warriors,2007,3-10 ft,0.135,0.512,107.62
+933,Golden State Warriors,2007,10-16 ft,0.077,0.512,107.62
+934,Golden State Warriors,2007,Over 16 ft,0.172,0.512,107.62
+935,Golden State Warriors,2007,3P,0.279,0.512,107.62
+936,Golden State Warriors,2008,0-3 ft,0.345,0.585,112.46
+937,Golden State Warriors,2008,3-10 ft,0.121,0.585,112.46
+938,Golden State Warriors,2008,10-16 ft,0.068,0.585,112.46
+939,Golden State Warriors,2008,Over 16 ft,0.171,0.585,112.46
+940,Golden State Warriors,2008,3P,0.295,0.585,112.46
+941,Golden State Warriors,2009,0-3 ft,0.308,0.354,109.94
+942,Golden State Warriors,2009,3-10 ft,0.138,0.354,109.94
+943,Golden State Warriors,2009,10-16 ft,0.092,0.354,109.94
+944,Golden State Warriors,2009,Over 16 ft,0.252,0.354,109.94
+945,Golden State Warriors,2009,3P,0.209,0.354,109.94
+946,Golden State Warriors,2010,0-3 ft,0.298,0.317,108.7
+947,Golden State Warriors,2010,3-10 ft,0.113,0.317,108.7
+948,Golden State Warriors,2010,10-16 ft,0.095,0.317,108.7
+949,Golden State Warriors,2010,Over 16 ft,0.256,0.317,108.7
+950,Golden State Warriors,2010,3P,0.238,0.317,108.7
+951,Golden State Warriors,2011,0-3 ft,0.276,0.439,108.96
+952,Golden State Warriors,2011,3-10 ft,0.169,0.439,108.96
+953,Golden State Warriors,2011,10-16 ft,0.093,0.439,108.96
+954,Golden State Warriors,2011,Over 16 ft,0.214,0.439,108.96
+955,Golden State Warriors,2011,3P,0.248,0.439,108.96
+956,Golden State Warriors,2012,0-3 ft,0.259,0.348,105.97
+957,Golden State Warriors,2012,3-10 ft,0.166,0.348,105.97
+958,Golden State Warriors,2012,10-16 ft,0.091,0.348,105.97
+959,Golden State Warriors,2012,Over 16 ft,0.236,0.348,105.97
+960,Golden State Warriors,2012,3P,0.248,0.348,105.97
+961,Golden State Warriors,2013,0-3 ft,0.242,0.573,107.1
+962,Golden State Warriors,2013,3-10 ft,0.173,0.573,107.1
+963,Golden State Warriors,2013,10-16 ft,0.118,0.573,107.1
+964,Golden State Warriors,2013,Over 16 ft,0.229,0.573,107.1
+965,Golden State Warriors,2013,3P,0.239,0.573,107.1
+966,Golden State Warriors,2014,0-3 ft,0.264,0.622,108.05
+967,Golden State Warriors,2014,3-10 ft,0.176,0.622,108.05
+968,Golden State Warriors,2014,10-16 ft,0.1,0.622,108.05
+969,Golden State Warriors,2014,Over 16 ft,0.169,0.622,108.05
+970,Golden State Warriors,2014,3P,0.291,0.622,108.05
+971,Golden State Warriors,2015,0-3 ft,0.286,0.817,112.18
+972,Golden State Warriors,2015,3-10 ft,0.145,0.817,112.18
+973,Golden State Warriors,2015,10-16 ft,0.104,0.817,112.18
+974,Golden State Warriors,2015,Over 16 ft,0.154,0.817,112.18
+975,Golden State Warriors,2015,3P,0.311,0.817,112.18
+976,Golden State Warriors,2016,0-3 ft,0.301,0.89,115.18
+977,Golden State Warriors,2016,3-10 ft,0.125,0.89,115.18
+978,Golden State Warriors,2016,10-16 ft,0.093,0.89,115.18
+979,Golden State Warriors,2016,Over 16 ft,0.119,0.89,115.18
+980,Golden State Warriors,2016,3P,0.362,0.89,115.18
+981,Golden State Warriors,2017,0-3 ft,0.303,0.817,116.26
+982,Golden State Warriors,2017,3-10 ft,0.102,0.817,116.26
+983,Golden State Warriors,2017,10-16 ft,0.107,0.817,116.26
+984,Golden State Warriors,2017,Over 16 ft,0.129,0.817,116.26
+985,Golden State Warriors,2017,3P,0.359,0.817,116.26
+986,Golden State Warriors,2018,0-3 ft,0.267,0.707,114.31
+987,Golden State Warriors,2018,3-10 ft,0.111,0.707,114.31
+988,Golden State Warriors,2018,10-16 ft,0.139,0.707,114.31
+989,Golden State Warriors,2018,Over 16 ft,0.144,0.707,114.31
+990,Golden State Warriors,2018,3P,0.339,0.707,114.31
+991,Houston Rockets,2001,0-3 ft,0.306,0.549,107.6
+992,Houston Rockets,2001,3-10 ft,0.141,0.549,107.6
+993,Houston Rockets,2001,10-16 ft,0.133,0.549,107.6
+994,Houston Rockets,2001,Over 16 ft,0.204,0.549,107.6
+995,Houston Rockets,2001,3P,0.217,0.549,107.6
+996,Houston Rockets,2002,0-3 ft,0.295,0.341,103.93
+997,Houston Rockets,2002,3-10 ft,0.108,0.341,103.93
+998,Houston Rockets,2002,10-16 ft,0.103,0.341,103.93
+999,Houston Rockets,2002,Over 16 ft,0.271,0.341,103.93
+1000,Houston Rockets,2002,3P,0.223,0.341,103.93
+1001,Houston Rockets,2003,0-3 ft,0.305,0.524,104.96
+1002,Houston Rockets,2003,3-10 ft,0.145,0.524,104.96
+1003,Houston Rockets,2003,10-16 ft,0.126,0.524,104.96
+1004,Houston Rockets,2003,Over 16 ft,0.229,0.524,104.96
+1005,Houston Rockets,2003,3P,0.196,0.524,104.96
+1006,Houston Rockets,2004,0-3 ft,0.268,0.549,101.8
+1007,Houston Rockets,2004,3-10 ft,0.153,0.549,101.8
+1008,Houston Rockets,2004,10-16 ft,0.141,0.549,101.8
+1009,Houston Rockets,2004,Over 16 ft,0.211,0.549,101.8
+1010,Houston Rockets,2004,3P,0.227,0.549,101.8
+1011,Houston Rockets,2005,0-3 ft,0.254,0.622,107.03
+1012,Houston Rockets,2005,3-10 ft,0.134,0.622,107.03
+1013,Houston Rockets,2005,10-16 ft,0.119,0.622,107.03
+1014,Houston Rockets,2005,Over 16 ft,0.256,0.622,107.03
+1015,Houston Rockets,2005,3P,0.237,0.622,107.03
+1016,Houston Rockets,2006,0-3 ft,0.281,0.415,102.41
+1017,Houston Rockets,2006,3-10 ft,0.151,0.415,102.41
+1018,Houston Rockets,2006,10-16 ft,0.118,0.415,102.41
+1019,Houston Rockets,2006,Over 16 ft,0.225,0.415,102.41
+1020,Houston Rockets,2006,3P,0.226,0.415,102.41
+1021,Houston Rockets,2007,0-3 ft,0.276,0.634,106.64
+1022,Houston Rockets,2007,3-10 ft,0.145,0.634,106.64
+1023,Houston Rockets,2007,10-16 ft,0.104,0.634,106.64
+1024,Houston Rockets,2007,Over 16 ft,0.185,0.634,106.64
+1025,Houston Rockets,2007,3P,0.29,0.634,106.64
+1026,Houston Rockets,2008,0-3 ft,0.315,0.671,107.47
+1027,Houston Rockets,2008,3-10 ft,0.127,0.671,107.47
+1028,Houston Rockets,2008,10-16 ft,0.096,0.671,107.47
+1029,Houston Rockets,2008,Over 16 ft,0.206,0.671,107.47
+1030,Houston Rockets,2008,3P,0.255,0.671,107.47
+1031,Houston Rockets,2009,0-3 ft,0.309,0.646,109.22
+1032,Houston Rockets,2009,3-10 ft,0.16,0.646,109.22
+1033,Houston Rockets,2009,10-16 ft,0.111,0.646,109.22
+1034,Houston Rockets,2009,Over 16 ft,0.166,0.646,109.22
+1035,Houston Rockets,2009,3P,0.254,0.646,109.22
+1036,Houston Rockets,2010,0-3 ft,0.346,0.512,108.37
+1037,Houston Rockets,2010,3-10 ft,0.134,0.512,108.37
+1038,Houston Rockets,2010,10-16 ft,0.089,0.512,108.37
+1039,Houston Rockets,2010,Over 16 ft,0.165,0.512,108.37
+1040,Houston Rockets,2010,3P,0.265,0.512,108.37
+1041,Houston Rockets,2011,0-3 ft,0.263,0.524,112.02
+1042,Houston Rockets,2011,3-10 ft,0.203,0.524,112.02
+1043,Houston Rockets,2011,10-16 ft,0.092,0.524,112.02
+1044,Houston Rockets,2011,Over 16 ft,0.177,0.524,112.02
+1045,Houston Rockets,2011,3P,0.264,0.524,112.02
+1046,Houston Rockets,2012,0-3 ft,0.25,0.515,106.42
+1047,Houston Rockets,2012,3-10 ft,0.202,0.515,106.42
+1048,Houston Rockets,2012,10-16 ft,0.12,0.515,106.42
+1049,Houston Rockets,2012,Over 16 ft,0.189,0.515,106.42
+1050,Houston Rockets,2012,3P,0.24,0.515,106.42
+1051,Houston Rockets,2013,0-3 ft,0.341,0.549,110.42
+1052,Houston Rockets,2013,3-10 ft,0.156,0.549,110.42
+1053,Houston Rockets,2013,10-16 ft,0.048,0.549,110.42
+1054,Houston Rockets,2013,Over 16 ft,0.106,0.549,110.42
+1055,Houston Rockets,2013,3P,0.349,0.549,110.42
+1056,Houston Rockets,2014,0-3 ft,0.341,0.659,111.72
+1057,Houston Rockets,2014,3-10 ft,0.214,0.659,111.72
+1058,Houston Rockets,2014,10-16 ft,0.049,0.659,111.72
+1059,Houston Rockets,2014,Over 16 ft,0.065,0.659,111.72
+1060,Houston Rockets,2014,3P,0.33,0.659,111.72
+1061,Houston Rockets,2015,0-3 ft,0.309,0.683,107.87
+1062,Houston Rockets,2015,3-10 ft,0.184,0.683,107.87
+1063,Houston Rockets,2015,10-16 ft,0.047,0.683,107.87
+1064,Houston Rockets,2015,Over 16 ft,0.068,0.683,107.87
+1065,Houston Rockets,2015,3P,0.392,0.683,107.87
+1066,Houston Rockets,2016,0-3 ft,0.321,0.5,109.23
+1067,Houston Rockets,2016,3-10 ft,0.164,0.5,109.23
+1068,Houston Rockets,2016,10-16 ft,0.064,0.5,109.23
+1069,Houston Rockets,2016,Over 16 ft,0.082,0.5,109.23
+1070,Houston Rockets,2016,3P,0.37,0.5,109.23
+1071,Houston Rockets,2017,0-3 ft,0.321,0.671,115.59
+1072,Houston Rockets,2017,3-10 ft,0.125,0.671,115.59
+1073,Houston Rockets,2017,10-16 ft,0.041,0.671,115.59
+1074,Houston Rockets,2017,Over 16 ft,0.05,0.671,115.59
+1075,Houston Rockets,2017,3P,0.462,0.671,115.59
+1076,Houston Rockets,2018,0-3 ft,0.288,0.793,115.48
+1077,Houston Rockets,2018,3-10 ft,0.103,0.793,115.48
+1078,Houston Rockets,2018,10-16 ft,0.062,0.793,115.48
+1079,Houston Rockets,2018,Over 16 ft,0.044,0.793,115.48
+1080,Houston Rockets,2018,3P,0.502,0.793,115.48
+1081,Indiana Pacers,2001,0-3 ft,0.221,0.5,102.91
+1082,Indiana Pacers,2001,3-10 ft,0.201,0.5,102.91
+1083,Indiana Pacers,2001,10-16 ft,0.157,0.5,102.91
+1084,Indiana Pacers,2001,Over 16 ft,0.241,0.5,102.91
+1085,Indiana Pacers,2001,3P,0.18,0.5,102.91
+1086,Indiana Pacers,2002,0-3 ft,0.236,0.512,105.09
+1087,Indiana Pacers,2002,3-10 ft,0.193,0.512,105.09
+1088,Indiana Pacers,2002,10-16 ft,0.168,0.512,105.09
+1089,Indiana Pacers,2002,Over 16 ft,0.222,0.512,105.09
+1090,Indiana Pacers,2002,3P,0.182,0.512,105.09
+1091,Indiana Pacers,2003,0-3 ft,0.278,0.585,105.28
+1092,Indiana Pacers,2003,3-10 ft,0.163,0.585,105.28
+1093,Indiana Pacers,2003,10-16 ft,0.163,0.585,105.28
+1094,Indiana Pacers,2003,Over 16 ft,0.226,0.585,105.28
+1095,Indiana Pacers,2003,3P,0.169,0.585,105.28
+1096,Indiana Pacers,2004,0-3 ft,0.288,0.744,104.77
+1097,Indiana Pacers,2004,3-10 ft,0.156,0.744,104.77
+1098,Indiana Pacers,2004,10-16 ft,0.157,0.744,104.77
+1099,Indiana Pacers,2004,Over 16 ft,0.196,0.744,104.77
+1100,Indiana Pacers,2004,3P,0.203,0.744,104.77
+1101,Indiana Pacers,2005,0-3 ft,0.27,0.537,106.46
+1102,Indiana Pacers,2005,3-10 ft,0.14,0.537,106.46
+1103,Indiana Pacers,2005,10-16 ft,0.137,0.537,106.46
+1104,Indiana Pacers,2005,Over 16 ft,0.199,0.537,106.46
+1105,Indiana Pacers,2005,3P,0.255,0.537,106.46
+1106,Indiana Pacers,2006,0-3 ft,0.283,0.5,105.3
+1107,Indiana Pacers,2006,3-10 ft,0.141,0.5,105.3
+1108,Indiana Pacers,2006,10-16 ft,0.133,0.5,105.3
+1109,Indiana Pacers,2006,Over 16 ft,0.198,0.5,105.3
+1110,Indiana Pacers,2006,3P,0.245,0.5,105.3
+1111,Indiana Pacers,2007,0-3 ft,0.272,0.427,103.7
+1112,Indiana Pacers,2007,3-10 ft,0.158,0.427,103.7
+1113,Indiana Pacers,2007,10-16 ft,0.146,0.427,103.7
+1114,Indiana Pacers,2007,Over 16 ft,0.213,0.427,103.7
+1115,Indiana Pacers,2007,3P,0.212,0.427,103.7
+1116,Indiana Pacers,2008,0-3 ft,0.246,0.439,106.69
+1117,Indiana Pacers,2008,3-10 ft,0.138,0.439,106.69
+1118,Indiana Pacers,2008,10-16 ft,0.111,0.439,106.69
+1119,Indiana Pacers,2008,Over 16 ft,0.216,0.439,106.69
+1120,Indiana Pacers,2008,3P,0.289,0.439,106.69
+1121,Indiana Pacers,2009,0-3 ft,0.295,0.439,108.76
+1122,Indiana Pacers,2009,3-10 ft,0.135,0.439,108.76
+1123,Indiana Pacers,2009,10-16 ft,0.103,0.439,108.76
+1124,Indiana Pacers,2009,Over 16 ft,0.223,0.439,108.76
+1125,Indiana Pacers,2009,3P,0.244,0.439,108.76
+1126,Indiana Pacers,2010,0-3 ft,0.28,0.39,104.6
+1127,Indiana Pacers,2010,3-10 ft,0.135,0.39,104.6
+1128,Indiana Pacers,2010,10-16 ft,0.098,0.39,104.6
+1129,Indiana Pacers,2010,Over 16 ft,0.209,0.39,104.6
+1130,Indiana Pacers,2010,3P,0.278,0.39,104.6
+1131,Indiana Pacers,2011,0-3 ft,0.245,0.451,105.53
+1132,Indiana Pacers,2011,3-10 ft,0.182,0.451,105.53
+1133,Indiana Pacers,2011,10-16 ft,0.116,0.451,105.53
+1134,Indiana Pacers,2011,Over 16 ft,0.213,0.451,105.53
+1135,Indiana Pacers,2011,3P,0.244,0.451,105.53
+1136,Indiana Pacers,2012,0-3 ft,0.269,0.636,107.63
+1137,Indiana Pacers,2012,3-10 ft,0.219,0.636,107.63
+1138,Indiana Pacers,2012,10-16 ft,0.127,0.636,107.63
+1139,Indiana Pacers,2012,Over 16 ft,0.187,0.636,107.63
+1140,Indiana Pacers,2012,3P,0.198,0.636,107.63
+1141,Indiana Pacers,2013,0-3 ft,0.271,0.605,104.87
+1142,Indiana Pacers,2013,3-10 ft,0.19,0.605,104.87
+1143,Indiana Pacers,2013,10-16 ft,0.116,0.605,104.87
+1144,Indiana Pacers,2013,Over 16 ft,0.178,0.605,104.87
+1145,Indiana Pacers,2013,3P,0.245,0.605,104.87
+1146,Indiana Pacers,2014,0-3 ft,0.249,0.683,104.7
+1147,Indiana Pacers,2014,3-10 ft,0.188,0.683,104.7
+1148,Indiana Pacers,2014,10-16 ft,0.124,0.683,104.7
+1149,Indiana Pacers,2014,Over 16 ft,0.205,0.683,104.7
+1150,Indiana Pacers,2014,3P,0.235,0.683,104.7
+1151,Indiana Pacers,2015,0-3 ft,0.244,0.463,104.44
+1152,Indiana Pacers,2015,3-10 ft,0.173,0.463,104.44
+1153,Indiana Pacers,2015,10-16 ft,0.105,0.463,104.44
+1154,Indiana Pacers,2015,Over 16 ft,0.222,0.463,104.44
+1155,Indiana Pacers,2015,3P,0.255,0.463,104.44
+1156,Indiana Pacers,2016,0-3 ft,0.27,0.549,105.28
+1157,Indiana Pacers,2016,3-10 ft,0.133,0.549,105.28
+1158,Indiana Pacers,2016,10-16 ft,0.108,0.549,105.28
+1159,Indiana Pacers,2016,Over 16 ft,0.219,0.549,105.28
+1160,Indiana Pacers,2016,3P,0.27,0.549,105.28
+1161,Indiana Pacers,2017,0-3 ft,0.241,0.512,109.33
+1162,Indiana Pacers,2017,3-10 ft,0.186,0.512,109.33
+1163,Indiana Pacers,2017,10-16 ft,0.107,0.512,109.33
+1164,Indiana Pacers,2017,Over 16 ft,0.194,0.512,109.33
+1165,Indiana Pacers,2017,3P,0.272,0.512,109.33
+1166,Indiana Pacers,2018,0-3 ft,0.293,0.585,110.24
+1167,Indiana Pacers,2018,3-10 ft,0.136,0.585,110.24
+1168,Indiana Pacers,2018,10-16 ft,0.096,0.585,110.24
+1169,Indiana Pacers,2018,Over 16 ft,0.191,0.585,110.24
+1170,Indiana Pacers,2018,3P,0.284,0.585,110.24
+1171,Los Angeles Clippers,2001,0-3 ft,0.273,0.378,102.25
+1172,Los Angeles Clippers,2001,3-10 ft,0.226,0.378,102.25
+1173,Los Angeles Clippers,2001,10-16 ft,0.152,0.378,102.25
+1174,Los Angeles Clippers,2001,Over 16 ft,0.184,0.378,102.25
+1175,Los Angeles Clippers,2001,3P,0.164,0.378,102.25
+1176,Los Angeles Clippers,2002,0-3 ft,0.261,0.476,106.49
+1177,Los Angeles Clippers,2002,3-10 ft,0.23,0.476,106.49
+1178,Los Angeles Clippers,2002,10-16 ft,0.184,0.476,106.49
+1179,Los Angeles Clippers,2002,Over 16 ft,0.153,0.476,106.49
+1180,Los Angeles Clippers,2002,3P,0.172,0.476,106.49
+1181,Los Angeles Clippers,2003,0-3 ft,0.317,0.329,103
+1182,Los Angeles Clippers,2003,3-10 ft,0.194,0.329,103
+1183,Los Angeles Clippers,2003,10-16 ft,0.137,0.329,103
+1184,Los Angeles Clippers,2003,Over 16 ft,0.17,0.329,103
+1185,Los Angeles Clippers,2003,3P,0.182,0.329,103
+1186,Los Angeles Clippers,2004,0-3 ft,0.341,0.341,104.3
+1187,Los Angeles Clippers,2004,3-10 ft,0.155,0.341,104.3
+1188,Los Angeles Clippers,2004,10-16 ft,0.13,0.341,104.3
+1189,Los Angeles Clippers,2004,Over 16 ft,0.218,0.341,104.3
+1190,Los Angeles Clippers,2004,3P,0.156,0.341,104.3
+1191,Los Angeles Clippers,2005,0-3 ft,0.298,0.451,106.76
+1192,Los Angeles Clippers,2005,3-10 ft,0.151,0.451,106.76
+1193,Los Angeles Clippers,2005,10-16 ft,0.156,0.451,106.76
+1194,Los Angeles Clippers,2005,Over 16 ft,0.29,0.451,106.76
+1195,Los Angeles Clippers,2005,3P,0.105,0.451,106.76
+1196,Los Angeles Clippers,2006,0-3 ft,0.248,0.573,106.09
+1197,Los Angeles Clippers,2006,3-10 ft,0.174,0.573,106.09
+1198,Los Angeles Clippers,2006,10-16 ft,0.206,0.573,106.09
+1199,Los Angeles Clippers,2006,Over 16 ft,0.242,0.573,106.09
+1200,Los Angeles Clippers,2006,3P,0.131,0.573,106.09
+1201,Los Angeles Clippers,2007,0-3 ft,0.252,0.488,105.9
+1202,Los Angeles Clippers,2007,3-10 ft,0.157,0.488,105.9
+1203,Los Angeles Clippers,2007,10-16 ft,0.194,0.488,105.9
+1204,Los Angeles Clippers,2007,Over 16 ft,0.255,0.488,105.9
+1205,Los Angeles Clippers,2007,3P,0.143,0.488,105.9
+1206,Los Angeles Clippers,2008,0-3 ft,0.261,0.28,101.63
+1207,Los Angeles Clippers,2008,3-10 ft,0.128,0.28,101.63
+1208,Los Angeles Clippers,2008,10-16 ft,0.153,0.28,101.63
+1209,Los Angeles Clippers,2008,Over 16 ft,0.291,0.28,101.63
+1210,Los Angeles Clippers,2008,3P,0.167,0.28,101.63
+1211,Los Angeles Clippers,2009,0-3 ft,0.336,0.232,102.87
+1212,Los Angeles Clippers,2009,3-10 ft,0.119,0.232,102.87
+1213,Los Angeles Clippers,2009,10-16 ft,0.102,0.232,102.87
+1214,Los Angeles Clippers,2009,Over 16 ft,0.218,0.232,102.87
+1215,Los Angeles Clippers,2009,3P,0.226,0.232,102.87
+1216,Los Angeles Clippers,2010,0-3 ft,0.341,0.354,104.07
+1217,Los Angeles Clippers,2010,3-10 ft,0.113,0.354,104.07
+1218,Los Angeles Clippers,2010,10-16 ft,0.117,0.354,104.07
+1219,Los Angeles Clippers,2010,Over 16 ft,0.208,0.354,104.07
+1220,Los Angeles Clippers,2010,3P,0.221,0.354,104.07
+1221,Los Angeles Clippers,2011,0-3 ft,0.307,0.39,106.24
+1222,Los Angeles Clippers,2011,3-10 ft,0.199,0.39,106.24
+1223,Los Angeles Clippers,2011,10-16 ft,0.081,0.39,106.24
+1224,Los Angeles Clippers,2011,Over 16 ft,0.183,0.39,106.24
+1225,Los Angeles Clippers,2011,3P,0.23,0.39,106.24
+1226,Los Angeles Clippers,2012,0-3 ft,0.256,0.606,109.49
+1227,Los Angeles Clippers,2012,3-10 ft,0.159,0.606,109.49
+1228,Los Angeles Clippers,2012,10-16 ft,0.083,0.606,109.49
+1229,Los Angeles Clippers,2012,Over 16 ft,0.234,0.606,109.49
+1230,Los Angeles Clippers,2012,3P,0.269,0.606,109.49
+1231,Los Angeles Clippers,2013,0-3 ft,0.281,0.683,111.62
+1232,Los Angeles Clippers,2013,3-10 ft,0.17,0.683,111.62
+1233,Los Angeles Clippers,2013,10-16 ft,0.089,0.683,111.62
+1234,Los Angeles Clippers,2013,Over 16 ft,0.195,0.683,111.62
+1235,Los Angeles Clippers,2013,3P,0.265,0.683,111.62
+1236,Los Angeles Clippers,2014,0-3 ft,0.267,0.695,112.89
+1237,Los Angeles Clippers,2014,3-10 ft,0.137,0.695,112.89
+1238,Los Angeles Clippers,2014,10-16 ft,0.097,0.695,112.89
+1239,Los Angeles Clippers,2014,Over 16 ft,0.208,0.695,112.89
+1240,Los Angeles Clippers,2014,3P,0.291,0.695,112.89
+1241,Los Angeles Clippers,2015,0-3 ft,0.241,0.683,113.21
+1242,Los Angeles Clippers,2015,3-10 ft,0.119,0.683,113.21
+1243,Los Angeles Clippers,2015,10-16 ft,0.096,0.683,113.21
+1244,Los Angeles Clippers,2015,Over 16 ft,0.217,0.683,113.21
+1245,Los Angeles Clippers,2015,3P,0.322,0.683,113.21
+1246,Los Angeles Clippers,2016,0-3 ft,0.239,0.646,109.04
+1247,Los Angeles Clippers,2016,3-10 ft,0.129,0.646,109.04
+1248,Los Angeles Clippers,2016,10-16 ft,0.093,0.646,109.04
+1249,Los Angeles Clippers,2016,Over 16 ft,0.215,0.646,109.04
+1250,Los Angeles Clippers,2016,3P,0.324,0.646,109.04
+1251,Los Angeles Clippers,2017,0-3 ft,0.275,0.622,113.38
+1252,Los Angeles Clippers,2017,3-10 ft,0.118,0.622,113.38
+1253,Los Angeles Clippers,2017,10-16 ft,0.081,0.622,113.38
+1254,Los Angeles Clippers,2017,Over 16 ft,0.197,0.622,113.38
+1255,Los Angeles Clippers,2017,3P,0.329,0.622,113.38
+1256,Los Angeles Clippers,2018,0-3 ft,0.347,0.512,110.97
+1257,Los Angeles Clippers,2018,3-10 ft,0.164,0.512,110.97
+1258,Los Angeles Clippers,2018,10-16 ft,0.083,0.512,110.97
+1259,Los Angeles Clippers,2018,Over 16 ft,0.091,0.512,110.97
+1260,Los Angeles Clippers,2018,3P,0.314,0.512,110.97
+1261,Los Angeles Lakers,2001,0-3 ft,0.285,0.683,109.15
+1262,Los Angeles Lakers,2001,3-10 ft,0.186,0.683,109.15
+1263,Los Angeles Lakers,2001,10-16 ft,0.137,0.683,109.15
+1264,Los Angeles Lakers,2001,Over 16 ft,0.201,0.683,109.15
+1265,Los Angeles Lakers,2001,3P,0.191,0.683,109.15
+1266,Los Angeles Lakers,2002,0-3 ft,0.28,0.707,110.29
+1267,Los Angeles Lakers,2002,3-10 ft,0.167,0.707,110.29
+1268,Los Angeles Lakers,2002,10-16 ft,0.137,0.707,110.29
+1269,Los Angeles Lakers,2002,Over 16 ft,0.206,0.707,110.29
+1270,Los Angeles Lakers,2002,3P,0.21,0.707,110.29
+1271,Los Angeles Lakers,2003,0-3 ft,0.283,0.61,107.96
+1272,Los Angeles Lakers,2003,3-10 ft,0.158,0.61,107.96
+1273,Los Angeles Lakers,2003,10-16 ft,0.133,0.61,107.96
+1274,Los Angeles Lakers,2003,Over 16 ft,0.225,0.61,107.96
+1275,Los Angeles Lakers,2003,3P,0.199,0.61,107.96
+1276,Los Angeles Lakers,2004,0-3 ft,0.326,0.683,106.23
+1277,Los Angeles Lakers,2004,3-10 ft,0.143,0.683,106.23
+1278,Los Angeles Lakers,2004,10-16 ft,0.126,0.683,106.23
+1279,Los Angeles Lakers,2004,Over 16 ft,0.238,0.683,106.23
+1280,Los Angeles Lakers,2004,3P,0.167,0.683,106.23
+1281,Los Angeles Lakers,2005,0-3 ft,0.329,0.415,108.86
+1282,Los Angeles Lakers,2005,3-10 ft,0.118,0.415,108.86
+1283,Los Angeles Lakers,2005,10-16 ft,0.092,0.415,108.86
+1284,Los Angeles Lakers,2005,Over 16 ft,0.188,0.415,108.86
+1285,Los Angeles Lakers,2005,3P,0.273,0.415,108.86
+1286,Los Angeles Lakers,2006,0-3 ft,0.304,0.549,109.26
+1287,Los Angeles Lakers,2006,3-10 ft,0.121,0.549,109.26
+1288,Los Angeles Lakers,2006,10-16 ft,0.106,0.549,109.26
+1289,Los Angeles Lakers,2006,Over 16 ft,0.229,0.549,109.26
+1290,Los Angeles Lakers,2006,3P,0.24,0.549,109.26
+1291,Los Angeles Lakers,2007,0-3 ft,0.326,0.512,109.09
+1292,Los Angeles Lakers,2007,3-10 ft,0.122,0.512,109.09
+1293,Los Angeles Lakers,2007,10-16 ft,0.096,0.512,109.09
+1294,Los Angeles Lakers,2007,Over 16 ft,0.196,0.512,109.09
+1295,Los Angeles Lakers,2007,3P,0.259,0.512,109.09
+1296,Los Angeles Lakers,2008,0-3 ft,0.328,0.695,113.71
+1297,Los Angeles Lakers,2008,3-10 ft,0.109,0.695,113.71
+1298,Los Angeles Lakers,2008,10-16 ft,0.093,0.695,113.71
+1299,Los Angeles Lakers,2008,Over 16 ft,0.213,0.695,113.71
+1300,Los Angeles Lakers,2008,3P,0.257,0.695,113.71
+1301,Los Angeles Lakers,2009,0-3 ft,0.32,0.793,113.43
+1302,Los Angeles Lakers,2009,3-10 ft,0.148,0.793,113.43
+1303,Los Angeles Lakers,2009,10-16 ft,0.119,0.793,113.43
+1304,Los Angeles Lakers,2009,Over 16 ft,0.196,0.793,113.43
+1305,Los Angeles Lakers,2009,3P,0.217,0.793,113.43
+1306,Los Angeles Lakers,2010,0-3 ft,0.311,0.695,109.51
+1307,Los Angeles Lakers,2010,3-10 ft,0.15,0.695,109.51
+1308,Los Angeles Lakers,2010,10-16 ft,0.121,0.695,109.51
+1309,Los Angeles Lakers,2010,Over 16 ft,0.191,0.695,109.51
+1310,Los Angeles Lakers,2010,3P,0.227,0.695,109.51
+1311,Los Angeles Lakers,2011,0-3 ft,0.256,0.695,111.61
+1312,Los Angeles Lakers,2011,3-10 ft,0.206,0.695,111.61
+1313,Los Angeles Lakers,2011,10-16 ft,0.118,0.695,111.61
+1314,Los Angeles Lakers,2011,Over 16 ft,0.199,0.695,111.61
+1315,Los Angeles Lakers,2011,3P,0.22,0.695,111.61
+1316,Los Angeles Lakers,2012,0-3 ft,0.258,0.621,106.62
+1317,Los Angeles Lakers,2012,3-10 ft,0.212,0.621,106.62
+1318,Los Angeles Lakers,2012,10-16 ft,0.117,0.621,106.62
+1319,Los Angeles Lakers,2012,Over 16 ft,0.205,0.621,106.62
+1320,Los Angeles Lakers,2012,3P,0.209,0.621,106.62
+1321,Los Angeles Lakers,2013,0-3 ft,0.281,0.549,108.49
+1322,Los Angeles Lakers,2013,3-10 ft,0.17,0.549,108.49
+1323,Los Angeles Lakers,2013,10-16 ft,0.089,0.549,108.49
+1324,Los Angeles Lakers,2013,Over 16 ft,0.158,0.549,108.49
+1325,Los Angeles Lakers,2013,3P,0.303,0.549,108.49
+1326,Los Angeles Lakers,2014,0-3 ft,0.247,0.329,104.89
+1327,Los Angeles Lakers,2014,3-10 ft,0.177,0.329,104.89
+1328,Los Angeles Lakers,2014,10-16 ft,0.116,0.329,104.89
+1329,Los Angeles Lakers,2014,Over 16 ft,0.169,0.329,104.89
+1330,Los Angeles Lakers,2014,3P,0.291,0.329,104.89
+1331,Los Angeles Lakers,2015,0-3 ft,0.263,0.256,104.07
+1332,Los Angeles Lakers,2015,3-10 ft,0.151,0.256,104.07
+1333,Los Angeles Lakers,2015,10-16 ft,0.131,0.256,104.07
+1334,Los Angeles Lakers,2015,Over 16 ft,0.232,0.256,104.07
+1335,Los Angeles Lakers,2015,3P,0.22,0.256,104.07
+1336,Los Angeles Lakers,2016,0-3 ft,0.255,0.207,102.29
+1337,Los Angeles Lakers,2016,3-10 ft,0.163,0.207,102.29
+1338,Los Angeles Lakers,2016,10-16 ft,0.125,0.207,102.29
+1339,Los Angeles Lakers,2016,Over 16 ft,0.168,0.207,102.29
+1340,Los Angeles Lakers,2016,3P,0.29,0.207,102.29
+1341,Los Angeles Lakers,2017,0-3 ft,0.299,0.317,106.69
+1342,Los Angeles Lakers,2017,3-10 ft,0.187,0.317,106.69
+1343,Los Angeles Lakers,2017,10-16 ft,0.103,0.317,106.69
+1344,Los Angeles Lakers,2017,Over 16 ft,0.118,0.317,106.69
+1345,Los Angeles Lakers,2017,3P,0.295,0.317,106.69
+1346,Los Angeles Lakers,2018,0-3 ft,0.321,0.427,107.1
+1347,Los Angeles Lakers,2018,3-10 ft,0.168,0.427,107.1
+1348,Los Angeles Lakers,2018,10-16 ft,0.086,0.427,107.1
+1349,Los Angeles Lakers,2018,Over 16 ft,0.096,0.427,107.1
+1350,Los Angeles Lakers,2018,3P,0.329,0.427,107.1
+1351,Memphis Grizzlies,2001,0-3 ft,0.217,0.28,100.04
+1352,Memphis Grizzlies,2001,3-10 ft,0.184,0.28,100.04
+1353,Memphis Grizzlies,2001,10-16 ft,0.13,0.28,100.04
+1354,Memphis Grizzlies,2001,Over 16 ft,0.323,0.28,100.04
+1355,Memphis Grizzlies,2001,3P,0.145,0.28,100.04
+1356,Memphis Grizzlies,2002,0-3 ft,0.288,0.28,98.9
+1357,Memphis Grizzlies,2002,3-10 ft,0.176,0.28,98.9
+1358,Memphis Grizzlies,2002,10-16 ft,0.135,0.28,98.9
+1359,Memphis Grizzlies,2002,Over 16 ft,0.233,0.28,98.9
+1360,Memphis Grizzlies,2002,3P,0.168,0.28,98.9
+1361,Memphis Grizzlies,2003,0-3 ft,0.287,0.341,104.47
+1362,Memphis Grizzlies,2003,3-10 ft,0.173,0.341,104.47
+1363,Memphis Grizzlies,2003,10-16 ft,0.132,0.341,104.47
+1364,Memphis Grizzlies,2003,Over 16 ft,0.218,0.341,104.47
+1365,Memphis Grizzlies,2003,3P,0.19,0.341,104.47
+1366,Memphis Grizzlies,2004,0-3 ft,0.342,0.61,105.56
+1367,Memphis Grizzlies,2004,3-10 ft,0.17,0.61,105.56
+1368,Memphis Grizzlies,2004,10-16 ft,0.101,0.61,105.56
+1369,Memphis Grizzlies,2004,Over 16 ft,0.19,0.61,105.56
+1370,Memphis Grizzlies,2004,3P,0.197,0.61,105.56
+1371,Memphis Grizzlies,2005,0-3 ft,0.354,0.549,106.5
+1372,Memphis Grizzlies,2005,3-10 ft,0.145,0.549,106.5
+1373,Memphis Grizzlies,2005,10-16 ft,0.089,0.549,106.5
+1374,Memphis Grizzlies,2005,Over 16 ft,0.176,0.549,106.5
+1375,Memphis Grizzlies,2005,3P,0.237,0.549,106.5
+1376,Memphis Grizzlies,2006,0-3 ft,0.328,0.598,107.11
+1377,Memphis Grizzlies,2006,3-10 ft,0.145,0.598,107.11
+1378,Memphis Grizzlies,2006,10-16 ft,0.092,0.598,107.11
+1379,Memphis Grizzlies,2006,Over 16 ft,0.178,0.598,107.11
+1380,Memphis Grizzlies,2006,3P,0.258,0.598,107.11
+1381,Memphis Grizzlies,2007,0-3 ft,0.343,0.268,107.37
+1382,Memphis Grizzlies,2007,3-10 ft,0.139,0.268,107.37
+1383,Memphis Grizzlies,2007,10-16 ft,0.1,0.268,107.37
+1384,Memphis Grizzlies,2007,Over 16 ft,0.207,0.268,107.37
+1385,Memphis Grizzlies,2007,3P,0.211,0.268,107.37
+1386,Memphis Grizzlies,2008,0-3 ft,0.324,0.268,105.44
+1387,Memphis Grizzlies,2008,3-10 ft,0.142,0.268,105.44
+1388,Memphis Grizzlies,2008,10-16 ft,0.093,0.268,105.44
+1389,Memphis Grizzlies,2008,Over 16 ft,0.178,0.268,105.44
+1390,Memphis Grizzlies,2008,3P,0.264,0.268,105.44
+1391,Memphis Grizzlies,2009,0-3 ft,0.332,0.293,104.51
+1392,Memphis Grizzlies,2009,3-10 ft,0.164,0.293,104.51
+1393,Memphis Grizzlies,2009,10-16 ft,0.102,0.293,104.51
+1394,Memphis Grizzlies,2009,Over 16 ft,0.227,0.293,104.51
+1395,Memphis Grizzlies,2009,3P,0.175,0.293,104.51
+1396,Memphis Grizzlies,2010,0-3 ft,0.37,0.488,109.07
+1397,Memphis Grizzlies,2010,3-10 ft,0.168,0.488,109.07
+1398,Memphis Grizzlies,2010,10-16 ft,0.11,0.488,109.07
+1399,Memphis Grizzlies,2010,Over 16 ft,0.203,0.488,109.07
+1400,Memphis Grizzlies,2010,3P,0.148,0.488,109.07
+1401,Memphis Grizzlies,2011,0-3 ft,0.309,0.561,108.52
+1402,Memphis Grizzlies,2011,3-10 ft,0.244,0.561,108.52
+1403,Memphis Grizzlies,2011,10-16 ft,0.107,0.561,108.52
+1404,Memphis Grizzlies,2011,Over 16 ft,0.204,0.561,108.52
+1405,Memphis Grizzlies,2011,3P,0.136,0.561,108.52
+1406,Memphis Grizzlies,2012,0-3 ft,0.298,0.621,104.81
+1407,Memphis Grizzlies,2012,3-10 ft,0.192,0.621,104.81
+1408,Memphis Grizzlies,2012,10-16 ft,0.134,0.621,104.81
+1409,Memphis Grizzlies,2012,Over 16 ft,0.219,0.621,104.81
+1410,Memphis Grizzlies,2012,3P,0.157,0.621,104.81
+1411,Memphis Grizzlies,2013,0-3 ft,0.304,0.683,105.95
+1412,Memphis Grizzlies,2013,3-10 ft,0.196,0.683,105.95
+1413,Memphis Grizzlies,2013,10-16 ft,0.125,0.683,105.95
+1414,Memphis Grizzlies,2013,Over 16 ft,0.21,0.683,105.95
+1415,Memphis Grizzlies,2013,3P,0.166,0.683,105.95
+1416,Memphis Grizzlies,2014,0-3 ft,0.301,0.61,107.12
+1417,Memphis Grizzlies,2014,3-10 ft,0.223,0.61,107.12
+1418,Memphis Grizzlies,2014,10-16 ft,0.115,0.61,107.12
+1419,Memphis Grizzlies,2014,Over 16 ft,0.191,0.61,107.12
+1420,Memphis Grizzlies,2014,3P,0.171,0.61,107.12
+1421,Memphis Grizzlies,2015,0-3 ft,0.305,0.671,106.44
+1422,Memphis Grizzlies,2015,3-10 ft,0.202,0.671,106.44
+1423,Memphis Grizzlies,2015,10-16 ft,0.13,0.671,106.44
+1424,Memphis Grizzlies,2015,Over 16 ft,0.179,0.671,106.44
+1425,Memphis Grizzlies,2015,3P,0.184,0.671,106.44
+1426,Memphis Grizzlies,2016,0-3 ft,0.313,0.512,106.36
+1427,Memphis Grizzlies,2016,3-10 ft,0.19,0.512,106.36
+1428,Memphis Grizzlies,2016,10-16 ft,0.103,0.512,106.36
+1429,Memphis Grizzlies,2016,Over 16 ft,0.172,0.512,106.36
+1430,Memphis Grizzlies,2016,3P,0.222,0.512,106.36
+1431,Memphis Grizzlies,2017,0-3 ft,0.288,0.524,108.59
+1432,Memphis Grizzlies,2017,3-10 ft,0.158,0.524,108.59
+1433,Memphis Grizzlies,2017,10-16 ft,0.092,0.524,108.59
+1434,Memphis Grizzlies,2017,Over 16 ft,0.144,0.524,108.59
+1435,Memphis Grizzlies,2017,3P,0.316,0.524,108.59
+1436,Memphis Grizzlies,2018,0-3 ft,0.312,0.268,105.29
+1437,Memphis Grizzlies,2018,3-10 ft,0.139,0.268,105.29
+1438,Memphis Grizzlies,2018,10-16 ft,0.1,0.268,105.29
+1439,Memphis Grizzlies,2018,Over 16 ft,0.132,0.268,105.29
+1440,Memphis Grizzlies,2018,3P,0.317,0.268,105.29
+1441,Miami Heat,2001,0-3 ft,0.25,0.61,101.88
+1442,Miami Heat,2001,3-10 ft,0.149,0.61,101.88
+1443,Miami Heat,2001,10-16 ft,0.146,0.61,101.88
+1444,Miami Heat,2001,Over 16 ft,0.233,0.61,101.88
+1445,Miami Heat,2001,3P,0.221,0.61,101.88
+1446,Miami Heat,2002,0-3 ft,0.238,0.439,99.28
+1447,Miami Heat,2002,3-10 ft,0.134,0.439,99.28
+1448,Miami Heat,2002,10-16 ft,0.164,0.439,99.28
+1449,Miami Heat,2002,Over 16 ft,0.323,0.439,99.28
+1450,Miami Heat,2002,3P,0.141,0.439,99.28
+1451,Miami Heat,2003,0-3 ft,0.251,0.305,97.53
+1452,Miami Heat,2003,3-10 ft,0.127,0.305,97.53
+1453,Miami Heat,2003,10-16 ft,0.154,0.305,97.53
+1454,Miami Heat,2003,Over 16 ft,0.299,0.305,97.53
+1455,Miami Heat,2003,3P,0.169,0.305,97.53
+1456,Miami Heat,2004,0-3 ft,0.297,0.512,102.92
+1457,Miami Heat,2004,3-10 ft,0.143,0.512,102.92
+1458,Miami Heat,2004,10-16 ft,0.117,0.512,102.92
+1459,Miami Heat,2004,Over 16 ft,0.231,0.512,102.92
+1460,Miami Heat,2004,3P,0.211,0.512,102.92
+1461,Miami Heat,2005,0-3 ft,0.336,0.72,111.08
+1462,Miami Heat,2005,3-10 ft,0.137,0.72,111.08
+1463,Miami Heat,2005,10-16 ft,0.111,0.72,111.08
+1464,Miami Heat,2005,Over 16 ft,0.218,0.72,111.08
+1465,Miami Heat,2005,3P,0.198,0.72,111.08
+1466,Miami Heat,2006,0-3 ft,0.34,0.634,109.53
+1467,Miami Heat,2006,3-10 ft,0.162,0.634,109.53
+1468,Miami Heat,2006,10-16 ft,0.094,0.634,109.53
+1469,Miami Heat,2006,Over 16 ft,0.177,0.634,109.53
+1470,Miami Heat,2006,3P,0.227,0.634,109.53
+1471,Miami Heat,2007,0-3 ft,0.304,0.537,105.25
+1472,Miami Heat,2007,3-10 ft,0.147,0.537,105.25
+1473,Miami Heat,2007,10-16 ft,0.094,0.537,105.25
+1474,Miami Heat,2007,Over 16 ft,0.211,0.537,105.25
+1475,Miami Heat,2007,3P,0.245,0.537,105.25
+1476,Miami Heat,2008,0-3 ft,0.268,0.183,101.13
+1477,Miami Heat,2008,3-10 ft,0.115,0.183,101.13
+1478,Miami Heat,2008,10-16 ft,0.107,0.183,101.13
+1479,Miami Heat,2008,Over 16 ft,0.294,0.183,101.13
+1480,Miami Heat,2008,3P,0.217,0.183,101.13
+1481,Miami Heat,2009,0-3 ft,0.275,0.524,108.34
+1482,Miami Heat,2009,3-10 ft,0.119,0.524,108.34
+1483,Miami Heat,2009,10-16 ft,0.114,0.524,108.34
+1484,Miami Heat,2009,Over 16 ft,0.247,0.524,108.34
+1485,Miami Heat,2009,3P,0.245,0.524,108.34
+1486,Miami Heat,2010,0-3 ft,0.272,0.573,107.63
+1487,Miami Heat,2010,3-10 ft,0.114,0.573,107.63
+1488,Miami Heat,2010,10-16 ft,0.14,0.573,107.63
+1489,Miami Heat,2010,Over 16 ft,0.256,0.573,107.63
+1490,Miami Heat,2010,3P,0.219,0.573,107.63
+1491,Miami Heat,2011,0-3 ft,0.242,0.707,112.62
+1492,Miami Heat,2011,3-10 ft,0.155,0.707,112.62
+1493,Miami Heat,2011,10-16 ft,0.102,0.707,112.62
+1494,Miami Heat,2011,Over 16 ft,0.267,0.707,112.62
+1495,Miami Heat,2011,3P,0.235,0.707,112.62
+1496,Miami Heat,2012,0-3 ft,0.309,0.697,107.66
+1497,Miami Heat,2012,3-10 ft,0.157,0.697,107.66
+1498,Miami Heat,2012,10-16 ft,0.119,0.697,107.66
+1499,Miami Heat,2012,Over 16 ft,0.218,0.697,107.66
+1500,Miami Heat,2012,3P,0.198,0.697,107.66
+1501,Miami Heat,2013,0-3 ft,0.297,0.805,113.43
+1502,Miami Heat,2013,3-10 ft,0.127,0.805,113.43
+1503,Miami Heat,2013,10-16 ft,0.099,0.805,113.43
+1504,Miami Heat,2013,Over 16 ft,0.192,0.805,113.43
+1505,Miami Heat,2013,3P,0.285,0.805,113.43
+1506,Miami Heat,2014,0-3 ft,0.33,0.659,112.13
+1507,Miami Heat,2014,3-10 ft,0.127,0.659,112.13
+1508,Miami Heat,2014,10-16 ft,0.084,0.659,112.13
+1509,Miami Heat,2014,Over 16 ft,0.168,0.659,112.13
+1510,Miami Heat,2014,3P,0.292,0.659,112.13
+1511,Miami Heat,2015,0-3 ft,0.294,0.451,104.86
+1512,Miami Heat,2015,3-10 ft,0.141,0.451,104.86
+1513,Miami Heat,2015,10-16 ft,0.118,0.451,104.86
+1514,Miami Heat,2015,Over 16 ft,0.184,0.451,104.86
+1515,Miami Heat,2015,3P,0.262,0.451,104.86
+1516,Miami Heat,2016,0-3 ft,0.303,0.585,107.01
+1517,Miami Heat,2016,3-10 ft,0.166,0.585,107.01
+1518,Miami Heat,2016,10-16 ft,0.128,0.585,107.01
+1519,Miami Heat,2016,Over 16 ft,0.182,0.585,107.01
+1520,Miami Heat,2016,3P,0.221,0.585,107.01
+1521,Miami Heat,2017,0-3 ft,0.29,0.5,108.73
+1522,Miami Heat,2017,3-10 ft,0.169,0.5,108.73
+1523,Miami Heat,2017,10-16 ft,0.094,0.5,108.73
+1524,Miami Heat,2017,Over 16 ft,0.131,0.5,108.73
+1525,Miami Heat,2017,3P,0.314,0.5,108.73
+1526,Miami Heat,2018,0-3 ft,0.279,0.537,107.63
+1527,Miami Heat,2018,3-10 ft,0.163,0.537,107.63
+1528,Miami Heat,2018,10-16 ft,0.095,0.537,107.63
+1529,Miami Heat,2018,Over 16 ft,0.104,0.537,107.63
+1530,Miami Heat,2018,3P,0.358,0.537,107.63
+1531,Milwaukee Bucks,2001,0-3 ft,0.224,0.634,109.52
+1532,Milwaukee Bucks,2001,3-10 ft,0.121,0.634,109.52
+1533,Milwaukee Bucks,2001,10-16 ft,0.258,0.634,109.52
+1534,Milwaukee Bucks,2001,Over 16 ft,0.179,0.634,109.52
+1535,Milwaukee Bucks,2001,3P,0.218,0.634,109.52
+1536,Milwaukee Bucks,2002,0-3 ft,0.237,0.5,107.78
+1537,Milwaukee Bucks,2002,3-10 ft,0.126,0.5,107.78
+1538,Milwaukee Bucks,2002,10-16 ft,0.236,0.5,107.78
+1539,Milwaukee Bucks,2002,Over 16 ft,0.16,0.5,107.78
+1540,Milwaukee Bucks,2002,3P,0.241,0.5,107.78
+1541,Milwaukee Bucks,2003,0-3 ft,0.267,0.512,109.62
+1542,Milwaukee Bucks,2003,3-10 ft,0.136,0.512,109.62
+1543,Milwaukee Bucks,2003,10-16 ft,0.191,0.512,109.62
+1544,Milwaukee Bucks,2003,Over 16 ft,0.177,0.512,109.62
+1545,Milwaukee Bucks,2003,3P,0.229,0.512,109.62
+1546,Milwaukee Bucks,2004,0-3 ft,0.32,0.5,107.28
+1547,Milwaukee Bucks,2004,3-10 ft,0.152,0.5,107.28
+1548,Milwaukee Bucks,2004,10-16 ft,0.176,0.5,107.28
+1549,Milwaukee Bucks,2004,Over 16 ft,0.179,0.5,107.28
+1550,Milwaukee Bucks,2004,3P,0.172,0.5,107.28
+1551,Milwaukee Bucks,2005,0-3 ft,0.331,0.366,107
+1552,Milwaukee Bucks,2005,3-10 ft,0.128,0.366,107
+1553,Milwaukee Bucks,2005,10-16 ft,0.177,0.366,107
+1554,Milwaukee Bucks,2005,Over 16 ft,0.224,0.366,107
+1555,Milwaukee Bucks,2005,3P,0.141,0.366,107
+1556,Milwaukee Bucks,2006,0-3 ft,0.339,0.488,106.81
+1557,Milwaukee Bucks,2006,3-10 ft,0.134,0.488,106.81
+1558,Milwaukee Bucks,2006,10-16 ft,0.132,0.488,106.81
+1559,Milwaukee Bucks,2006,Over 16 ft,0.192,0.488,106.81
+1560,Milwaukee Bucks,2006,3P,0.203,0.488,106.81
+1561,Milwaukee Bucks,2007,0-3 ft,0.36,0.341,107.63
+1562,Milwaukee Bucks,2007,3-10 ft,0.124,0.341,107.63
+1563,Milwaukee Bucks,2007,10-16 ft,0.113,0.341,107.63
+1564,Milwaukee Bucks,2007,Over 16 ft,0.183,0.341,107.63
+1565,Milwaukee Bucks,2007,3P,0.219,0.341,107.63
+1566,Milwaukee Bucks,2008,0-3 ft,0.33,0.317,105.74
+1567,Milwaukee Bucks,2008,3-10 ft,0.149,0.317,105.74
+1568,Milwaukee Bucks,2008,10-16 ft,0.117,0.317,105.74
+1569,Milwaukee Bucks,2008,Over 16 ft,0.21,0.317,105.74
+1570,Milwaukee Bucks,2008,3P,0.195,0.317,105.74
+1571,Milwaukee Bucks,2009,0-3 ft,0.305,0.415,107.44
+1572,Milwaukee Bucks,2009,3-10 ft,0.118,0.415,107.44
+1573,Milwaukee Bucks,2009,10-16 ft,0.125,0.415,107.44
+1574,Milwaukee Bucks,2009,Over 16 ft,0.243,0.415,107.44
+1575,Milwaukee Bucks,2009,3P,0.208,0.415,107.44
+1576,Milwaukee Bucks,2010,0-3 ft,0.288,0.561,105.74
+1577,Milwaukee Bucks,2010,3-10 ft,0.13,0.561,105.74
+1578,Milwaukee Bucks,2010,10-16 ft,0.114,0.561,105.74
+1579,Milwaukee Bucks,2010,Over 16 ft,0.209,0.561,105.74
+1580,Milwaukee Bucks,2010,3P,0.259,0.561,105.74
+1581,Milwaukee Bucks,2011,0-3 ft,0.268,0.427,102.47
+1582,Milwaukee Bucks,2011,3-10 ft,0.165,0.427,102.47
+1583,Milwaukee Bucks,2011,10-16 ft,0.123,0.427,102.47
+1584,Milwaukee Bucks,2011,Over 16 ft,0.227,0.427,102.47
+1585,Milwaukee Bucks,2011,3P,0.216,0.427,102.47
+1586,Milwaukee Bucks,2012,0-3 ft,0.308,0.47,106.07
+1587,Milwaukee Bucks,2012,3-10 ft,0.146,0.47,106.07
+1588,Milwaukee Bucks,2012,10-16 ft,0.12,0.47,106.07
+1589,Milwaukee Bucks,2012,Over 16 ft,0.202,0.47,106.07
+1590,Milwaukee Bucks,2012,3P,0.224,0.47,106.07
+1591,Milwaukee Bucks,2013,0-3 ft,0.32,0.463,104.28
+1592,Milwaukee Bucks,2013,3-10 ft,0.143,0.463,104.28
+1593,Milwaukee Bucks,2013,10-16 ft,0.122,0.463,104.28
+1594,Milwaukee Bucks,2013,Over 16 ft,0.183,0.463,104.28
+1595,Milwaukee Bucks,2013,3P,0.232,0.463,104.28
+1596,Milwaukee Bucks,2014,0-3 ft,0.314,0.183,103.67
+1597,Milwaukee Bucks,2014,3-10 ft,0.168,0.183,103.67
+1598,Milwaukee Bucks,2014,10-16 ft,0.106,0.183,103.67
+1599,Milwaukee Bucks,2014,Over 16 ft,0.182,0.183,103.67
+1600,Milwaukee Bucks,2014,3P,0.231,0.183,103.67
+1601,Milwaukee Bucks,2015,0-3 ft,0.337,0.5,103.57
+1602,Milwaukee Bucks,2015,3-10 ft,0.137,0.5,103.57
+1603,Milwaukee Bucks,2015,10-16 ft,0.111,0.5,103.57
+1604,Milwaukee Bucks,2015,Over 16 ft,0.193,0.5,103.57
+1605,Milwaukee Bucks,2015,3P,0.223,0.5,103.57
+1606,Milwaukee Bucks,2016,0-3 ft,0.365,0.402,105.06
+1607,Milwaukee Bucks,2016,3-10 ft,0.19,0.402,105.06
+1608,Milwaukee Bucks,2016,10-16 ft,0.106,0.402,105.06
+1609,Milwaukee Bucks,2016,Over 16 ft,0.149,0.402,105.06
+1610,Milwaukee Bucks,2016,3P,0.189,0.402,105.06
+1611,Milwaukee Bucks,2017,0-3 ft,0.351,0.512,109.92
+1612,Milwaukee Bucks,2017,3-10 ft,0.174,0.512,109.92
+1613,Milwaukee Bucks,2017,10-16 ft,0.077,0.512,109.92
+1614,Milwaukee Bucks,2017,Over 16 ft,0.108,0.512,109.92
+1615,Milwaukee Bucks,2017,3P,0.29,0.512,109.92
+1616,Milwaukee Bucks,2018,0-3 ft,0.31,0.537,110.67
+1617,Milwaukee Bucks,2018,3-10 ft,0.152,0.537,110.67
+1618,Milwaukee Bucks,2018,10-16 ft,0.114,0.537,110.67
+1619,Milwaukee Bucks,2018,Over 16 ft,0.127,0.537,110.67
+1620,Milwaukee Bucks,2018,3P,0.297,0.537,110.67
+1621,Minnesota Timberwolves,2001,0-3 ft,0.236,0.573,106
+1622,Minnesota Timberwolves,2001,3-10 ft,0.164,0.573,106
+1623,Minnesota Timberwolves,2001,10-16 ft,0.155,0.573,106
+1624,Minnesota Timberwolves,2001,Over 16 ft,0.315,0.573,106
+1625,Minnesota Timberwolves,2001,3P,0.131,0.573,106
+1626,Minnesota Timberwolves,2002,0-3 ft,0.236,0.61,109.79
+1627,Minnesota Timberwolves,2002,3-10 ft,0.175,0.61,109.79
+1628,Minnesota Timberwolves,2002,10-16 ft,0.151,0.61,109.79
+1629,Minnesota Timberwolves,2002,Over 16 ft,0.286,0.61,109.79
+1630,Minnesota Timberwolves,2002,3P,0.152,0.61,109.79
+1631,Minnesota Timberwolves,2003,0-3 ft,0.249,0.622,106.81
+1632,Minnesota Timberwolves,2003,3-10 ft,0.15,0.622,106.81
+1633,Minnesota Timberwolves,2003,10-16 ft,0.156,0.622,106.81
+1634,Minnesota Timberwolves,2003,Over 16 ft,0.327,0.622,106.81
+1635,Minnesota Timberwolves,2003,3P,0.118,0.622,106.81
+1636,Minnesota Timberwolves,2004,0-3 ft,0.206,0.707,106.53
+1637,Minnesota Timberwolves,2004,3-10 ft,0.147,0.707,106.53
+1638,Minnesota Timberwolves,2004,10-16 ft,0.21,0.707,106.53
+1639,Minnesota Timberwolves,2004,Over 16 ft,0.301,0.707,106.53
+1640,Minnesota Timberwolves,2004,3P,0.137,0.707,106.53
+1641,Minnesota Timberwolves,2005,0-3 ft,0.225,0.537,108.99
+1642,Minnesota Timberwolves,2005,3-10 ft,0.138,0.537,108.99
+1643,Minnesota Timberwolves,2005,10-16 ft,0.18,0.537,108.99
+1644,Minnesota Timberwolves,2005,Over 16 ft,0.285,0.537,108.99
+1645,Minnesota Timberwolves,2005,3P,0.173,0.537,108.99
+1646,Minnesota Timberwolves,2006,0-3 ft,0.285,0.402,103.52
+1647,Minnesota Timberwolves,2006,3-10 ft,0.118,0.402,103.52
+1648,Minnesota Timberwolves,2006,10-16 ft,0.145,0.402,103.52
+1649,Minnesota Timberwolves,2006,Over 16 ft,0.304,0.402,103.52
+1650,Minnesota Timberwolves,2006,3P,0.149,0.402,103.52
+1651,Minnesota Timberwolves,2007,0-3 ft,0.267,0.39,104.58
+1652,Minnesota Timberwolves,2007,3-10 ft,0.127,0.39,104.58
+1653,Minnesota Timberwolves,2007,10-16 ft,0.133,0.39,104.58
+1654,Minnesota Timberwolves,2007,Over 16 ft,0.305,0.39,104.58
+1655,Minnesota Timberwolves,2007,3P,0.167,0.39,104.58
+1656,Minnesota Timberwolves,2008,0-3 ft,0.306,0.268,104.42
+1657,Minnesota Timberwolves,2008,3-10 ft,0.181,0.268,104.42
+1658,Minnesota Timberwolves,2008,10-16 ft,0.122,0.268,104.42
+1659,Minnesota Timberwolves,2008,Over 16 ft,0.206,0.268,104.42
+1660,Minnesota Timberwolves,2008,3P,0.185,0.268,104.42
+1661,Minnesota Timberwolves,2009,0-3 ft,0.332,0.293,106.75
+1662,Minnesota Timberwolves,2009,3-10 ft,0.137,0.293,106.75
+1663,Minnesota Timberwolves,2009,10-16 ft,0.107,0.293,106.75
+1664,Minnesota Timberwolves,2009,Over 16 ft,0.196,0.293,106.75
+1665,Minnesota Timberwolves,2009,3P,0.227,0.293,106.75
+1666,Minnesota Timberwolves,2010,0-3 ft,0.308,0.183,102.34
+1667,Minnesota Timberwolves,2010,3-10 ft,0.166,0.183,102.34
+1668,Minnesota Timberwolves,2010,10-16 ft,0.146,0.183,102.34
+1669,Minnesota Timberwolves,2010,Over 16 ft,0.21,0.183,102.34
+1670,Minnesota Timberwolves,2010,3P,0.171,0.183,102.34
+1671,Minnesota Timberwolves,2011,0-3 ft,0.241,0.207,104.84
+1672,Minnesota Timberwolves,2011,3-10 ft,0.233,0.207,104.84
+1673,Minnesota Timberwolves,2011,10-16 ft,0.099,0.207,104.84
+1674,Minnesota Timberwolves,2011,Over 16 ft,0.204,0.207,104.84
+1675,Minnesota Timberwolves,2011,3P,0.223,0.207,104.84
+1676,Minnesota Timberwolves,2012,0-3 ft,0.31,0.394,104.85
+1677,Minnesota Timberwolves,2012,3-10 ft,0.157,0.394,104.85
+1678,Minnesota Timberwolves,2012,10-16 ft,0.086,0.394,104.85
+1679,Minnesota Timberwolves,2012,Over 16 ft,0.186,0.394,104.85
+1680,Minnesota Timberwolves,2012,3P,0.262,0.394,104.85
+1681,Minnesota Timberwolves,2013,0-3 ft,0.331,0.378,103.61
+1682,Minnesota Timberwolves,2013,3-10 ft,0.139,0.378,103.61
+1683,Minnesota Timberwolves,2013,10-16 ft,0.083,0.378,103.61
+1684,Minnesota Timberwolves,2013,Over 16 ft,0.227,0.378,103.61
+1685,Minnesota Timberwolves,2013,3P,0.22,0.378,103.61
+1686,Minnesota Timberwolves,2014,0-3 ft,0.334,0.488,109.41
+1687,Minnesota Timberwolves,2014,3-10 ft,0.157,0.488,109.41
+1688,Minnesota Timberwolves,2014,10-16 ft,0.091,0.488,109.41
+1689,Minnesota Timberwolves,2014,Over 16 ft,0.174,0.488,109.41
+1690,Minnesota Timberwolves,2014,3P,0.245,0.488,109.41
+1691,Minnesota Timberwolves,2015,0-3 ft,0.284,0.195,103.63
+1692,Minnesota Timberwolves,2015,3-10 ft,0.176,0.195,103.63
+1693,Minnesota Timberwolves,2015,10-16 ft,0.122,0.195,103.63
+1694,Minnesota Timberwolves,2015,Over 16 ft,0.234,0.195,103.63
+1695,Minnesota Timberwolves,2015,3P,0.179,0.195,103.63
+1696,Minnesota Timberwolves,2016,0-3 ft,0.298,0.354,107.17
+1697,Minnesota Timberwolves,2016,3-10 ft,0.16,0.354,107.17
+1698,Minnesota Timberwolves,2016,10-16 ft,0.101,0.354,107.17
+1699,Minnesota Timberwolves,2016,Over 16 ft,0.239,0.354,107.17
+1700,Minnesota Timberwolves,2016,3P,0.202,0.354,107.17
+1701,Minnesota Timberwolves,2017,0-3 ft,0.304,0.378,111.54
+1702,Minnesota Timberwolves,2017,3-10 ft,0.164,0.378,111.54
+1703,Minnesota Timberwolves,2017,10-16 ft,0.097,0.378,111.54
+1704,Minnesota Timberwolves,2017,Over 16 ft,0.186,0.378,111.54
+1705,Minnesota Timberwolves,2017,3P,0.249,0.378,111.54
+1706,Minnesota Timberwolves,2018,0-3 ft,0.264,0.573,114.24
+1707,Minnesota Timberwolves,2018,3-10 ft,0.196,0.573,114.24
+1708,Minnesota Timberwolves,2018,10-16 ft,0.129,0.573,114.24
+1709,Minnesota Timberwolves,2018,Over 16 ft,0.15,0.573,114.24
+1710,Minnesota Timberwolves,2018,3P,0.261,0.573,114.24
+1711,New Orleans Pelicans,2001,0-3 ft,0.27,0.561,102.57
+1712,New Orleans Pelicans,2001,3-10 ft,0.134,0.561,102.57
+1713,New Orleans Pelicans,2001,10-16 ft,0.18,0.561,102.57
+1714,New Orleans Pelicans,2001,Over 16 ft,0.265,0.561,102.57
+1715,New Orleans Pelicans,2001,3P,0.151,0.561,102.57
+1716,New Orleans Pelicans,2002,0-3 ft,0.308,0.537,105.13
+1717,New Orleans Pelicans,2002,3-10 ft,0.131,0.537,105.13
+1718,New Orleans Pelicans,2002,10-16 ft,0.162,0.537,105.13
+1719,New Orleans Pelicans,2002,Over 16 ft,0.248,0.537,105.13
+1720,New Orleans Pelicans,2002,3P,0.151,0.537,105.13
+1721,New Orleans Pelicans,2003,0-3 ft,0.278,0.573,104.61
+1722,New Orleans Pelicans,2003,3-10 ft,0.132,0.573,104.61
+1723,New Orleans Pelicans,2003,10-16 ft,0.187,0.573,104.61
+1724,New Orleans Pelicans,2003,Over 16 ft,0.241,0.573,104.61
+1725,New Orleans Pelicans,2003,3P,0.161,0.573,104.61
+1726,New Orleans Pelicans,2004,0-3 ft,0.294,0.5,103.36
+1727,New Orleans Pelicans,2004,3-10 ft,0.115,0.5,103.36
+1728,New Orleans Pelicans,2004,10-16 ft,0.131,0.5,103.36
+1729,New Orleans Pelicans,2004,Over 16 ft,0.209,0.5,103.36
+1730,New Orleans Pelicans,2004,3P,0.252,0.5,103.36
+1731,New Orleans Pelicans,2005,0-3 ft,0.304,0.22,100.72
+1732,New Orleans Pelicans,2005,3-10 ft,0.096,0.22,100.72
+1733,New Orleans Pelicans,2005,10-16 ft,0.122,0.22,100.72
+1734,New Orleans Pelicans,2005,Over 16 ft,0.277,0.22,100.72
+1735,New Orleans Pelicans,2005,3P,0.201,0.22,100.72
+1736,New Orleans Pelicans,2006,0-3 ft,0.324,0.463,104.5
+1737,New Orleans Pelicans,2006,3-10 ft,0.133,0.463,104.5
+1738,New Orleans Pelicans,2006,10-16 ft,0.139,0.463,104.5
+1739,New Orleans Pelicans,2006,Over 16 ft,0.267,0.463,104.5
+1740,New Orleans Pelicans,2006,3P,0.138,0.463,104.5
+1741,New Orleans Pelicans,2007,0-3 ft,0.307,0.476,105.68
+1742,New Orleans Pelicans,2007,3-10 ft,0.17,0.476,105.68
+1743,New Orleans Pelicans,2007,10-16 ft,0.119,0.476,105.68
+1744,New Orleans Pelicans,2007,Over 16 ft,0.216,0.476,105.68
+1745,New Orleans Pelicans,2007,3P,0.188,0.476,105.68
+1746,New Orleans Pelicans,2008,0-3 ft,0.284,0.683,112.21
+1747,New Orleans Pelicans,2008,3-10 ft,0.137,0.683,112.21
+1748,New Orleans Pelicans,2008,10-16 ft,0.113,0.683,112.21
+1749,New Orleans Pelicans,2008,Over 16 ft,0.227,0.683,112.21
+1750,New Orleans Pelicans,2008,3P,0.239,0.683,112.21
+1751,New Orleans Pelicans,2009,0-3 ft,0.276,0.598,109.75
+1752,New Orleans Pelicans,2009,3-10 ft,0.134,0.598,109.75
+1753,New Orleans Pelicans,2009,10-16 ft,0.137,0.598,109.75
+1754,New Orleans Pelicans,2009,Over 16 ft,0.213,0.598,109.75
+1755,New Orleans Pelicans,2009,3P,0.24,0.598,109.75
+1756,New Orleans Pelicans,2010,0-3 ft,0.318,0.451,108.19
+1757,New Orleans Pelicans,2010,3-10 ft,0.121,0.451,108.19
+1758,New Orleans Pelicans,2010,10-16 ft,0.127,0.451,108.19
+1759,New Orleans Pelicans,2010,Over 16 ft,0.204,0.451,108.19
+1760,New Orleans Pelicans,2010,3P,0.23,0.451,108.19
+1761,New Orleans Pelicans,2011,0-3 ft,0.223,0.561,107.25
+1762,New Orleans Pelicans,2011,3-10 ft,0.213,0.561,107.25
+1763,New Orleans Pelicans,2011,10-16 ft,0.136,0.561,107.25
+1764,New Orleans Pelicans,2011,Over 16 ft,0.237,0.561,107.25
+1765,New Orleans Pelicans,2011,3P,0.192,0.561,107.25
+1766,New Orleans Pelicans,2012,0-3 ft,0.267,0.318,101.82
+1767,New Orleans Pelicans,2012,3-10 ft,0.207,0.318,101.82
+1768,New Orleans Pelicans,2012,10-16 ft,0.149,0.318,101.82
+1769,New Orleans Pelicans,2012,Over 16 ft,0.225,0.318,101.82
+1770,New Orleans Pelicans,2012,3P,0.152,0.318,101.82
+1771,New Orleans Pelicans,2013,0-3 ft,0.298,0.329,106.63
+1772,New Orleans Pelicans,2013,3-10 ft,0.208,0.329,106.63
+1773,New Orleans Pelicans,2013,10-16 ft,0.095,0.329,106.63
+1774,New Orleans Pelicans,2013,Over 16 ft,0.175,0.329,106.63
+1775,New Orleans Pelicans,2013,3P,0.224,0.329,106.63
+1776,New Orleans Pelicans,2014,0-3 ft,0.332,0.415,107.98
+1777,New Orleans Pelicans,2014,3-10 ft,0.183,0.415,107.98
+1778,New Orleans Pelicans,2014,10-16 ft,0.107,0.415,107.98
+1779,New Orleans Pelicans,2014,Over 16 ft,0.184,0.415,107.98
+1780,New Orleans Pelicans,2014,3P,0.193,0.415,107.98
+1781,New Orleans Pelicans,2015,0-3 ft,0.347,0.549,108.95
+1782,New Orleans Pelicans,2015,3-10 ft,0.152,0.549,108.95
+1783,New Orleans Pelicans,2015,10-16 ft,0.098,0.549,108.95
+1784,New Orleans Pelicans,2015,Over 16 ft,0.169,0.549,108.95
+1785,New Orleans Pelicans,2015,3P,0.233,0.549,108.95
+1786,New Orleans Pelicans,2016,0-3 ft,0.304,0.366,106.27
+1787,New Orleans Pelicans,2016,3-10 ft,0.144,0.366,106.27
+1788,New Orleans Pelicans,2016,10-16 ft,0.101,0.366,106.27
+1789,New Orleans Pelicans,2016,Over 16 ft,0.174,0.366,106.27
+1790,New Orleans Pelicans,2016,3P,0.277,0.366,106.27
+1791,New Orleans Pelicans,2017,0-3 ft,0.279,0.415,105.81
+1792,New Orleans Pelicans,2017,3-10 ft,0.17,0.415,105.81
+1793,New Orleans Pelicans,2017,10-16 ft,0.094,0.415,105.81
+1794,New Orleans Pelicans,2017,Over 16 ft,0.149,0.415,105.81
+1795,New Orleans Pelicans,2017,3P,0.308,0.415,105.81
+1796,New Orleans Pelicans,2018,0-3 ft,0.295,0.585,110.29
+1797,New Orleans Pelicans,2018,3-10 ft,0.179,0.585,110.29
+1798,New Orleans Pelicans,2018,10-16 ft,0.099,0.585,110.29
+1799,New Orleans Pelicans,2018,Over 16 ft,0.109,0.585,110.29
+1800,New Orleans Pelicans,2018,3P,0.319,0.585,110.29
+1801,New York Knicks,2001,0-3 ft,0.27,0.585,102.12
+1802,New York Knicks,2001,3-10 ft,0.163,0.585,102.12
+1803,New York Knicks,2001,10-16 ft,0.184,0.585,102.12
+1804,New York Knicks,2001,Over 16 ft,0.203,0.585,102.12
+1805,New York Knicks,2001,3P,0.18,0.585,102.12
+1806,New York Knicks,2002,0-3 ft,0.246,0.366,102.02
+1807,New York Knicks,2002,3-10 ft,0.159,0.366,102.02
+1808,New York Knicks,2002,10-16 ft,0.19,0.366,102.02
+1809,New York Knicks,2002,Over 16 ft,0.198,0.366,102.02
+1810,New York Knicks,2002,3P,0.206,0.366,102.02
+1811,New York Knicks,2003,0-3 ft,0.21,0.451,105.34
+1812,New York Knicks,2003,3-10 ft,0.145,0.451,105.34
+1813,New York Knicks,2003,10-16 ft,0.188,0.451,105.34
+1814,New York Knicks,2003,Over 16 ft,0.222,0.451,105.34
+1815,New York Knicks,2003,3P,0.235,0.451,105.34
+1816,New York Knicks,2004,0-3 ft,0.259,0.476,102.39
+1817,New York Knicks,2004,3-10 ft,0.156,0.476,102.39
+1818,New York Knicks,2004,10-16 ft,0.177,0.476,102.39
+1819,New York Knicks,2004,Over 16 ft,0.237,0.476,102.39
+1820,New York Knicks,2004,3P,0.171,0.476,102.39
+1821,New York Knicks,2005,0-3 ft,0.3,0.402,106.93
+1822,New York Knicks,2005,3-10 ft,0.14,0.402,106.93
+1823,New York Knicks,2005,10-16 ft,0.122,0.402,106.93
+1824,New York Knicks,2005,Over 16 ft,0.251,0.402,106.93
+1825,New York Knicks,2005,3P,0.188,0.402,106.93
+1826,New York Knicks,2006,0-3 ft,0.383,0.28,104.74
+1827,New York Knicks,2006,3-10 ft,0.161,0.28,104.74
+1828,New York Knicks,2006,10-16 ft,0.108,0.28,104.74
+1829,New York Knicks,2006,Over 16 ft,0.205,0.28,104.74
+1830,New York Knicks,2006,3P,0.142,0.28,104.74
+1831,New York Knicks,2007,0-3 ft,0.389,0.402,106.39
+1832,New York Knicks,2007,3-10 ft,0.142,0.402,106.39
+1833,New York Knicks,2007,10-16 ft,0.073,0.402,106.39
+1834,New York Knicks,2007,Over 16 ft,0.18,0.402,106.39
+1835,New York Knicks,2007,3P,0.216,0.402,106.39
+1836,New York Knicks,2008,0-3 ft,0.353,0.28,105.34
+1837,New York Knicks,2008,3-10 ft,0.137,0.28,105.34
+1838,New York Knicks,2008,10-16 ft,0.101,0.28,105.34
+1839,New York Knicks,2008,Over 16 ft,0.194,0.28,105.34
+1840,New York Knicks,2008,3P,0.215,0.28,105.34
+1841,New York Knicks,2009,0-3 ft,0.349,0.39,108.7
+1842,New York Knicks,2009,3-10 ft,0.091,0.39,108.7
+1843,New York Knicks,2009,10-16 ft,0.084,0.39,108.7
+1844,New York Knicks,2009,Over 16 ft,0.154,0.39,108.7
+1845,New York Knicks,2009,3P,0.322,0.39,108.7
+1846,New York Knicks,2010,0-3 ft,0.327,0.354,108.22
+1847,New York Knicks,2010,3-10 ft,0.087,0.354,108.22
+1848,New York Knicks,2010,10-16 ft,0.071,0.354,108.22
+1849,New York Knicks,2010,Over 16 ft,0.203,0.354,108.22
+1850,New York Knicks,2010,3P,0.312,0.354,108.22
+1851,New York Knicks,2011,0-3 ft,0.265,0.512,111.76
+1852,New York Knicks,2011,3-10 ft,0.166,0.512,111.76
+1853,New York Knicks,2011,10-16 ft,0.086,0.512,111.76
+1854,New York Knicks,2011,Over 16 ft,0.179,0.512,111.76
+1855,New York Knicks,2011,3P,0.303,0.512,111.76
+1856,New York Knicks,2012,0-3 ft,0.316,0.545,105.51
+1857,New York Knicks,2012,3-10 ft,0.13,0.545,105.51
+1858,New York Knicks,2012,10-16 ft,0.085,0.545,105.51
+1859,New York Knicks,2012,Over 16 ft,0.181,0.545,105.51
+1860,New York Knicks,2012,3P,0.288,0.545,105.51
+1861,New York Knicks,2013,0-3 ft,0.28,0.659,111.83
+1862,New York Knicks,2013,3-10 ft,0.096,0.659,111.83
+1863,New York Knicks,2013,10-16 ft,0.083,0.659,111.83
+1864,New York Knicks,2013,Over 16 ft,0.188,0.659,111.83
+1865,New York Knicks,2013,3P,0.354,0.659,111.83
+1866,New York Knicks,2014,0-3 ft,0.252,0.451,109.27
+1867,New York Knicks,2014,3-10 ft,0.112,0.451,109.27
+1868,New York Knicks,2014,10-16 ft,0.111,0.451,109.27
+1869,New York Knicks,2014,Over 16 ft,0.222,0.451,109.27
+1870,New York Knicks,2014,3P,0.302,0.451,109.27
+1871,New York Knicks,2015,0-3 ft,0.239,0.207,100.89
+1872,New York Knicks,2015,3-10 ft,0.146,0.207,100.89
+1873,New York Knicks,2015,10-16 ft,0.125,0.207,100.89
+1874,New York Knicks,2015,Over 16 ft,0.246,0.207,100.89
+1875,New York Knicks,2015,3P,0.24,0.207,100.89
+1876,New York Knicks,2016,0-3 ft,0.245,0.39,105.41
+1877,New York Knicks,2016,3-10 ft,0.154,0.39,105.41
+1878,New York Knicks,2016,10-16 ft,0.143,0.39,105.41
+1879,New York Knicks,2016,Over 16 ft,0.201,0.39,105.41
+1880,New York Knicks,2016,3P,0.256,0.39,105.41
+1881,New York Knicks,2017,0-3 ft,0.291,0.378,108.57
+1882,New York Knicks,2017,3-10 ft,0.126,0.378,108.57
+1883,New York Knicks,2017,10-16 ft,0.132,0.378,108.57
+1884,New York Knicks,2017,Over 16 ft,0.172,0.378,108.57
+1885,New York Knicks,2017,3P,0.279,0.378,108.57
+1886,New York Knicks,2018,0-3 ft,0.278,0.354,107.72
+1887,New York Knicks,2018,3-10 ft,0.156,0.354,107.72
+1888,New York Knicks,2018,10-16 ft,0.14,0.354,107.72
+1889,New York Knicks,2018,Over 16 ft,0.159,0.354,107.72
+1890,New York Knicks,2018,3P,0.266,0.354,107.72
+1891,Oklahoma City Thunder,2001,0-3 ft,0.305,0.537,106.53
+1892,Oklahoma City Thunder,2001,3-10 ft,0.226,0.537,106.53
+1893,Oklahoma City Thunder,2001,10-16 ft,0.129,0.537,106.53
+1894,Oklahoma City Thunder,2001,Over 16 ft,0.164,0.537,106.53
+1895,Oklahoma City Thunder,2001,3P,0.176,0.537,106.53
+1896,Oklahoma City Thunder,2002,0-3 ft,0.28,0.549,109.77
+1897,Oklahoma City Thunder,2002,3-10 ft,0.19,0.549,109.77
+1898,Oklahoma City Thunder,2002,10-16 ft,0.121,0.549,109.77
+1899,Oklahoma City Thunder,2002,Over 16 ft,0.216,0.549,109.77
+1900,Oklahoma City Thunder,2002,3P,0.193,0.549,109.77
+1901,Oklahoma City Thunder,2003,0-3 ft,0.247,0.488,104.48
+1902,Oklahoma City Thunder,2003,3-10 ft,0.177,0.488,104.48
+1903,Oklahoma City Thunder,2003,10-16 ft,0.129,0.488,104.48
+1904,Oklahoma City Thunder,2003,Over 16 ft,0.25,0.488,104.48
+1905,Oklahoma City Thunder,2003,3P,0.196,0.488,104.48
+1906,Oklahoma City Thunder,2004,0-3 ft,0.245,0.451,108.11
+1907,Oklahoma City Thunder,2004,3-10 ft,0.158,0.451,108.11
+1908,Oklahoma City Thunder,2004,10-16 ft,0.121,0.451,108.11
+1909,Oklahoma City Thunder,2004,Over 16 ft,0.182,0.451,108.11
+1910,Oklahoma City Thunder,2004,3P,0.294,0.451,108.11
+1911,Oklahoma City Thunder,2005,0-3 ft,0.276,0.634,113.09
+1912,Oklahoma City Thunder,2005,3-10 ft,0.16,0.634,113.09
+1913,Oklahoma City Thunder,2005,10-16 ft,0.118,0.634,113.09
+1914,Oklahoma City Thunder,2005,Over 16 ft,0.165,0.634,113.09
+1915,Oklahoma City Thunder,2005,3P,0.281,0.634,113.09
+1916,Oklahoma City Thunder,2006,0-3 ft,0.275,0.427,111.99
+1917,Oklahoma City Thunder,2006,3-10 ft,0.173,0.427,111.99
+1918,Oklahoma City Thunder,2006,10-16 ft,0.124,0.427,111.99
+1919,Oklahoma City Thunder,2006,Over 16 ft,0.184,0.427,111.99
+1920,Oklahoma City Thunder,2006,3P,0.243,0.427,111.99
+1921,Oklahoma City Thunder,2007,0-3 ft,0.291,0.378,108.21
+1922,Oklahoma City Thunder,2007,3-10 ft,0.183,0.378,108.21
+1923,Oklahoma City Thunder,2007,10-16 ft,0.137,0.378,108.21
+1924,Oklahoma City Thunder,2007,Over 16 ft,0.17,0.378,108.21
+1925,Oklahoma City Thunder,2007,3P,0.219,0.378,108.21
+1926,Oklahoma City Thunder,2008,0-3 ft,0.287,0.244,101.17
+1927,Oklahoma City Thunder,2008,3-10 ft,0.159,0.244,101.17
+1928,Oklahoma City Thunder,2008,10-16 ft,0.144,0.244,101.17
+1929,Oklahoma City Thunder,2008,Over 16 ft,0.277,0.244,101.17
+1930,Oklahoma City Thunder,2008,3P,0.134,0.244,101.17
+1931,Oklahoma City Thunder,2009,0-3 ft,0.338,0.28,103.59
+1932,Oklahoma City Thunder,2009,3-10 ft,0.134,0.28,103.59
+1933,Oklahoma City Thunder,2009,10-16 ft,0.138,0.28,103.59
+1934,Oklahoma City Thunder,2009,Over 16 ft,0.248,0.28,103.59
+1935,Oklahoma City Thunder,2009,3P,0.141,0.28,103.59
+1936,Oklahoma City Thunder,2010,0-3 ft,0.332,0.61,109.18
+1937,Oklahoma City Thunder,2010,3-10 ft,0.125,0.61,109.18
+1938,Oklahoma City Thunder,2010,10-16 ft,0.135,0.61,109.18
+1939,Oklahoma City Thunder,2010,Over 16 ft,0.223,0.61,109.18
+1940,Oklahoma City Thunder,2010,3P,0.185,0.61,109.18
+1941,Oklahoma City Thunder,2011,0-3 ft,0.284,0.671,112.2
+1942,Oklahoma City Thunder,2011,3-10 ft,0.159,0.671,112.2
+1943,Oklahoma City Thunder,2011,10-16 ft,0.126,0.671,112.2
+1944,Oklahoma City Thunder,2011,Over 16 ft,0.218,0.671,112.2
+1945,Oklahoma City Thunder,2011,3P,0.212,0.671,112.2
+1946,Oklahoma City Thunder,2012,0-3 ft,0.294,0.712,110.33
+1947,Oklahoma City Thunder,2012,3-10 ft,0.148,0.712,110.33
+1948,Oklahoma City Thunder,2012,10-16 ft,0.13,0.712,110.33
+1949,Oklahoma City Thunder,2012,Over 16 ft,0.175,0.712,110.33
+1950,Oklahoma City Thunder,2012,3P,0.252,0.712,110.33
+1951,Oklahoma City Thunder,2013,0-3 ft,0.294,0.732,113.3
+1952,Oklahoma City Thunder,2013,3-10 ft,0.146,0.732,113.3
+1953,Oklahoma City Thunder,2013,10-16 ft,0.13,0.732,113.3
+1954,Oklahoma City Thunder,2013,Over 16 ft,0.186,0.732,113.3
+1955,Oklahoma City Thunder,2013,3P,0.244,0.732,113.3
+1956,Oklahoma City Thunder,2014,0-3 ft,0.282,0.72,111.32
+1957,Oklahoma City Thunder,2014,3-10 ft,0.149,0.72,111.32
+1958,Oklahoma City Thunder,2014,10-16 ft,0.131,0.72,111.32
+1959,Oklahoma City Thunder,2014,Over 16 ft,0.167,0.72,111.32
+1960,Oklahoma City Thunder,2014,3P,0.271,0.72,111.32
+1961,Oklahoma City Thunder,2015,0-3 ft,0.302,0.549,108.41
+1962,Oklahoma City Thunder,2015,3-10 ft,0.158,0.549,108.41
+1963,Oklahoma City Thunder,2015,10-16 ft,0.113,0.549,108.41
+1964,Oklahoma City Thunder,2015,Over 16 ft,0.165,0.549,108.41
+1965,Oklahoma City Thunder,2015,3P,0.262,0.549,108.41
+1966,Oklahoma City Thunder,2016,0-3 ft,0.33,0.671,113.76
+1967,Oklahoma City Thunder,2016,3-10 ft,0.126,0.671,113.76
+1968,Oklahoma City Thunder,2016,10-16 ft,0.122,0.671,113.76
+1969,Oklahoma City Thunder,2016,Over 16 ft,0.146,0.671,113.76
+1970,Oklahoma City Thunder,2016,3P,0.275,0.671,113.76
+1971,Oklahoma City Thunder,2017,0-3 ft,0.346,0.573,108.95
+1972,Oklahoma City Thunder,2017,3-10 ft,0.146,0.573,108.95
+1973,Oklahoma City Thunder,2017,10-16 ft,0.104,0.573,108.95
+1974,Oklahoma City Thunder,2017,Over 16 ft,0.109,0.573,108.95
+1975,Oklahoma City Thunder,2017,3P,0.295,0.573,108.95
+1976,Oklahoma City Thunder,2018,0-3 ft,0.315,0.585,111.48
+1977,Oklahoma City Thunder,2018,3-10 ft,0.096,0.585,111.48
+1978,Oklahoma City Thunder,2018,10-16 ft,0.105,0.585,111.48
+1979,Oklahoma City Thunder,2018,Over 16 ft,0.138,0.585,111.48
+1980,Oklahoma City Thunder,2018,3P,0.345,0.585,111.48
+1981,Orlando Magic,2001,0-3 ft,0.29,0.524,104.05
+1982,Orlando Magic,2001,3-10 ft,0.117,0.524,104.05
+1983,Orlando Magic,2001,10-16 ft,0.137,0.524,104.05
+1984,Orlando Magic,2001,Over 16 ft,0.26,0.524,104.05
+1985,Orlando Magic,2001,3P,0.196,0.524,104.05
+1986,Orlando Magic,2002,0-3 ft,0.294,0.537,107.71
+1987,Orlando Magic,2002,3-10 ft,0.113,0.537,107.71
+1988,Orlando Magic,2002,10-16 ft,0.109,0.537,107.71
+1989,Orlando Magic,2002,Over 16 ft,0.242,0.537,107.71
+1990,Orlando Magic,2002,3P,0.241,0.537,107.71
+1991,Orlando Magic,2003,0-3 ft,0.292,0.512,105.84
+1992,Orlando Magic,2003,3-10 ft,0.08,0.512,105.84
+1993,Orlando Magic,2003,10-16 ft,0.098,0.512,105.84
+1994,Orlando Magic,2003,Over 16 ft,0.295,0.512,105.84
+1995,Orlando Magic,2003,3P,0.235,0.512,105.84
+1996,Orlando Magic,2004,0-3 ft,0.26,0.256,103.53
+1997,Orlando Magic,2004,3-10 ft,0.138,0.256,103.53
+1998,Orlando Magic,2004,10-16 ft,0.145,0.256,103.53
+1999,Orlando Magic,2004,Over 16 ft,0.273,0.256,103.53
+2000,Orlando Magic,2004,3P,0.184,0.256,103.53
+2001,Orlando Magic,2005,0-3 ft,0.327,0.439,105.7
+2002,Orlando Magic,2005,3-10 ft,0.106,0.439,105.7
+2003,Orlando Magic,2005,10-16 ft,0.154,0.439,105.7
+2004,Orlando Magic,2005,Over 16 ft,0.276,0.439,105.7
+2005,Orlando Magic,2005,3P,0.137,0.439,105.7
+2006,Orlando Magic,2006,0-3 ft,0.358,0.439,106.99
+2007,Orlando Magic,2006,3-10 ft,0.125,0.439,106.99
+2008,Orlando Magic,2006,10-16 ft,0.13,0.439,106.99
+2009,Orlando Magic,2006,Over 16 ft,0.258,0.439,106.99
+2010,Orlando Magic,2006,3P,0.129,0.439,106.99
+2011,Orlando Magic,2007,0-3 ft,0.361,0.488,105.99
+2012,Orlando Magic,2007,3-10 ft,0.15,0.488,105.99
+2013,Orlando Magic,2007,10-16 ft,0.106,0.488,105.99
+2014,Orlando Magic,2007,Over 16 ft,0.225,0.488,105.99
+2015,Orlando Magic,2007,3P,0.158,0.488,105.99
+2016,Orlando Magic,2008,0-3 ft,0.325,0.634,112.12
+2017,Orlando Magic,2008,3-10 ft,0.126,0.634,112.12
+2018,Orlando Magic,2008,10-16 ft,0.096,0.634,112.12
+2019,Orlando Magic,2008,Over 16 ft,0.132,0.634,112.12
+2020,Orlando Magic,2008,3P,0.322,0.634,112.12
+2021,Orlando Magic,2009,0-3 ft,0.282,0.72,109.66
+2022,Orlando Magic,2009,3-10 ft,0.127,0.72,109.66
+2023,Orlando Magic,2009,10-16 ft,0.101,0.72,109.66
+2024,Orlando Magic,2009,Over 16 ft,0.155,0.72,109.66
+2025,Orlando Magic,2009,3P,0.335,0.72,109.66
+2026,Orlando Magic,2010,0-3 ft,0.301,0.72,112.13
+2027,Orlando Magic,2010,3-10 ft,0.123,0.72,112.13
+2028,Orlando Magic,2010,10-16 ft,0.082,0.72,112.13
+2029,Orlando Magic,2010,Over 16 ft,0.144,0.72,112.13
+2030,Orlando Magic,2010,3P,0.35,0.72,112.13
+2031,Orlando Magic,2011,0-3 ft,0.253,0.634,108.78
+2032,Orlando Magic,2011,3-10 ft,0.158,0.634,108.78
+2033,Orlando Magic,2011,10-16 ft,0.096,0.634,108.78
+2034,Orlando Magic,2011,Over 16 ft,0.164,0.634,108.78
+2035,Orlando Magic,2011,3P,0.328,0.634,108.78
+2036,Orlando Magic,2012,0-3 ft,0.286,0.561,105.65
+2037,Orlando Magic,2012,3-10 ft,0.153,0.561,105.65
+2038,Orlando Magic,2012,10-16 ft,0.063,0.561,105.65
+2039,Orlando Magic,2012,Over 16 ft,0.152,0.561,105.65
+2040,Orlando Magic,2012,3P,0.346,0.561,105.65
+2041,Orlando Magic,2013,0-3 ft,0.289,0.244,102.09
+2042,Orlando Magic,2013,3-10 ft,0.166,0.244,102.09
+2043,Orlando Magic,2013,10-16 ft,0.116,0.244,102.09
+2044,Orlando Magic,2013,Over 16 ft,0.206,0.244,102.09
+2045,Orlando Magic,2013,3P,0.223,0.244,102.09
+2046,Orlando Magic,2014,0-3 ft,0.277,0.28,102.14
+2047,Orlando Magic,2014,3-10 ft,0.152,0.28,102.14
+2048,Orlando Magic,2014,10-16 ft,0.103,0.28,102.14
+2049,Orlando Magic,2014,Over 16 ft,0.232,0.28,102.14
+2050,Orlando Magic,2014,3P,0.235,0.28,102.14
+2051,Orlando Magic,2015,0-3 ft,0.315,0.305,102.26
+2052,Orlando Magic,2015,3-10 ft,0.184,0.305,102.26
+2053,Orlando Magic,2015,10-16 ft,0.094,0.305,102.26
+2054,Orlando Magic,2015,Over 16 ft,0.172,0.305,102.26
+2055,Orlando Magic,2015,3P,0.235,0.305,102.26
+2056,Orlando Magic,2016,0-3 ft,0.296,0.427,105.73
+2057,Orlando Magic,2016,3-10 ft,0.15,0.427,105.73
+2058,Orlando Magic,2016,10-16 ft,0.093,0.427,105.73
+2059,Orlando Magic,2016,Over 16 ft,0.206,0.427,105.73
+2060,Orlando Magic,2016,3P,0.255,0.427,105.73
+2061,Orlando Magic,2017,0-3 ft,0.266,0.354,104.23
+2062,Orlando Magic,2017,3-10 ft,0.168,0.354,104.23
+2063,Orlando Magic,2017,10-16 ft,0.109,0.354,104.23
+2064,Orlando Magic,2017,Over 16 ft,0.157,0.354,104.23
+2065,Orlando Magic,2017,3P,0.3,0.354,104.23
+2066,Orlando Magic,2018,0-3 ft,0.259,0.305,105.83
+2067,Orlando Magic,2018,3-10 ft,0.18,0.305,105.83
+2068,Orlando Magic,2018,10-16 ft,0.108,0.305,105.83
+2069,Orlando Magic,2018,Over 16 ft,0.112,0.305,105.83
+2070,Orlando Magic,2018,3P,0.342,0.305,105.83
+2071,Philadelphia 76ers,2001,0-3 ft,0.276,0.683,104.36
+2072,Philadelphia 76ers,2001,3-10 ft,0.206,0.683,104.36
+2073,Philadelphia 76ers,2001,10-16 ft,0.211,0.683,104.36
+2074,Philadelphia 76ers,2001,Over 16 ft,0.184,0.683,104.36
+2075,Philadelphia 76ers,2001,3P,0.124,0.683,104.36
+2076,Philadelphia 76ers,2002,0-3 ft,0.304,0.524,103.12
+2077,Philadelphia 76ers,2002,3-10 ft,0.149,0.524,103.12
+2078,Philadelphia 76ers,2002,10-16 ft,0.217,0.524,103.12
+2079,Philadelphia 76ers,2002,Over 16 ft,0.218,0.524,103.12
+2080,Philadelphia 76ers,2002,3P,0.111,0.524,103.12
+2081,Philadelphia 76ers,2003,0-3 ft,0.367,0.585,105.78
+2082,Philadelphia 76ers,2003,3-10 ft,0.144,0.585,105.78
+2083,Philadelphia 76ers,2003,10-16 ft,0.169,0.585,105.78
+2084,Philadelphia 76ers,2003,Over 16 ft,0.202,0.585,105.78
+2085,Philadelphia 76ers,2003,3P,0.119,0.585,105.78
+2086,Philadelphia 76ers,2004,0-3 ft,0.319,0.402,100.29
+2087,Philadelphia 76ers,2004,3-10 ft,0.132,0.402,100.29
+2088,Philadelphia 76ers,2004,10-16 ft,0.174,0.402,100.29
+2089,Philadelphia 76ers,2004,Over 16 ft,0.216,0.402,100.29
+2090,Philadelphia 76ers,2004,3P,0.158,0.402,100.29
+2091,Philadelphia 76ers,2005,0-3 ft,0.323,0.524,104
+2092,Philadelphia 76ers,2005,3-10 ft,0.12,0.524,104
+2093,Philadelphia 76ers,2005,10-16 ft,0.129,0.524,104
+2094,Philadelphia 76ers,2005,Over 16 ft,0.213,0.524,104
+2095,Philadelphia 76ers,2005,3P,0.216,0.524,104
+2096,Philadelphia 76ers,2006,0-3 ft,0.328,0.463,106.89
+2097,Philadelphia 76ers,2006,3-10 ft,0.15,0.463,106.89
+2098,Philadelphia 76ers,2006,10-16 ft,0.145,0.463,106.89
+2099,Philadelphia 76ers,2006,Over 16 ft,0.22,0.463,106.89
+2100,Philadelphia 76ers,2006,3P,0.158,0.463,106.89
+2101,Philadelphia 76ers,2007,0-3 ft,0.321,0.427,104.42
+2102,Philadelphia 76ers,2007,3-10 ft,0.117,0.427,104.42
+2103,Philadelphia 76ers,2007,10-16 ft,0.171,0.427,104.42
+2104,Philadelphia 76ers,2007,Over 16 ft,0.262,0.427,104.42
+2105,Philadelphia 76ers,2007,3P,0.128,0.427,104.42
+2106,Philadelphia 76ers,2008,0-3 ft,0.359,0.488,107.38
+2107,Philadelphia 76ers,2008,3-10 ft,0.116,0.488,107.38
+2108,Philadelphia 76ers,2008,10-16 ft,0.154,0.488,107.38
+2109,Philadelphia 76ers,2008,Over 16 ft,0.227,0.488,107.38
+2110,Philadelphia 76ers,2008,3P,0.143,0.488,107.38
+2111,Philadelphia 76ers,2009,0-3 ft,0.382,0.5,108.79
+2112,Philadelphia 76ers,2009,3-10 ft,0.112,0.5,108.79
+2113,Philadelphia 76ers,2009,10-16 ft,0.138,0.5,108.79
+2114,Philadelphia 76ers,2009,Over 16 ft,0.204,0.5,108.79
+2115,Philadelphia 76ers,2009,3P,0.164,0.5,108.79
+2116,Philadelphia 76ers,2010,0-3 ft,0.311,0.329,106.93
+2117,Philadelphia 76ers,2010,3-10 ft,0.127,0.329,106.93
+2118,Philadelphia 76ers,2010,10-16 ft,0.146,0.329,106.93
+2119,Philadelphia 76ers,2010,Over 16 ft,0.209,0.329,106.93
+2120,Philadelphia 76ers,2010,3P,0.206,0.329,106.93
+2121,Philadelphia 76ers,2011,0-3 ft,0.258,0.5,107.62
+2122,Philadelphia 76ers,2011,3-10 ft,0.175,0.5,107.62
+2123,Philadelphia 76ers,2011,10-16 ft,0.17,0.5,107.62
+2124,Philadelphia 76ers,2011,Over 16 ft,0.213,0.5,107.62
+2125,Philadelphia 76ers,2011,3P,0.184,0.5,107.62
+2126,Philadelphia 76ers,2012,0-3 ft,0.232,0.53,104.7
+2127,Philadelphia 76ers,2012,3-10 ft,0.182,0.53,104.7
+2128,Philadelphia 76ers,2012,10-16 ft,0.187,0.53,104.7
+2129,Philadelphia 76ers,2012,Over 16 ft,0.225,0.53,104.7
+2130,Philadelphia 76ers,2012,3P,0.175,0.53,104.7
+2131,Philadelphia 76ers,2013,0-3 ft,0.263,0.415,102.69
+2132,Philadelphia 76ers,2013,3-10 ft,0.153,0.415,102.69
+2133,Philadelphia 76ers,2013,10-16 ft,0.147,0.415,102.69
+2134,Philadelphia 76ers,2013,Over 16 ft,0.228,0.415,102.69
+2135,Philadelphia 76ers,2013,3P,0.209,0.415,102.69
+2136,Philadelphia 76ers,2014,0-3 ft,0.353,0.232,100.09
+2137,Philadelphia 76ers,2014,3-10 ft,0.19,0.232,100.09
+2138,Philadelphia 76ers,2014,10-16 ft,0.087,0.232,100.09
+2139,Philadelphia 76ers,2014,Over 16 ft,0.111,0.232,100.09
+2140,Philadelphia 76ers,2014,3P,0.258,0.232,100.09
+2141,Philadelphia 76ers,2015,0-3 ft,0.318,0.22,96.4
+2142,Philadelphia 76ers,2015,3-10 ft,0.172,0.22,96.4
+2143,Philadelphia 76ers,2015,10-16 ft,0.068,0.22,96.4
+2144,Philadelphia 76ers,2015,Over 16 ft,0.114,0.22,96.4
+2145,Philadelphia 76ers,2015,3P,0.319,0.22,96.4
+2146,Philadelphia 76ers,2016,0-3 ft,0.311,0.122,99.65
+2147,Philadelphia 76ers,2016,3-10 ft,0.166,0.122,99.65
+2148,Philadelphia 76ers,2016,10-16 ft,0.096,0.122,99.65
+2149,Philadelphia 76ers,2016,Over 16 ft,0.099,0.122,99.65
+2150,Philadelphia 76ers,2016,3P,0.327,0.122,99.65
+2151,Philadelphia 76ers,2017,0-3 ft,0.309,0.341,103.96
+2152,Philadelphia 76ers,2017,3-10 ft,0.149,0.341,103.96
+2153,Philadelphia 76ers,2017,10-16 ft,0.092,0.341,103.96
+2154,Philadelphia 76ers,2017,Over 16 ft,0.1,0.341,103.96
+2155,Philadelphia 76ers,2017,3P,0.349,0.341,103.96
+2156,Philadelphia 76ers,2018,0-3 ft,0.272,0.634,110.28
+2157,Philadelphia 76ers,2018,3-10 ft,0.168,0.634,110.28
+2158,Philadelphia 76ers,2018,10-16 ft,0.109,0.634,110.28
+2159,Philadelphia 76ers,2018,Over 16 ft,0.107,0.634,110.28
+2160,Philadelphia 76ers,2018,3P,0.344,0.634,110.28
+2161,Phoenix Suns,2001,0-3 ft,0.262,0.622,101.12
+2162,Phoenix Suns,2001,3-10 ft,0.172,0.622,101.12
+2163,Phoenix Suns,2001,10-16 ft,0.164,0.622,101.12
+2164,Phoenix Suns,2001,Over 16 ft,0.246,0.622,101.12
+2165,Phoenix Suns,2001,3P,0.156,0.622,101.12
+2166,Phoenix Suns,2002,0-3 ft,0.33,0.439,104.07
+2167,Phoenix Suns,2002,3-10 ft,0.142,0.439,104.07
+2168,Phoenix Suns,2002,10-16 ft,0.162,0.439,104.07
+2169,Phoenix Suns,2002,Over 16 ft,0.208,0.439,104.07
+2170,Phoenix Suns,2002,3P,0.158,0.439,104.07
+2171,Phoenix Suns,2003,0-3 ft,0.323,0.537,104.48
+2172,Phoenix Suns,2003,3-10 ft,0.148,0.537,104.48
+2173,Phoenix Suns,2003,10-16 ft,0.147,0.537,104.48
+2174,Phoenix Suns,2003,Over 16 ft,0.213,0.537,104.48
+2175,Phoenix Suns,2003,3P,0.17,0.537,104.48
+2176,Phoenix Suns,2004,0-3 ft,0.327,0.354,102.33
+2177,Phoenix Suns,2004,3-10 ft,0.137,0.354,102.33
+2178,Phoenix Suns,2004,10-16 ft,0.146,0.354,102.33
+2179,Phoenix Suns,2004,Over 16 ft,0.21,0.354,102.33
+2180,Phoenix Suns,2004,3P,0.18,0.354,102.33
+2181,Phoenix Suns,2005,0-3 ft,0.3,0.756,115.01
+2182,Phoenix Suns,2005,3-10 ft,0.119,0.756,115.01
+2183,Phoenix Suns,2005,10-16 ft,0.12,0.756,115.01
+2184,Phoenix Suns,2005,Over 16 ft,0.172,0.756,115.01
+2185,Phoenix Suns,2005,3P,0.289,0.756,115.01
+2186,Phoenix Suns,2006,0-3 ft,0.254,0.659,112.27
+2187,Phoenix Suns,2006,3-10 ft,0.089,0.659,112.27
+2188,Phoenix Suns,2006,10-16 ft,0.104,0.659,112.27
+2189,Phoenix Suns,2006,Over 16 ft,0.26,0.659,112.27
+2190,Phoenix Suns,2006,3P,0.293,0.659,112.27
+2191,Phoenix Suns,2007,0-3 ft,0.31,0.744,114.68
+2192,Phoenix Suns,2007,3-10 ft,0.104,0.744,114.68
+2193,Phoenix Suns,2007,10-16 ft,0.097,0.744,114.68
+2194,Phoenix Suns,2007,Over 16 ft,0.202,0.744,114.68
+2195,Phoenix Suns,2007,3P,0.287,0.744,114.68
+2196,Phoenix Suns,2008,0-3 ft,0.31,0.671,114.04
+2197,Phoenix Suns,2008,3-10 ft,0.116,0.671,114.04
+2198,Phoenix Suns,2008,10-16 ft,0.102,0.671,114.04
+2199,Phoenix Suns,2008,Over 16 ft,0.211,0.671,114.04
+2200,Phoenix Suns,2008,3P,0.26,0.671,114.04
+2201,Phoenix Suns,2009,0-3 ft,0.363,0.561,114.2
+2202,Phoenix Suns,2009,3-10 ft,0.164,0.561,114.2
+2203,Phoenix Suns,2009,10-16 ft,0.1,0.561,114.2
+2204,Phoenix Suns,2009,Over 16 ft,0.158,0.561,114.2
+2205,Phoenix Suns,2009,3P,0.216,0.561,114.2
+2206,Phoenix Suns,2010,0-3 ft,0.312,0.659,116.11
+2207,Phoenix Suns,2010,3-10 ft,0.135,0.659,116.11
+2208,Phoenix Suns,2010,10-16 ft,0.106,0.659,116.11
+2209,Phoenix Suns,2010,Over 16 ft,0.185,0.659,116.11
+2210,Phoenix Suns,2010,3P,0.261,0.659,116.11
+2211,Phoenix Suns,2011,0-3 ft,0.253,0.488,110.2
+2212,Phoenix Suns,2011,3-10 ft,0.167,0.488,110.2
+2213,Phoenix Suns,2011,10-16 ft,0.116,0.488,110.2
+2214,Phoenix Suns,2011,Over 16 ft,0.193,0.488,110.2
+2215,Phoenix Suns,2011,3P,0.271,0.488,110.2
+2216,Phoenix Suns,2012,0-3 ft,0.253,0.5,106.96
+2217,Phoenix Suns,2012,3-10 ft,0.165,0.5,106.96
+2218,Phoenix Suns,2012,10-16 ft,0.118,0.5,106.96
+2219,Phoenix Suns,2012,Over 16 ft,0.226,0.5,106.96
+2220,Phoenix Suns,2012,3P,0.238,0.5,106.96
+2221,Phoenix Suns,2013,0-3 ft,0.281,0.305,102
+2222,Phoenix Suns,2013,3-10 ft,0.158,0.305,102
+2223,Phoenix Suns,2013,10-16 ft,0.113,0.305,102
+2224,Phoenix Suns,2013,Over 16 ft,0.237,0.305,102
+2225,Phoenix Suns,2013,3P,0.21,0.305,102
+2226,Phoenix Suns,2014,0-3 ft,0.29,0.585,110.26
+2227,Phoenix Suns,2014,3-10 ft,0.149,0.585,110.26
+2228,Phoenix Suns,2014,10-16 ft,0.118,0.585,110.26
+2229,Phoenix Suns,2014,Over 16 ft,0.143,0.585,110.26
+2230,Phoenix Suns,2014,3P,0.3,0.585,110.26
+2231,Phoenix Suns,2015,0-3 ft,0.293,0.476,105.93
+2232,Phoenix Suns,2015,3-10 ft,0.139,0.476,105.93
+2233,Phoenix Suns,2015,10-16 ft,0.125,0.476,105.93
+2234,Phoenix Suns,2015,Over 16 ft,0.153,0.476,105.93
+2235,Phoenix Suns,2015,3P,0.291,0.476,105.93
+2236,Phoenix Suns,2016,0-3 ft,0.3,0.28,102.94
+2237,Phoenix Suns,2016,3-10 ft,0.151,0.28,102.94
+2238,Phoenix Suns,2016,10-16 ft,0.092,0.28,102.94
+2239,Phoenix Suns,2016,Over 16 ft,0.155,0.28,102.94
+2240,Phoenix Suns,2016,3P,0.302,0.28,102.94
+2241,Phoenix Suns,2017,0-3 ft,0.306,0.293,107.32
+2242,Phoenix Suns,2017,3-10 ft,0.154,0.293,107.32
+2243,Phoenix Suns,2017,10-16 ft,0.12,0.293,107.32
+2244,Phoenix Suns,2017,Over 16 ft,0.165,0.293,107.32
+2245,Phoenix Suns,2017,3P,0.255,0.293,107.32
+2246,Phoenix Suns,2018,0-3 ft,0.313,0.256,104.25
+2247,Phoenix Suns,2018,3-10 ft,0.145,0.256,104.25
+2248,Phoenix Suns,2018,10-16 ft,0.115,0.256,104.25
+2249,Phoenix Suns,2018,Over 16 ft,0.107,0.256,104.25
+2250,Phoenix Suns,2018,3P,0.32,0.256,104.25
+2251,Portland Trail Blazers,2001,0-3 ft,0.299,0.61,107.08
+2252,Portland Trail Blazers,2001,3-10 ft,0.153,0.61,107.08
+2253,Portland Trail Blazers,2001,10-16 ft,0.129,0.61,107.08
+2254,Portland Trail Blazers,2001,Over 16 ft,0.254,0.61,107.08
+2255,Portland Trail Blazers,2001,3P,0.165,0.61,107.08
+2256,Portland Trail Blazers,2002,0-3 ft,0.307,0.598,108.2
+2257,Portland Trail Blazers,2002,3-10 ft,0.123,0.598,108.2
+2258,Portland Trail Blazers,2002,10-16 ft,0.117,0.598,108.2
+2259,Portland Trail Blazers,2002,Over 16 ft,0.255,0.598,108.2
+2260,Portland Trail Blazers,2002,3P,0.198,0.598,108.2
+2261,Portland Trail Blazers,2003,0-3 ft,0.317,0.61,106.41
+2262,Portland Trail Blazers,2003,3-10 ft,0.159,0.61,106.41
+2263,Portland Trail Blazers,2003,10-16 ft,0.132,0.61,106.41
+2264,Portland Trail Blazers,2003,Over 16 ft,0.215,0.61,106.41
+2265,Portland Trail Blazers,2003,3P,0.177,0.61,106.41
+2266,Portland Trail Blazers,2004,0-3 ft,0.3,0.5,104.58
+2267,Portland Trail Blazers,2004,3-10 ft,0.171,0.5,104.58
+2268,Portland Trail Blazers,2004,10-16 ft,0.141,0.5,104.58
+2269,Portland Trail Blazers,2004,Over 16 ft,0.218,0.5,104.58
+2270,Portland Trail Blazers,2004,3P,0.17,0.5,104.58
+2271,Portland Trail Blazers,2005,0-3 ft,0.335,0.329,104.26
+2272,Portland Trail Blazers,2005,3-10 ft,0.161,0.329,104.26
+2273,Portland Trail Blazers,2005,10-16 ft,0.11,0.329,104.26
+2274,Portland Trail Blazers,2005,Over 16 ft,0.213,0.329,104.26
+2275,Portland Trail Blazers,2005,3P,0.181,0.329,104.26
+2276,Portland Trail Blazers,2006,0-3 ft,0.31,0.256,102.06
+2277,Portland Trail Blazers,2006,3-10 ft,0.143,0.256,102.06
+2278,Portland Trail Blazers,2006,10-16 ft,0.097,0.256,102.06
+2279,Portland Trail Blazers,2006,Over 16 ft,0.283,0.256,102.06
+2280,Portland Trail Blazers,2006,3P,0.166,0.256,102.06
+2281,Portland Trail Blazers,2007,0-3 ft,0.288,0.39,105.94
+2282,Portland Trail Blazers,2007,3-10 ft,0.162,0.39,105.94
+2283,Portland Trail Blazers,2007,10-16 ft,0.105,0.39,105.94
+2284,Portland Trail Blazers,2007,Over 16 ft,0.253,0.39,105.94
+2285,Portland Trail Blazers,2007,3P,0.193,0.39,105.94
+2286,Portland Trail Blazers,2008,0-3 ft,0.214,0.5,107.97
+2287,Portland Trail Blazers,2008,3-10 ft,0.137,0.5,107.97
+2288,Portland Trail Blazers,2008,10-16 ft,0.121,0.5,107.97
+2289,Portland Trail Blazers,2008,Over 16 ft,0.311,0.5,107.97
+2290,Portland Trail Blazers,2008,3P,0.218,0.5,107.97
+2291,Portland Trail Blazers,2009,0-3 ft,0.294,0.659,114.74
+2292,Portland Trail Blazers,2009,3-10 ft,0.126,0.659,114.74
+2293,Portland Trail Blazers,2009,10-16 ft,0.109,0.659,114.74
+2294,Portland Trail Blazers,2009,Over 16 ft,0.231,0.659,114.74
+2295,Portland Trail Blazers,2009,3P,0.239,0.659,114.74
+2296,Portland Trail Blazers,2010,0-3 ft,0.286,0.61,111.91
+2297,Portland Trail Blazers,2010,3-10 ft,0.111,0.61,111.91
+2298,Portland Trail Blazers,2010,10-16 ft,0.133,0.61,111.91
+2299,Portland Trail Blazers,2010,Over 16 ft,0.255,0.61,111.91
+2300,Portland Trail Blazers,2010,3P,0.215,0.61,111.91
+2301,Portland Trail Blazers,2011,0-3 ft,0.283,0.585,109.78
+2302,Portland Trail Blazers,2011,3-10 ft,0.168,0.585,109.78
+2303,Portland Trail Blazers,2011,10-16 ft,0.115,0.585,109.78
+2304,Portland Trail Blazers,2011,Over 16 ft,0.206,0.585,109.78
+2305,Portland Trail Blazers,2011,3P,0.228,0.585,109.78
+2306,Portland Trail Blazers,2012,0-3 ft,0.294,0.424,106.56
+2307,Portland Trail Blazers,2012,3-10 ft,0.139,0.424,106.56
+2308,Portland Trail Blazers,2012,10-16 ft,0.097,0.424,106.56
+2309,Portland Trail Blazers,2012,Over 16 ft,0.216,0.424,106.56
+2310,Portland Trail Blazers,2012,3P,0.255,0.424,106.56
+2311,Portland Trail Blazers,2013,0-3 ft,0.284,0.402,106.21
+2312,Portland Trail Blazers,2013,3-10 ft,0.126,0.402,106.21
+2313,Portland Trail Blazers,2013,10-16 ft,0.095,0.402,106.21
+2314,Portland Trail Blazers,2013,Over 16 ft,0.211,0.402,106.21
+2315,Portland Trail Blazers,2013,3P,0.284,0.402,106.21
+2316,Portland Trail Blazers,2014,0-3 ft,0.258,0.659,112.03
+2317,Portland Trail Blazers,2014,3-10 ft,0.133,0.659,112.03
+2318,Portland Trail Blazers,2014,10-16 ft,0.11,0.659,112.03
+2319,Portland Trail Blazers,2014,Over 16 ft,0.208,0.659,112.03
+2320,Portland Trail Blazers,2014,3P,0.29,0.659,112.03
+2321,Portland Trail Blazers,2015,0-3 ft,0.247,0.622,108.81
+2322,Portland Trail Blazers,2015,3-10 ft,0.134,0.622,108.81
+2323,Portland Trail Blazers,2015,10-16 ft,0.112,0.622,108.81
+2324,Portland Trail Blazers,2015,Over 16 ft,0.19,0.622,108.81
+2325,Portland Trail Blazers,2015,3P,0.316,0.622,108.81
+2326,Portland Trail Blazers,2016,0-3 ft,0.282,0.537,109.55
+2327,Portland Trail Blazers,2016,3-10 ft,0.137,0.537,109.55
+2328,Portland Trail Blazers,2016,10-16 ft,0.092,0.537,109.55
+2329,Portland Trail Blazers,2016,Over 16 ft,0.157,0.537,109.55
+2330,Portland Trail Blazers,2016,3P,0.332,0.537,109.55
+2331,Portland Trail Blazers,2017,0-3 ft,0.299,0.5,110.93
+2332,Portland Trail Blazers,2017,3-10 ft,0.141,0.5,110.93
+2333,Portland Trail Blazers,2017,10-16 ft,0.091,0.5,110.93
+2334,Portland Trail Blazers,2017,Over 16 ft,0.148,0.5,110.93
+2335,Portland Trail Blazers,2017,3P,0.322,0.5,110.93
+2336,Portland Trail Blazers,2018,0-3 ft,0.283,0.598,109.58
+2337,Portland Trail Blazers,2018,3-10 ft,0.155,0.598,109.58
+2338,Portland Trail Blazers,2018,10-16 ft,0.111,0.598,109.58
+2339,Portland Trail Blazers,2018,Over 16 ft,0.127,0.598,109.58
+2340,Portland Trail Blazers,2018,3P,0.324,0.598,109.58
+2341,Sacramento Kings,2001,0-3 ft,0.295,0.671,106.32
+2342,Sacramento Kings,2001,3-10 ft,0.185,0.671,106.32
+2343,Sacramento Kings,2001,10-16 ft,0.097,0.671,106.32
+2344,Sacramento Kings,2001,Over 16 ft,0.23,0.671,106.32
+2345,Sacramento Kings,2001,3P,0.194,0.671,106.32
+2346,Sacramento Kings,2002,0-3 ft,0.317,0.744,109.7
+2347,Sacramento Kings,2002,3-10 ft,0.135,0.744,109.7
+2348,Sacramento Kings,2002,10-16 ft,0.104,0.744,109.7
+2349,Sacramento Kings,2002,Over 16 ft,0.278,0.744,109.7
+2350,Sacramento Kings,2002,3P,0.166,0.744,109.7
+2351,Sacramento Kings,2003,0-3 ft,0.282,0.72,106.45
+2352,Sacramento Kings,2003,3-10 ft,0.142,0.72,106.45
+2353,Sacramento Kings,2003,10-16 ft,0.099,0.72,106.45
+2354,Sacramento Kings,2003,Over 16 ft,0.293,0.72,106.45
+2355,Sacramento Kings,2003,3P,0.184,0.72,106.45
+2356,Sacramento Kings,2004,0-3 ft,0.277,0.671,110.87
+2357,Sacramento Kings,2004,3-10 ft,0.128,0.671,110.87
+2358,Sacramento Kings,2004,10-16 ft,0.089,0.671,110.87
+2359,Sacramento Kings,2004,Over 16 ft,0.284,0.671,110.87
+2360,Sacramento Kings,2004,3P,0.223,0.671,110.87
+2361,Sacramento Kings,2005,0-3 ft,0.258,0.61,111.02
+2362,Sacramento Kings,2005,3-10 ft,0.125,0.61,111.02
+2363,Sacramento Kings,2005,10-16 ft,0.081,0.61,111.02
+2364,Sacramento Kings,2005,Over 16 ft,0.336,0.61,111.02
+2365,Sacramento Kings,2005,3P,0.2,0.61,111.02
+2366,Sacramento Kings,2006,0-3 ft,0.281,0.537,107.45
+2367,Sacramento Kings,2006,3-10 ft,0.118,0.537,107.45
+2368,Sacramento Kings,2006,10-16 ft,0.07,0.537,107.45
+2369,Sacramento Kings,2006,Over 16 ft,0.315,0.537,107.45
+2370,Sacramento Kings,2006,3P,0.217,0.537,107.45
+2371,Sacramento Kings,2007,0-3 ft,0.294,0.402,106.79
+2372,Sacramento Kings,2007,3-10 ft,0.142,0.402,106.79
+2373,Sacramento Kings,2007,10-16 ft,0.077,0.402,106.79
+2374,Sacramento Kings,2007,Over 16 ft,0.255,0.402,106.79
+2375,Sacramento Kings,2007,3P,0.232,0.402,106.79
+2376,Sacramento Kings,2008,0-3 ft,0.33,0.463,108.25
+2377,Sacramento Kings,2008,3-10 ft,0.124,0.463,108.25
+2378,Sacramento Kings,2008,10-16 ft,0.098,0.463,108.25
+2379,Sacramento Kings,2008,Over 16 ft,0.239,0.463,108.25
+2380,Sacramento Kings,2008,3P,0.208,0.463,108.25
+2381,Sacramento Kings,2009,0-3 ft,0.29,0.207,106.3
+2382,Sacramento Kings,2009,3-10 ft,0.141,0.207,106.3
+2383,Sacramento Kings,2009,10-16 ft,0.103,0.207,106.3
+2384,Sacramento Kings,2009,Over 16 ft,0.229,0.207,106.3
+2385,Sacramento Kings,2009,3P,0.238,0.207,106.3
+2386,Sacramento Kings,2010,0-3 ft,0.327,0.305,106.05
+2387,Sacramento Kings,2010,3-10 ft,0.159,0.305,106.05
+2388,Sacramento Kings,2010,10-16 ft,0.094,0.305,106.05
+2389,Sacramento Kings,2010,Over 16 ft,0.22,0.305,106.05
+2390,Sacramento Kings,2010,3P,0.201,0.305,106.05
+2391,Sacramento Kings,2011,0-3 ft,0.265,0.293,104.18
+2392,Sacramento Kings,2011,3-10 ft,0.219,0.293,104.18
+2393,Sacramento Kings,2011,10-16 ft,0.112,0.293,104.18
+2394,Sacramento Kings,2011,Over 16 ft,0.221,0.293,104.18
+2395,Sacramento Kings,2011,3P,0.183,0.293,104.18
+2396,Sacramento Kings,2012,0-3 ft,0.306,0.333,104.46
+2397,Sacramento Kings,2012,3-10 ft,0.219,0.333,104.46
+2398,Sacramento Kings,2012,10-16 ft,0.076,0.333,104.46
+2399,Sacramento Kings,2012,Over 16 ft,0.172,0.333,104.46
+2400,Sacramento Kings,2012,3P,0.228,0.333,104.46
+2401,Sacramento Kings,2013,0-3 ft,0.291,0.341,106.85
+2402,Sacramento Kings,2013,3-10 ft,0.211,0.341,106.85
+2403,Sacramento Kings,2013,10-16 ft,0.082,0.341,106.85
+2404,Sacramento Kings,2013,Over 16 ft,0.172,0.341,106.85
+2405,Sacramento Kings,2013,3P,0.243,0.341,106.85
+2406,Sacramento Kings,2014,0-3 ft,0.249,0.341,106.22
+2407,Sacramento Kings,2014,3-10 ft,0.239,0.341,106.22
+2408,Sacramento Kings,2014,10-16 ft,0.106,0.341,106.22
+2409,Sacramento Kings,2014,Over 16 ft,0.188,0.341,106.22
+2410,Sacramento Kings,2014,3P,0.218,0.341,106.22
+2411,Sacramento Kings,2015,0-3 ft,0.299,0.354,106.01
+2412,Sacramento Kings,2015,3-10 ft,0.222,0.354,106.01
+2413,Sacramento Kings,2015,10-16 ft,0.094,0.354,106.01
+2414,Sacramento Kings,2015,Over 16 ft,0.181,0.354,106.01
+2415,Sacramento Kings,2015,3P,0.204,0.354,106.01
+2416,Sacramento Kings,2016,0-3 ft,0.297,0.402,106.57
+2417,Sacramento Kings,2016,3-10 ft,0.223,0.402,106.57
+2418,Sacramento Kings,2016,10-16 ft,0.066,0.402,106.57
+2419,Sacramento Kings,2016,Over 16 ft,0.155,0.402,106.57
+2420,Sacramento Kings,2016,3P,0.26,0.402,106.57
+2421,Sacramento Kings,2017,0-3 ft,0.258,0.39,107.98
+2422,Sacramento Kings,2017,3-10 ft,0.195,0.39,107.98
+2423,Sacramento Kings,2017,10-16 ft,0.1,0.39,107.98
+2424,Sacramento Kings,2017,Over 16 ft,0.155,0.39,107.98
+2425,Sacramento Kings,2017,3P,0.291,0.39,107.98
+2426,Sacramento Kings,2018,0-3 ft,0.242,0.329,104.47
+2427,Sacramento Kings,2018,3-10 ft,0.205,0.329,104.47
+2428,Sacramento Kings,2018,10-16 ft,0.115,0.329,104.47
+2429,Sacramento Kings,2018,Over 16 ft,0.159,0.329,104.47
+2430,Sacramento Kings,2018,3P,0.278,0.329,104.47
+2431,San Antonio Spurs,2001,0-3 ft,0.26,0.707,107.36
+2432,San Antonio Spurs,2001,3-10 ft,0.183,0.707,107.36
+2433,San Antonio Spurs,2001,10-16 ft,0.178,0.707,107.36
+2434,San Antonio Spurs,2001,Over 16 ft,0.205,0.707,107.36
+2435,San Antonio Spurs,2001,3P,0.175,0.707,107.36
+2436,San Antonio Spurs,2002,0-3 ft,0.314,0.707,107.35
+2437,San Antonio Spurs,2002,3-10 ft,0.166,0.707,107.35
+2438,San Antonio Spurs,2002,10-16 ft,0.177,0.707,107.35
+2439,San Antonio Spurs,2002,Over 16 ft,0.153,0.707,107.35
+2440,San Antonio Spurs,2002,3P,0.19,0.707,107.35
+2441,San Antonio Spurs,2003,0-3 ft,0.313,0.732,106.25
+2442,San Antonio Spurs,2003,3-10 ft,0.189,0.732,106.25
+2443,San Antonio Spurs,2003,10-16 ft,0.133,0.732,106.25
+2444,San Antonio Spurs,2003,Over 16 ft,0.163,0.732,106.25
+2445,San Antonio Spurs,2003,3P,0.202,0.732,106.25
+2446,San Antonio Spurs,2004,0-3 ft,0.282,0.695,103.01
+2447,San Antonio Spurs,2004,3-10 ft,0.197,0.695,103.01
+2448,San Antonio Spurs,2004,10-16 ft,0.144,0.695,103.01
+2449,San Antonio Spurs,2004,Over 16 ft,0.2,0.695,103.01
+2450,San Antonio Spurs,2004,3P,0.177,0.695,103.01
+2451,San Antonio Spurs,2005,0-3 ft,0.293,0.72,108.45
+2452,San Antonio Spurs,2005,3-10 ft,0.201,0.72,108.45
+2453,San Antonio Spurs,2005,10-16 ft,0.118,0.72,108.45
+2454,San Antonio Spurs,2005,Over 16 ft,0.173,0.72,108.45
+2455,San Antonio Spurs,2005,3P,0.216,0.72,108.45
+2456,San Antonio Spurs,2006,0-3 ft,0.295,0.768,108.02
+2457,San Antonio Spurs,2006,3-10 ft,0.187,0.768,108.02
+2458,San Antonio Spurs,2006,10-16 ft,0.109,0.768,108.02
+2459,San Antonio Spurs,2006,Over 16 ft,0.194,0.768,108.02
+2460,San Antonio Spurs,2006,3P,0.215,0.768,108.02
+2461,San Antonio Spurs,2007,0-3 ft,0.288,0.707,110.11
+2462,San Antonio Spurs,2007,3-10 ft,0.155,0.707,110.11
+2463,San Antonio Spurs,2007,10-16 ft,0.107,0.707,110.11
+2464,San Antonio Spurs,2007,Over 16 ft,0.204,0.707,110.11
+2465,San Antonio Spurs,2007,3P,0.247,0.707,110.11
+2466,San Antonio Spurs,2008,0-3 ft,0.248,0.683,107.91
+2467,San Antonio Spurs,2008,3-10 ft,0.157,0.683,107.91
+2468,San Antonio Spurs,2008,10-16 ft,0.116,0.683,107.91
+2469,San Antonio Spurs,2008,Over 16 ft,0.227,0.683,107.91
+2470,San Antonio Spurs,2008,3P,0.251,0.683,107.91
+2471,San Antonio Spurs,2009,0-3 ft,0.253,0.659,109.18
+2472,San Antonio Spurs,2009,3-10 ft,0.14,0.659,109.18
+2473,San Antonio Spurs,2009,10-16 ft,0.109,0.659,109.18
+2474,San Antonio Spurs,2009,Over 16 ft,0.25,0.659,109.18
+2475,San Antonio Spurs,2009,3P,0.248,0.659,109.18
+2476,San Antonio Spurs,2010,0-3 ft,0.312,0.61,110.61
+2477,San Antonio Spurs,2010,3-10 ft,0.146,0.61,110.61
+2478,San Antonio Spurs,2010,10-16 ft,0.108,0.61,110.61
+2479,San Antonio Spurs,2010,Over 16 ft,0.203,0.61,110.61
+2480,San Antonio Spurs,2010,3P,0.232,0.61,110.61
+2481,San Antonio Spurs,2011,0-3 ft,0.264,0.744,112.31
+2482,San Antonio Spurs,2011,3-10 ft,0.201,0.744,112.31
+2483,San Antonio Spurs,2011,10-16 ft,0.106,0.744,112.31
+2484,San Antonio Spurs,2011,Over 16 ft,0.167,0.744,112.31
+2485,San Antonio Spurs,2011,3P,0.261,0.744,112.31
+2486,San Antonio Spurs,2012,0-3 ft,0.278,0.758,111.45
+2487,San Antonio Spurs,2012,3-10 ft,0.203,0.758,111.45
+2488,San Antonio Spurs,2012,10-16 ft,0.099,0.758,111.45
+2489,San Antonio Spurs,2012,Over 16 ft,0.164,0.758,111.45
+2490,San Antonio Spurs,2012,3P,0.257,0.758,111.45
+2491,San Antonio Spurs,2013,0-3 ft,0.298,0.707,109.11
+2492,San Antonio Spurs,2013,3-10 ft,0.178,0.707,109.11
+2493,San Antonio Spurs,2013,10-16 ft,0.096,0.707,109.11
+2494,San Antonio Spurs,2013,Over 16 ft,0.163,0.707,109.11
+2495,San Antonio Spurs,2013,3P,0.264,0.707,109.11
+2496,San Antonio Spurs,2014,0-3 ft,0.287,0.756,111.09
+2497,San Antonio Spurs,2014,3-10 ft,0.185,0.756,111.09
+2498,San Antonio Spurs,2014,10-16 ft,0.09,0.756,111.09
+2499,San Antonio Spurs,2014,Over 16 ft,0.181,0.756,111.09
+2500,San Antonio Spurs,2014,3P,0.257,0.756,111.09
+2501,San Antonio Spurs,2015,0-3 ft,0.276,0.671,109.25
+2502,San Antonio Spurs,2015,3-10 ft,0.203,0.671,109.25
+2503,San Antonio Spurs,2015,10-16 ft,0.103,0.671,109.25
+2504,San Antonio Spurs,2015,Over 16 ft,0.148,0.671,109.25
+2505,San Antonio Spurs,2015,3P,0.269,0.671,109.25
+2506,San Antonio Spurs,2016,0-3 ft,0.264,0.817,111.04
+2507,San Antonio Spurs,2016,3-10 ft,0.175,0.817,111.04
+2508,San Antonio Spurs,2016,10-16 ft,0.137,0.817,111.04
+2509,San Antonio Spurs,2016,Over 16 ft,0.201,0.817,111.04
+2510,San Antonio Spurs,2016,3P,0.223,0.817,111.04
+2511,San Antonio Spurs,2017,0-3 ft,0.255,0.744,111.81
+2512,San Antonio Spurs,2017,3-10 ft,0.159,0.744,111.81
+2513,San Antonio Spurs,2017,10-16 ft,0.116,0.744,111.81
+2514,San Antonio Spurs,2017,Over 16 ft,0.191,0.744,111.81
+2515,San Antonio Spurs,2017,3P,0.281,0.744,111.81
+2516,San Antonio Spurs,2018,0-3 ft,0.261,0.573,108.49
+2517,San Antonio Spurs,2018,3-10 ft,0.169,0.573,108.49
+2518,San Antonio Spurs,2018,10-16 ft,0.143,0.573,108.49
+2519,San Antonio Spurs,2018,Over 16 ft,0.144,0.573,108.49
+2520,San Antonio Spurs,2018,3P,0.282,0.573,108.49
+2521,Toronto Raptors,2001,0-3 ft,0.264,0.573,106.64
+2522,Toronto Raptors,2001,3-10 ft,0.124,0.573,106.64
+2523,Toronto Raptors,2001,10-16 ft,0.145,0.573,106.64
+2524,Toronto Raptors,2001,Over 16 ft,0.3,0.573,106.64
+2525,Toronto Raptors,2001,3P,0.167,0.573,106.64
+2526,Toronto Raptors,2002,0-3 ft,0.284,0.512,103.37
+2527,Toronto Raptors,2002,3-10 ft,0.121,0.512,103.37
+2528,Toronto Raptors,2002,10-16 ft,0.192,0.512,103.37
+2529,Toronto Raptors,2002,Over 16 ft,0.238,0.512,103.37
+2530,Toronto Raptors,2002,3P,0.165,0.512,103.37
+2531,Toronto Raptors,2003,0-3 ft,0.278,0.293,101.37
+2532,Toronto Raptors,2003,3-10 ft,0.135,0.293,101.37
+2533,Toronto Raptors,2003,10-16 ft,0.144,0.293,101.37
+2534,Toronto Raptors,2003,Over 16 ft,0.263,0.293,101.37
+2535,Toronto Raptors,2003,3P,0.179,0.293,101.37
+2536,Toronto Raptors,2004,0-3 ft,0.252,0.402,97.75
+2537,Toronto Raptors,2004,3-10 ft,0.123,0.402,97.75
+2538,Toronto Raptors,2004,10-16 ft,0.155,0.402,97.75
+2539,Toronto Raptors,2004,Over 16 ft,0.267,0.402,97.75
+2540,Toronto Raptors,2004,3P,0.204,0.402,97.75
+2541,Toronto Raptors,2005,0-3 ft,0.283,0.402,107.78
+2542,Toronto Raptors,2005,3-10 ft,0.123,0.402,107.78
+2543,Toronto Raptors,2005,10-16 ft,0.136,0.402,107.78
+2544,Toronto Raptors,2005,Over 16 ft,0.206,0.402,107.78
+2545,Toronto Raptors,2005,3P,0.253,0.402,107.78
+2546,Toronto Raptors,2006,0-3 ft,0.279,0.329,110.22
+2547,Toronto Raptors,2006,3-10 ft,0.135,0.329,110.22
+2548,Toronto Raptors,2006,10-16 ft,0.128,0.329,110.22
+2549,Toronto Raptors,2006,Over 16 ft,0.214,0.329,110.22
+2550,Toronto Raptors,2006,3P,0.244,0.329,110.22
+2551,Toronto Raptors,2007,0-3 ft,0.277,0.573,107.92
+2552,Toronto Raptors,2007,3-10 ft,0.109,0.573,107.92
+2553,Toronto Raptors,2007,10-16 ft,0.117,0.573,107.92
+2554,Toronto Raptors,2007,Over 16 ft,0.273,0.573,107.92
+2555,Toronto Raptors,2007,3P,0.224,0.573,107.92
+2556,Toronto Raptors,2008,0-3 ft,0.272,0.5,111.06
+2557,Toronto Raptors,2008,3-10 ft,0.085,0.5,111.06
+2558,Toronto Raptors,2008,10-16 ft,0.111,0.5,111.06
+2559,Toronto Raptors,2008,Over 16 ft,0.314,0.5,111.06
+2560,Toronto Raptors,2008,3P,0.217,0.5,111.06
+2561,Toronto Raptors,2009,0-3 ft,0.264,0.402,107.72
+2562,Toronto Raptors,2009,3-10 ft,0.117,0.402,107.72
+2563,Toronto Raptors,2009,10-16 ft,0.132,0.402,107.72
+2564,Toronto Raptors,2009,Over 16 ft,0.294,0.402,107.72
+2565,Toronto Raptors,2009,3P,0.193,0.402,107.72
+2566,Toronto Raptors,2010,0-3 ft,0.308,0.488,112.19
+2567,Toronto Raptors,2010,3-10 ft,0.133,0.488,112.19
+2568,Toronto Raptors,2010,10-16 ft,0.111,0.488,112.19
+2569,Toronto Raptors,2010,Over 16 ft,0.238,0.488,112.19
+2570,Toronto Raptors,2010,3P,0.211,0.488,112.19
+2571,Toronto Raptors,2011,0-3 ft,0.325,0.268,106.85
+2572,Toronto Raptors,2011,3-10 ft,0.157,0.268,106.85
+2573,Toronto Raptors,2011,10-16 ft,0.112,0.268,106.85
+2574,Toronto Raptors,2011,Over 16 ft,0.245,0.268,106.85
+2575,Toronto Raptors,2011,3P,0.162,0.268,106.85
+2576,Toronto Raptors,2012,0-3 ft,0.271,0.348,101.57
+2577,Toronto Raptors,2012,3-10 ft,0.151,0.348,101.57
+2578,Toronto Raptors,2012,10-16 ft,0.106,0.348,101.57
+2579,Toronto Raptors,2012,Over 16 ft,0.263,0.348,101.57
+2580,Toronto Raptors,2012,3P,0.209,0.348,101.57
+2581,Toronto Raptors,2013,0-3 ft,0.239,0.415,106.58
+2582,Toronto Raptors,2013,3-10 ft,0.169,0.415,106.58
+2583,Toronto Raptors,2013,10-16 ft,0.123,0.415,106.58
+2584,Toronto Raptors,2013,Over 16 ft,0.22,0.415,106.58
+2585,Toronto Raptors,2013,3P,0.249,0.415,106.58
+2586,Toronto Raptors,2014,0-3 ft,0.226,0.585,109.77
+2587,Toronto Raptors,2014,3-10 ft,0.206,0.585,109.77
+2588,Toronto Raptors,2014,10-16 ft,0.103,0.585,109.77
+2589,Toronto Raptors,2014,Over 16 ft,0.181,0.585,109.77
+2590,Toronto Raptors,2014,3P,0.285,0.585,109.77
+2591,Toronto Raptors,2015,0-3 ft,0.253,0.598,112.06
+2592,Toronto Raptors,2015,3-10 ft,0.195,0.598,112.06
+2593,Toronto Raptors,2015,10-16 ft,0.104,0.598,112.06
+2594,Toronto Raptors,2015,Over 16 ft,0.146,0.598,112.06
+2595,Toronto Raptors,2015,3P,0.302,0.598,112.06
+2596,Toronto Raptors,2016,0-3 ft,0.277,0.683,111.11
+2597,Toronto Raptors,2016,3-10 ft,0.187,0.683,111.11
+2598,Toronto Raptors,2016,10-16 ft,0.111,0.683,111.11
+2599,Toronto Raptors,2016,Over 16 ft,0.139,0.683,111.11
+2600,Toronto Raptors,2016,3P,0.287,0.683,111.11
+2601,Toronto Raptors,2017,0-3 ft,0.254,0.622,113.2
+2602,Toronto Raptors,2017,3-10 ft,0.185,0.622,113.2
+2603,Toronto Raptors,2017,10-16 ft,0.12,0.622,113.2
+2604,Toronto Raptors,2017,Over 16 ft,0.153,0.622,113.2
+2605,Toronto Raptors,2017,3P,0.289,0.622,113.2
+2606,Toronto Raptors,2018,0-3 ft,0.291,0.72,114.6
+2607,Toronto Raptors,2018,3-10 ft,0.16,0.72,114.6
+2608,Toronto Raptors,2018,10-16 ft,0.098,0.72,114.6
+2609,Toronto Raptors,2018,Over 16 ft,0.074,0.72,114.6
+2610,Toronto Raptors,2018,3P,0.377,0.72,114.6
+2611,Utah Jazz,2001,0-3 ft,0.348,0.646,108.36
+2612,Utah Jazz,2001,3-10 ft,0.134,0.646,108.36
+2613,Utah Jazz,2001,10-16 ft,0.124,0.646,108.36
+2614,Utah Jazz,2001,Over 16 ft,0.259,0.646,108.36
+2615,Utah Jazz,2001,3P,0.135,0.646,108.36
+2616,Utah Jazz,2002,0-3 ft,0.38,0.537,106.57
+2617,Utah Jazz,2002,3-10 ft,0.102,0.537,106.57
+2618,Utah Jazz,2002,10-16 ft,0.124,0.537,106.57
+2619,Utah Jazz,2002,Over 16 ft,0.261,0.537,106.57
+2620,Utah Jazz,2002,3P,0.132,0.537,106.57
+2621,Utah Jazz,2003,0-3 ft,0.337,0.573,106.46
+2622,Utah Jazz,2003,3-10 ft,0.111,0.573,106.46
+2623,Utah Jazz,2003,10-16 ft,0.139,0.573,106.46
+2624,Utah Jazz,2003,Over 16 ft,0.31,0.573,106.46
+2625,Utah Jazz,2003,3P,0.104,0.573,106.46
+2626,Utah Jazz,2004,0-3 ft,0.357,0.512,103.12
+2627,Utah Jazz,2004,3-10 ft,0.085,0.512,103.12
+2628,Utah Jazz,2004,10-16 ft,0.104,0.512,103.12
+2629,Utah Jazz,2004,Over 16 ft,0.327,0.512,103.12
+2630,Utah Jazz,2004,3P,0.127,0.512,103.12
+2631,Utah Jazz,2005,0-3 ft,0.336,0.317,105.57
+2632,Utah Jazz,2005,3-10 ft,0.093,0.317,105.57
+2633,Utah Jazz,2005,10-16 ft,0.137,0.317,105.57
+2634,Utah Jazz,2005,Over 16 ft,0.312,0.317,105.57
+2635,Utah Jazz,2005,3P,0.121,0.317,105.57
+2636,Utah Jazz,2006,0-3 ft,0.348,0.5,104.93
+2637,Utah Jazz,2006,3-10 ft,0.097,0.5,104.93
+2638,Utah Jazz,2006,10-16 ft,0.109,0.5,104.93
+2639,Utah Jazz,2006,Over 16 ft,0.297,0.5,104.93
+2640,Utah Jazz,2006,3P,0.149,0.5,104.93
+2641,Utah Jazz,2007,0-3 ft,0.359,0.622,110.65
+2642,Utah Jazz,2007,3-10 ft,0.107,0.622,110.65
+2643,Utah Jazz,2007,10-16 ft,0.113,0.622,110.65
+2644,Utah Jazz,2007,Over 16 ft,0.257,0.622,110.65
+2645,Utah Jazz,2007,3P,0.163,0.622,110.65
+2646,Utah Jazz,2008,0-3 ft,0.375,0.659,114.52
+2647,Utah Jazz,2008,3-10 ft,0.099,0.659,114.52
+2648,Utah Jazz,2008,10-16 ft,0.1,0.659,114.52
+2649,Utah Jazz,2008,Over 16 ft,0.26,0.659,114.52
+2650,Utah Jazz,2008,3P,0.166,0.659,114.52
+2651,Utah Jazz,2009,0-3 ft,0.379,0.585,110.84
+2652,Utah Jazz,2009,3-10 ft,0.101,0.585,110.84
+2653,Utah Jazz,2009,10-16 ft,0.091,0.585,110.84
+2654,Utah Jazz,2009,Over 16 ft,0.259,0.585,110.84
+2655,Utah Jazz,2009,3P,0.169,0.585,110.84
+2656,Utah Jazz,2010,0-3 ft,0.383,0.646,111.57
+2657,Utah Jazz,2010,3-10 ft,0.121,0.646,111.57
+2658,Utah Jazz,2010,10-16 ft,0.092,0.646,111.57
+2659,Utah Jazz,2010,Over 16 ft,0.22,0.646,111.57
+2660,Utah Jazz,2010,3P,0.184,0.646,111.57
+2661,Utah Jazz,2011,0-3 ft,0.296,0.476,108.95
+2662,Utah Jazz,2011,3-10 ft,0.181,0.476,108.95
+2663,Utah Jazz,2011,10-16 ft,0.111,0.476,108.95
+2664,Utah Jazz,2011,Over 16 ft,0.221,0.476,108.95
+2665,Utah Jazz,2011,3P,0.191,0.476,108.95
+2666,Utah Jazz,2012,0-3 ft,0.287,0.545,107.51
+2667,Utah Jazz,2012,3-10 ft,0.238,0.545,107.51
+2668,Utah Jazz,2012,10-16 ft,0.118,0.545,107.51
+2669,Utah Jazz,2012,Over 16 ft,0.204,0.545,107.51
+2670,Utah Jazz,2012,3P,0.153,0.545,107.51
+2671,Utah Jazz,2013,0-3 ft,0.274,0.524,107.42
+2672,Utah Jazz,2013,3-10 ft,0.192,0.524,107.42
+2673,Utah Jazz,2013,10-16 ft,0.105,0.524,107.42
+2674,Utah Jazz,2013,Over 16 ft,0.224,0.524,107.42
+2675,Utah Jazz,2013,3P,0.206,0.524,107.42
+2676,Utah Jazz,2014,0-3 ft,0.281,0.305,104.15
+2677,Utah Jazz,2014,3-10 ft,0.177,0.305,104.15
+2678,Utah Jazz,2014,10-16 ft,0.106,0.305,104.15
+2679,Utah Jazz,2014,Over 16 ft,0.199,0.305,104.15
+2680,Utah Jazz,2014,3P,0.237,0.305,104.15
+2681,Utah Jazz,2015,0-3 ft,0.296,0.463,106.19
+2682,Utah Jazz,2015,3-10 ft,0.173,0.463,106.19
+2683,Utah Jazz,2015,10-16 ft,0.096,0.463,106.19
+2684,Utah Jazz,2015,Over 16 ft,0.161,0.463,106.19
+2685,Utah Jazz,2015,3P,0.274,0.463,106.19
+2686,Utah Jazz,2016,0-3 ft,0.282,0.488,106.83
+2687,Utah Jazz,2016,3-10 ft,0.177,0.488,106.83
+2688,Utah Jazz,2016,10-16 ft,0.119,0.488,106.83
+2689,Utah Jazz,2016,Over 16 ft,0.126,0.488,106.83
+2690,Utah Jazz,2016,3P,0.297,0.488,106.83
+2691,Utah Jazz,2017,0-3 ft,0.297,0.622,110.46
+2692,Utah Jazz,2017,3-10 ft,0.152,0.622,110.46
+2693,Utah Jazz,2017,10-16 ft,0.105,0.622,110.46
+2694,Utah Jazz,2017,Over 16 ft,0.118,0.622,110.46
+2695,Utah Jazz,2017,3P,0.327,0.622,110.46
+2696,Utah Jazz,2018,0-3 ft,0.284,0.585,109.07
+2697,Utah Jazz,2018,3-10 ft,0.151,0.585,109.07
+2698,Utah Jazz,2018,10-16 ft,0.1,0.585,109.07
+2699,Utah Jazz,2018,Over 16 ft,0.108,0.585,109.07
+2700,Utah Jazz,2018,3P,0.357,0.585,109.07
+2701,Washington Wizards,2001,0-3 ft,0.249,0.232,101.43
+2702,Washington Wizards,2001,3-10 ft,0.219,0.232,101.43
+2703,Washington Wizards,2001,10-16 ft,0.199,0.232,101.43
+2704,Washington Wizards,2001,Over 16 ft,0.202,0.232,101.43
+2705,Washington Wizards,2001,3P,0.131,0.232,101.43
+2706,Washington Wizards,2002,0-3 ft,0.214,0.451,105.67
+2707,Washington Wizards,2002,3-10 ft,0.159,0.451,105.67
+2708,Washington Wizards,2002,10-16 ft,0.222,0.451,105.67
+2709,Washington Wizards,2002,Over 16 ft,0.287,0.451,105.67
+2710,Washington Wizards,2002,3P,0.118,0.451,105.67
+2711,Washington Wizards,2003,0-3 ft,0.231,0.451,103.82
+2712,Washington Wizards,2003,3-10 ft,0.13,0.451,103.82
+2713,Washington Wizards,2003,10-16 ft,0.203,0.451,103.82
+2714,Washington Wizards,2003,Over 16 ft,0.309,0.451,103.82
+2715,Washington Wizards,2003,3P,0.127,0.451,103.82
+2716,Washington Wizards,2004,0-3 ft,0.29,0.305,99.46
+2717,Washington Wizards,2004,3-10 ft,0.18,0.305,99.46
+2718,Washington Wizards,2004,10-16 ft,0.123,0.305,99.46
+2719,Washington Wizards,2004,Over 16 ft,0.213,0.305,99.46
+2720,Washington Wizards,2004,3P,0.194,0.305,99.46
+2721,Washington Wizards,2005,0-3 ft,0.268,0.549,107.94
+2722,Washington Wizards,2005,3-10 ft,0.188,0.549,107.94
+2723,Washington Wizards,2005,10-16 ft,0.118,0.549,107.94
+2724,Washington Wizards,2005,Over 16 ft,0.206,0.549,107.94
+2725,Washington Wizards,2005,3P,0.22,0.549,107.94
+2726,Washington Wizards,2006,0-3 ft,0.287,0.512,110.01
+2727,Washington Wizards,2006,3-10 ft,0.164,0.512,110.01
+2728,Washington Wizards,2006,10-16 ft,0.093,0.512,110.01
+2729,Washington Wizards,2006,Over 16 ft,0.247,0.512,110.01
+2730,Washington Wizards,2006,3P,0.209,0.512,110.01
+2731,Washington Wizards,2007,0-3 ft,0.294,0.5,110.57
+2732,Washington Wizards,2007,3-10 ft,0.121,0.5,110.57
+2733,Washington Wizards,2007,10-16 ft,0.079,0.5,110.57
+2734,Washington Wizards,2007,Over 16 ft,0.269,0.5,110.57
+2735,Washington Wizards,2007,3P,0.237,0.5,110.57
+2736,Washington Wizards,2008,0-3 ft,0.285,0.524,110.03
+2737,Washington Wizards,2008,3-10 ft,0.145,0.524,110.03
+2738,Washington Wizards,2008,10-16 ft,0.098,0.524,110.03
+2739,Washington Wizards,2008,Over 16 ft,0.231,0.524,110.03
+2740,Washington Wizards,2008,3P,0.241,0.524,110.03
+2741,Washington Wizards,2009,0-3 ft,0.317,0.232,105.98
+2742,Washington Wizards,2009,3-10 ft,0.154,0.232,105.98
+2743,Washington Wizards,2009,10-16 ft,0.107,0.232,105.98
+2744,Washington Wizards,2009,Over 16 ft,0.242,0.232,105.98
+2745,Washington Wizards,2009,3P,0.18,0.232,105.98
+2746,Washington Wizards,2010,0-3 ft,0.279,0.317,105.11
+2747,Washington Wizards,2010,3-10 ft,0.148,0.317,105.11
+2748,Washington Wizards,2010,10-16 ft,0.116,0.317,105.11
+2749,Washington Wizards,2010,Over 16 ft,0.274,0.317,105.11
+2750,Washington Wizards,2010,3P,0.183,0.317,105.11
+2751,Washington Wizards,2011,0-3 ft,0.281,0.28,103.12
+2752,Washington Wizards,2011,3-10 ft,0.171,0.28,103.12
+2753,Washington Wizards,2011,10-16 ft,0.129,0.28,103.12
+2754,Washington Wizards,2011,Over 16 ft,0.247,0.28,103.12
+2755,Washington Wizards,2011,3P,0.172,0.28,103.12
+2756,Washington Wizards,2012,0-3 ft,0.299,0.303,101.75
+2757,Washington Wizards,2012,3-10 ft,0.167,0.303,101.75
+2758,Washington Wizards,2012,10-16 ft,0.109,0.303,101.75
+2759,Washington Wizards,2012,Over 16 ft,0.227,0.303,101.75
+2760,Washington Wizards,2012,3P,0.196,0.303,101.75
+2761,Washington Wizards,2013,0-3 ft,0.238,0.354,100.78
+2762,Washington Wizards,2013,3-10 ft,0.177,0.354,100.78
+2763,Washington Wizards,2013,10-16 ft,0.145,0.354,100.78
+2764,Washington Wizards,2013,Over 16 ft,0.216,0.354,100.78
+2765,Washington Wizards,2013,3P,0.223,0.354,100.78
+2766,Washington Wizards,2014,0-3 ft,0.273,0.537,106.75
+2767,Washington Wizards,2014,3-10 ft,0.143,0.537,106.75
+2768,Washington Wizards,2014,10-16 ft,0.116,0.537,106.75
+2769,Washington Wizards,2014,Over 16 ft,0.221,0.537,106.75
+2770,Washington Wizards,2014,3P,0.246,0.537,106.75
+2771,Washington Wizards,2015,0-3 ft,0.286,0.561,104.56
+2772,Washington Wizards,2015,3-10 ft,0.142,0.561,104.56
+2773,Washington Wizards,2015,10-16 ft,0.138,0.561,104.56
+2774,Washington Wizards,2015,Over 16 ft,0.23,0.561,104.56
+2775,Washington Wizards,2015,3P,0.203,0.561,104.56
+2776,Washington Wizards,2016,0-3 ft,0.291,0.5,106.09
+2777,Washington Wizards,2016,3-10 ft,0.129,0.5,106.09
+2778,Washington Wizards,2016,10-16 ft,0.111,0.5,106.09
+2779,Washington Wizards,2016,Over 16 ft,0.188,0.5,106.09
+2780,Washington Wizards,2016,3P,0.282,0.5,106.09
+2781,Washington Wizards,2017,0-3 ft,0.3,0.598,111.98
+2782,Washington Wizards,2017,3-10 ft,0.137,0.598,111.98
+2783,Washington Wizards,2017,10-16 ft,0.108,0.598,111.98
+2784,Washington Wizards,2017,Over 16 ft,0.169,0.598,111.98
+2785,Washington Wizards,2017,3P,0.284,0.598,111.98
+2786,Washington Wizards,2018,0-3 ft,0.243,0.524,109.96
+2787,Washington Wizards,2018,3-10 ft,0.159,0.524,109.96
+2788,Washington Wizards,2018,10-16 ft,0.139,0.524,109.96
+2789,Washington Wizards,2018,Over 16 ft,0.149,0.524,109.96
+2790,Washington Wizards,2018,3P,0.31,0.524,109.96
